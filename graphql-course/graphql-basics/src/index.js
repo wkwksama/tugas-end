@@ -1,13 +1,13 @@
-import { GraphQLServer } from 'graphql-yoga'
-import typeDefs from './typeDefs'
-import resolvers from './resolvers'
+import { GraphQLServer } from 'graphql-yoga';
+import typeDefs from './typeDefs';
+import resolvers from './resolvers';
 
 
 const server = new GraphQLServer({
   typeDefs,
-  resolvers
-})
+  resolvers,
+});
 
 server.start(() => {
-  console.log('The server is up!')
-})
+  console.log('The server is up!');
+});
