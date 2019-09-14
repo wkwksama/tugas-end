@@ -1,0 +1,12 @@
+type Query {
+  users(query: String): [User!]!
+  me: User!
+}
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  age: Int
+  posts: [Post!]!
+}

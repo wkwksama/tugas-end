@@ -1,4 +1,5 @@
 import { GraphQLServer } from 'graphql-yoga'
+import typeDefs from './typeDefs'
 
 // Scalar types - String, Boolean, Int, Float, ID
 
@@ -37,32 +38,6 @@ const posts = [{
   published: false,
   author: '2'
 }]
-
-// Type definitions (schema)
-const typeDefs = `
-    type Query {
-        users(query: String): [User!]!
-        posts(query: String): [Post!]!
-        me: User!
-        post: Post!
-    }
-
-    type User {
-        id: ID!
-        name: String!
-        email: String!
-        age: Int
-        posts: [Post!]!
-    }
-
-    type Post {
-        id: ID!
-        title: String!
-        body: String!
-        published: Boolean!
-        author: User!
-    }
-`
 
 // Resolvers
 const resolvers = {
