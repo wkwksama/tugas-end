@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js --exec \"npm run lint -- --fix && babel-node\"",
-    "lint": "eslint \"**/*.js\""
+    "dev": "nodemon src/index.js --ext js,graphql --exec \"npm run lint:fix && babel-node\"",
+    "lint": "eslint \"**/*.js\"",
+    "lint:fix": "npm run lint -- --fix"
   },
   "author": "",
   "license": "ISC",

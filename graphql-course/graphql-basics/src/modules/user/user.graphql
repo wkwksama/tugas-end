@@ -1,5 +1,5 @@
 type Query {
-  """ Get all users. """
+  """ Get all users """
   users(query: String): [User!]!
   me: User!
 }
