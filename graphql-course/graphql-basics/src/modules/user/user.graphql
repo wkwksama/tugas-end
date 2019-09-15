@@ -3,7 +3,6 @@ type Query {
   users(query: String): [User!]!
   me: User!
 }
-
 type User {
   id: ID!
   """ Nama lengkap """
@@ -11,4 +10,15 @@ type User {
   email: String!
   age: Int
   posts: [Post!]!
+}
+
+type Mutation {
+  createUser(data: CreateUserInput!): User!
+  deleteUser(id: ID!): User!
+}
+
+input CreateUserInput {
+  name: String!
+  email: String!
+  age: Int
 }

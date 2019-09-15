@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
@@ -19,6 +20,7 @@
   },
   "dependencies": {
     "graphql-yoga": "^1.16.7",
-    "merge-graphql-schemas": "^1.7.0"
+    "merge-graphql-schemas": "^1.7.0",
+    "uuid": "^3.3.3"
   }
 }
