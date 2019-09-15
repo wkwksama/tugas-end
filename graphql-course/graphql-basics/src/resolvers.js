@@ -8,6 +8,6 @@ import { fileLoader } from 'merge-graphql-schemas';
 
 /*  AUTOMATED APPROACH: Put your resolvers anywhere
     with ".resolvers.[js/ts]" naming convention */
-const resolvers = fileLoader(path.join(__dirname, './lib/**/*.resolvers.*'));
+const resolvers = fileLoader(path.join(__dirname, './modules/**/*.resolvers.*'));
 
 export default resolvers;
