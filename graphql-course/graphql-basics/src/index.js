@@ -8,6 +8,6 @@ const server = new GraphQLServer({
   resolvers,
 });
 
-server.start(() => {
-  console.log('The server is up!');
+server.start((info) => {
+  console.log('The server is up!', info);
 });
