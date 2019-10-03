@@ -15,26 +15,6 @@ const users = [{
   email: 'mike@example.com',
 }];
 
-let posts = [{
-  id: '10',
-  title: 'GraphQL 101',
-  body: 'This is how to use GraphQL...',
-  published: true,
-  author: '1',
-}, {
-  id: '11',
-  title: 'GraphQL 201',
-  body: 'This is an advanced GraphQL post...',
-  published: false,
-  author: '1',
-}, {
-  id: '12',
-  title: 'Programming Music',
-  body: '',
-  published: false,
-  author: '2',
-}];
-
 
 export default {
   Query: {
@@ -80,18 +60,11 @@ export default {
 
       const deletedUsers = users.splice(userIndex, 1);
 
-      posts = posts.filter((post) => {
-        const match = post.author === args.id;
-        return !match;
-      });
 
       return deletedUsers[0];
     },
   },
 
   User: {
-    posts(parent) {
-      return posts.filter((post) => post.author === parent.id);
-    },
   },
 };
