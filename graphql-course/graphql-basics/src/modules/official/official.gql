@@ -1,0 +1,9 @@
+type  Query {
+  officials: [Official!]!
+}
+
+type Official {
+  name: String!,
+  about: String!,
+  logoUrl: String!,
+}

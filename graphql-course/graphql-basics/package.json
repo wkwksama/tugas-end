@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js --ext js,graphql --exec \"npm run lint:fix && babel-node\"",
+    "dev": "nodemon src/index.js --ext js,gql --exec \"npm run lint:fix && babel-node\"",
     "lint": "eslint \"**/*.js\"",
     "lint:fix": "npm run lint -- --fix"
   },

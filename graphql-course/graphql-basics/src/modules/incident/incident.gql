@@ -1,0 +1,15 @@
+type Query {
+  incidents: [Incident!]!
+}
+
+type Incident {
+  name: String!
+  location: LocationPoint!
+  createdAt: String!
+}
+
+type LocationPoint {
+  lat: Float!
+  lng: Float!
+  address: String
+}
