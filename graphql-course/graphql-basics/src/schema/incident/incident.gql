@@ -6,6 +6,10 @@ type Mutation {
   createIncident(data: CreateIncidentInput!): Incident
 }
 
+type Subscription {
+  newIncident: Incident!
+}
+
 type Incident {
   # incident name
   name: String!
