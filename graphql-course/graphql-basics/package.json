@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node src/index.js",
-    "dev": "nodemon src/index.js --ext js,gql --exec \"npm run lint:fix && babel-node\"",
+    "start": "babel-node src/main.js",
+    "dev": "nodemon src/main.js --ext js,gql --exec \"npm run lint:fix && babel-node\"",
     "lint": "eslint \"**/*.js\"",
     "lint:fix": "npm run lint -- --fix"
   },
