@@ -2,14 +2,32 @@ type Query {
   incidents: [Incident!]!
 }
 
+type Mutation {
+  createIncident(data: CreateIncidentInput!): Incident
+}
+
 type Incident {
+  # incident name
   name: String!
-  location: LocationPoint!
+  information: String!
   createdAt: String!
+  updatedAt: String!
+}
+  # location: LocationPoint!
+  # incidentStatus: IncidentStatus!
+  # reportedBy: User!
+
+input CreateIncidentInput {
+  name: String!
+  information: String!
 }
 
 type LocationPoint {
   lat: Float!
   lng: Float!
   address: String
+}
+type IncidentStatus {
+  step: Int!
+  label: String
 }

@@ -8,7 +8,12 @@ type User {
   """ Nama lengkap """
   name: String!
   email: String!
-  age: Int
+  gender: Gender
+}
+
+enum Gender {
+  MALE
+  FEMALE
 }
 
 type Mutation {
