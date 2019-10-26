@@ -1,4 +1,4 @@
-import Incident from '../../models/incident.model';
+import { Incident } from '../../models';
 import pubsub from '../../utils/pubsub';
 
 export default {
