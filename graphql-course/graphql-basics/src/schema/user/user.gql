@@ -1,14 +1,28 @@
 type Query {
-  """ Get all users """
-  users(query: String): [User!]!
-  me: User!
+  user(id: String, username: String): User
 }
+
+type Mutation {
+  createUser(input: CreateUserInput!): User!
+}
+
 type User {
   id: ID!
-  """ Nama lengkap """
-  name: String!
-  email: String!
-  gender: Gender
+  username: String
+  email: String
+  phone: String
+  firstName: String
+  lastName: String
+  organizations: [UserOrganization]
+}
+
+type UserOrganization {
+  id: ID!
+  name: String
+  isGovernment: Boolean
+  description: String
+  officeAddress: String
+  role: String
 }
 
 enum Gender {
@@ -16,13 +30,10 @@ enum Gender {
   FEMALE
 }
 
-type Mutation {
-  createUser(data: CreateUserInput!): User!
-  deleteUser(id: ID!): User!
-}
-
 input CreateUserInput {
-  name: String!
-  email: String!
-  age: Int
+  username: String
+  email: String
+  phone: String
+  firstName: String
+  lastName: String
 }

@@ -1,0 +1,27 @@
+type Query {
+  organizations: OrganizationConnection!
+}
+
+type Mutation {
+  createOrganization(login: String!, input: CreateOrganizationInput!): Organization!
+}
+
+type OrganizationConnection {
+  nodes: [Organization]
+  totalCount: Int!
+}
+
+type Organization {
+  id: ID!
+  name: String
+  isGovernment: Boolean
+  description: String
+  officeAddress: String
+}
+
+input CreateOrganizationInput {
+  name: String!
+  isGovernment: Boolean = false
+  description: String = ""
+  officeAddress: String!
+}

@@ -1,68 +1,30 @@
-import uuidv4 from 'uuid/v4';
-
-const users = [{
-  id: '1',
-  name: 'Andrew',
-  email: 'andrew@example.com',
-  age: 27,
-}, {
-  id: '2',
-  name: 'Sarah',
-  email: 'sarah@example.com',
-}, {
-  id: '3',
-  name: 'Mike',
-  email: 'mike@example.com',
-}];
-
+import models from '../../models';
 
 export default {
   Query: {
-    users(parent, args/* , ctx, info */) {
-      if (!args.query) {
-        return users;
-      }
+    user: async (parent, { id, username }) => {
+      let user;
 
-      return users.filter((user) => user.name.toLowerCase().includes(args.query.toLowerCase()));
-    },
-    me() {
-      return {
-        id: '123098',
-        name: 'Mike',
-        email: 'mike@example.com',
-      };
+      const include = [
+        { model: models.Organization },
+      ];
+
+      if (id) {
+        user = await models.User.findByPk(id, { include });
+      } else if (username) {
+        user = await models.User.findOne({ where: { username }, include });
+      }
+      user.organizations = user.Organizations.map((org) => ({
+        ...org.toJSON(),
+        role: org.UserRole.role,
+      }));
+
+      return user;
     },
   },
 
   Mutation: {
-    createUser(parent, args) {
-      const emailTaken = users.some((user) => user.email === args.data.email);
-
-      if (emailTaken) {
-        throw new Error('Email taken');
-      }
-
-      const user = {
-        id: uuidv4(),
-        ...args.data,
-      };
-
-      users.push(user);
-
-      return user;
-    },
-    deleteUser(parent, args) {
-      const userIndex = users.findIndex((user) => user.id === args.id);
-
-      if (userIndex === -1) {
-        throw new Error('User not found');
-      }
-
-      const deletedUsers = users.splice(userIndex, 1);
-
-
-      return deletedUsers[0];
-    },
+    createUser: (parent, { input }) => models.User.create(input),
   },
 
   User: {
