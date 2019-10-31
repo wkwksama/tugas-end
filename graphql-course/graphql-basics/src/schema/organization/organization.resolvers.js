@@ -29,5 +29,15 @@ export default {
       await user.addOrganization(org, { through: { role: 'OWNER' } });
       return org;
     },
+    addOrganizationMember: async (parent, { organizationId, username }) => {
+      const getUser = models.User.findOne({ where: { username } });
+      const getOrganization = models.Organization.findByPk(organizationId);
+      const [user, organization] = await Promise.all([getUser, getOrganization]);
+      if (!organization) throw Error('organization not found');
+      const isAlreadyMember = await user.hasOrganization(organizationId);
+      if (isAlreadyMember) throw Error('user already the member');
+      await user.addOrganization(organizationId, { through: { role: 'MEMBER' } });
+      return user;
+    },
   },
 };

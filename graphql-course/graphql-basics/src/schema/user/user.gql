@@ -22,12 +22,13 @@ type UserOrganization {
   isGovernment: Boolean
   description: String
   officeAddress: String
-  role: String
+  role: UserRole!
 }
 
-enum Gender {
-  MALE
-  FEMALE
+enum UserRole {
+  OWNER
+  MEMBER
+  # ADMIN
 }
 
 input CreateUserInput {
