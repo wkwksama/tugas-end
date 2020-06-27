@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html xml:lang="en-US" lang="en-US"><head><link href="css.css" rel="stylesheet">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Implementasi RESTful Web Service untuk Sistem Penghitungan Suara Secara Cepat pada Pilkada
+							| Jurnal Eksplora Informatika
+			</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.1.1.4">
+<meta name="dc.identifier" content="doi:10.30864/eksplora">
+<meta name="description" content="Jurnal Eksplora Informatika STMIK STIKOM Bali">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<meta name="DC.Creator.PersonalName" content="Fakhriyan Nur Rofiq">
+<meta name="DC.Creator.PersonalName" content="Ajib Susanto">
+<meta name="DC.Date.created" scheme="ISO8601" content="2017-03-31">
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2017-12-28">
+<meta name="DC.Date.issued" scheme="ISO8601" content="2017-03-31">
+<meta name="DC.Date.modified" scheme="ISO8601" content="2017-12-28">
+<meta name="DC.Description" xml:lang="en" content="
+
+Salah satu bentuk demokrasi yang ada di Indonesia adalah pemilihan kepala daerah, atau biasa disebut pilkada, yang dilakukan untuk menentukan kepala daerah dan wakil kepala daerah yang baru.Dalam menghitung hasil perolehan suara, KPUD sebagai penyelenggara mengikuti tahapan-tahapan yang harus dilakukan sesuai dengan prosedur yang telah ditentukan oleh undang-undang yang berlaku di Indonesia, metode ini dinamakan perhitungan riil.Hasil perolehan suara dari metode inilah yang digunakan oleh penyelenggara pemilihan umum untuk menentukan hasil pilkada.Metode perhitungan riil membutuhkan waktu pengumpulan data yang lama.Dengan memanfaatkan teknologi yang ada saat ini, proses pengumpulan data hasil perolehan suara bisa dilakukan dengan lebih cepat. Penerapan teknologi RESTful webservice pada pengembangan sistem Real-Quick Count rekapitulasi pilkada diharapkan bisa membantu pihak penyelenggara pemilihan dalam proses pengumpulan data hasil pilkada, serta bisa memenuhi kebutuhan masyarakat dalam mendapatkan informasi terkini mengenai perkembangan proses pemilihan kepala daerah yang sedang berlangsung. Sistem ini menggunakan perangkat berbasis android sebagai sarana untuk mengirimkan data hasil perolehan suara langsung ke server penyimpanan data. Dengan menerapkan enkripsi data perolehan suara dan beberapa tahap validasi, informasi hasil perolehan suara yang didapatkan melalui proses ini diharapkan bisa lebih akurat dan bisa dipertanggungjawabkan.
+
+&amp;nbsp;">
+<meta name="DC.Format" scheme="IMT" content="application/pdf">
+<meta name="DC.Identifier" content="116">
+<meta name="DC.Identifier.pageNumber" content="159-168">
+<meta name="DC.Identifier.URI" content="https://eksplora.stikom-bali.ac.id/index.php/eksplora/article/view/116">
+<meta name="DC.Language" scheme="ISO639-1" content="en">
+<meta name="DC.Rights" content="Copyright (c)  ">
+<meta name="DC.Rights" content="">
+<meta name="DC.Source" content="Jurnal Eksplora Informatika">
+<meta name="DC.Source.ISSN" content="2460-3694">
+<meta name="DC.Source.Issue" content="2">
+<meta name="DC.Source.Volume" content="6">
+<meta name="DC.Source.URI" content="https://eksplora.stikom-bali.ac.id/index.php/eksplora">
+<meta name="DC.Subject" xml:lang="en" content="Pilkada">
+<meta name="DC.Subject" xml:lang="en" content="RESTful Web Service">
+<meta name="DC.Subject" xml:lang="en" content="Rekapitulasi">
+<meta name="DC.Subject" xml:lang="en" content="Android">
+<meta name="DC.Title" content="Implementasi RESTful Web Service untuk Sistem Penghitungan Suara Secara Cepat pada Pilkada">
+<meta name="DC.Type" content="Text.Serial.Journal">
+<meta name="DC.Type.articleType" content="Articles">
+<meta name="gs_meta_revision" content="1.1">
+<meta name="citation_journal_title" content="Jurnal Eksplora Informatika">
+<meta name="citation_journal_abbrev" content="1">
+<meta name="citation_issn" content="2460-3694"> 
+<meta name="citation_author" content="Fakhriyan Nur Rofiq">
+<meta name="citation_author" content="Ajib Susanto">
+<meta name="citation_title" content="Implementasi RESTful Web Service untuk Sistem Penghitungan Suara Secara Cepat pada Pilkada">
+<meta name="citation_date" content="2017/03/31">
+<meta name="citation_volume" content="6">
+<meta name="citation_issue" content="2">
+<meta name="citation_firstpage" content="159">
+<meta name="citation_lastpage" content="168">
+<meta name="citation_abstract_html_url" content="https://eksplora.stikom-bali.ac.id/index.php/eksplora/article/view/116">
+<meta name="citation_keywords" xml:lang="en" content="Pilkada">
+<meta name="citation_keywords" xml:lang="en" content="RESTful Web Service">
+<meta name="citation_keywords" xml:lang="en" content="Rekapitulasi">
+<meta name="citation_keywords" xml:lang="en" content="Android">
+<meta name="citation_pdf_url" content="https://eksplora.stikom-bali.ac.id/index.php/eksplora/article/download/116/97">
+	<link rel="stylesheet" href="css_002.css" type="text/css"><link rel="stylesheet" href="styleSheet.css" type="text/css">
+</head><body class="pkp_page_article pkp_op_view has_site_logo">
+	<div class="pkp_structure_page">
+
+		<nav id="accessibility-nav" class="sr-only" role="navigation" aria-labelled-by="accessible-menu-label">
+			<div id="accessible-menu-label">
+				Quick jump to page content
+			</div>
+			<ul>
+			  <li><a href="#main-navigation">Main Navigation</a></li>
+			  <li><a href="#main-content">Main Content</a></li>
+			  <li><a href="#sidebar">Sidebar</a></li>
+			</ul>
+		</nav>
+
+				<header class="navbar navbar-default" id="headerNavigationContainer" role="banner">
+
+						<div class="container-fluid">
+				<div class="row">
+					<nav aria-label="User Navigation">
+						
+	<ul id="navigationUser" class="nav nav-pills tab-list pull-right">
+														<li class="">
+				<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/user/register">
+					Register
+									</a>
+							</li>
+														<li class="">
+				<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/login">
+					Login
+									</a>
+							</li>
+										</ul>
+
+					</nav>
+				</div><!-- .row -->
+			</div><!-- .container-fluid -->
+
+			<div class="container-fluid">
+
+				<div class="navbar-header">
+
+										<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+																<div class="site-name">
+																								<a href="https://eksplora.stikom-bali.ac.id/index.php/index" class="navbar-brand navbar-brand-logo">
+								<img class="img-responsive" src="pageHeaderLogoImage_en_US.png" alt="Page Header Logo">
+							</a>
+																	</div>
+					
+				</div>
+
+								
+									<nav id="nav-menu" class="navbar-collapse collapse" aria-label="Site Navigation">
+																	
+	<ul id="main-navigation" class="nav navbar-nav">
+														<li class="">
+				<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora">
+					Home
+									</a>
+							</li>
+														<li class="">
+				<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/author-guidelines">
+					Author Guidelines
+									</a>
+							</li>
+																					<li class=" dropdown">
+				<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					About Us
+											<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu ">
+																					<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/about">
+										About the Journal
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/focus-and-scope">
+										Focus and Scope
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/about/editorialTeam">
+										Editorial Team
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/peer-reviewer">
+										Peer Reviewer
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/about/contact">
+										Contact
+									</a>
+								</li>
+																		</ul>
+							</li>
+																					<li class=" dropdown">
+				<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					Issues
+											<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu ">
+																					<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/issue/current">
+										Current
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/issue/archive">
+										Archives
+									</a>
+								</li>
+																		</ul>
+							</li>
+																					<li class=" dropdown">
+				<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					Policies
+											<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu ">
+																					<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/etika">
+										Publication Ethics
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/privacy-statement">
+										Privacy Statement
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/copyright-notice">
+										Copyright Notice
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/peer-review-policy">
+										Peer Review Policy
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/plagiarism-policy">
+										Plagiarism Policy
+									</a>
+								</li>
+																		</ul>
+							</li>
+														<li class="">
+				<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/announcement">
+					Announcements
+									</a>
+							</li>
+														<li class="">
+				<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/search/search">
+					Search
+									</a>
+							</li>
+			</ul>
+
+				
+
+											</nav>
+				
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+				<div class="pkp_structure_content container">
+			<main class="pkp_structure_main col-xs-12 col-md-9" role="main">
+<div class="page page_article">
+			
+<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol class="breadcrumb">
+		<li>
+			<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/index">
+				Home
+			</a>
+		</li>
+		<li>
+			<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/issue/archive">
+				Archives
+			</a>
+		</li>
+		<li>
+			<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/issue/view/11">
+				Vol 6 No 2 (2017): Eksplora Informatika
+			</a>
+		</li>
+		<li class="active">
+							Articles
+					</li>
+	</ol>
+</nav>	
+		<article class="article-details">
+	<header>
+		<h1 class="page-header">
+			Implementasi RESTful Web Service untuk Sistem Penghitungan Suara Secara Cepat pada Pilkada
+					</h1>
+	</header>
+
+	<div class="row">
+
+		<section class="article-sidebar col-md-4">
+
+						<h2 class="sr-only">Article Sidebar</h2>
+
+										<div class="cover-image">
+											<a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/issue/view/11">
+							<img class="img-responsive" src="cover_issue_11_en_US.jpg">
+						</a>
+									</div>
+			
+										<div class="download">
+																		
+
+	
+		
+
+<a class="galley-link btn btn-primary pdf" role="button" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/article/view/116/97">
+
+		
+		PDF
+
+	</a>																				</div>
+			
+			<div class="list-group">
+
+													<div class="list-group-item date-published">
+						<strong>Published</strong>
+						Mar 31, 2017
+					</div>
+				
+																																									</div>
+
+		</section><!-- .article-sidebar -->
+
+		<div class="col-md-8">
+			<section class="article-main">
+
+								<h2 class="sr-only">Main Article Content</h2>
+
+									<div class="authors">
+													<div class="author">
+								<strong>Fakhriyan Nur Rofiq</strong>
+																							</div>
+													<div class="author">
+								<strong>Ajib Susanto</strong>
+																							</div>
+											</div>
+				
+													<div class="article-summary" id="summary">
+						<h2>Abstract</h2>
+						<div class="article-abstract">
+							<p><strong></strong></p><br>
+<br>
+<p><em>Salah satu bentuk demokrasi yang ada di Indonesia adalah 
+pemilihan kepala daerah, atau biasa disebut pilkada, yang dilakukan 
+untuk menentukan kepala daerah dan wakil kepala daerah yang baru.Dalam 
+menghitung hasil perolehan suara, KPUD sebagai penyelenggara mengikuti 
+tahapan-tahapan yang harus dilakukan sesuai dengan prosedur yang telah 
+ditentukan oleh undang-undang yang berlaku di Indonesia, metode ini 
+dinamakan perhitungan riil.Hasil perolehan suara dari metode inilah yang
+ digunakan oleh penyelenggara pemilihan umum untuk menentukan hasil 
+pilkada.Metode perhitungan riil membutuhkan waktu pengumpulan data yang 
+lama.Dengan memanfaatkan teknologi yang ada saat ini, proses pengumpulan
+ data hasil perolehan suara bisa dilakukan dengan lebih cepat. Penerapan
+ teknologi RESTful webservice pada pengembangan sistem Real-Quick Count 
+rekapitulasi pilkada diharapkan bisa membantu pihak penyelenggara 
+pemilihan dalam proses pengumpulan data hasil pilkada, serta bisa 
+memenuhi kebutuhan masyarakat dalam mendapatkan informasi terkini 
+mengenai perkembangan proses pemilihan kepala daerah yang sedang 
+berlangsung. Sistem ini menggunakan perangkat berbasis android sebagai 
+sarana untuk mengirimkan data hasil perolehan suara langsung ke server 
+penyimpanan data. Dengan menerapkan enkripsi data perolehan suara dan 
+beberapa tahap validasi, informasi hasil perolehan suara yang didapatkan
+ melalui proses ini diharapkan bisa lebih akurat dan bisa 
+dipertanggungjawabkan.</em></p><br>
+<br>
+<p>&nbsp;</p>
+						</div>
+					</div>
+				
+								
+				
+<div class="item downloads_chart">
+	<h3 class="label">
+		Downloads
+	</h3>
+	<div class="value"><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px none; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"></iframe>
+		<canvas class="usageStatsGraph" data-object-type="PublishedArticle" data-object-id="116" style="width: 440px; height: 220px;" width="440" height="220"></canvas>
+		
+	</div>
+</div>
+
+			</section><!-- .article-main -->
+
+			<section class="article-more-details">
+
+								<h2 class="sr-only">Article Details</h2>
+
+													<div class="panel panel-default how-to-cite">
+						<div class="panel-heading">
+							How to Cite
+						</div>
+						<div class="panel-body">
+							<div id="citationOutput" role="region" aria-live="polite">
+								<div class="csl-bib-body">
+  <div class="csl-entry">Rofiq, F. N., &amp; Susanto, A. (2017). 
+Implementasi RESTful Web Service untuk Sistem Penghitungan Suara Secara 
+Cepat pada Pilkada. <i>Jurnal Eksplora Informatika</i>, <i>6</i>(2), 159-168. Retrieved from https://eksplora.stikom-bali.ac.id/index.php/eksplora/article/view/116</div>
+</div>
+							</div>
+							<div class="btn-group">
+							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-controls="cslCitationFormats">
+							    More Citation Formats
+									<span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" role="menu">
+																			<li>
+											<a aria-controls="citationOutput" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/acm-sig-proceedings?submissionId=116" data-load-citation="" data-json-href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/acm-sig-proceedings?submissionId=116&amp;return=json">
+												ACM
+											</a>
+										</li>
+																			<li>
+											<a aria-controls="citationOutput" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/acs-nano?submissionId=116" data-load-citation="" data-json-href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/acs-nano?submissionId=116&amp;return=json">
+												ACS
+											</a>
+										</li>
+																			<li>
+											<a aria-controls="citationOutput" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/apa?submissionId=116" data-load-citation="" data-json-href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/apa?submissionId=116&amp;return=json">
+												APA
+											</a>
+										</li>
+																			<li>
+											<a aria-controls="citationOutput" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=116" data-load-citation="" data-json-href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=116&amp;return=json">
+												ABNT
+											</a>
+										</li>
+																			<li>
+											<a aria-controls="citationOutput" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/chicago-author-date?submissionId=116" data-load-citation="" data-json-href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/chicago-author-date?submissionId=116&amp;return=json">
+												Chicago
+											</a>
+										</li>
+																			<li>
+											<a aria-controls="citationOutput" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/harvard-cite-them-right?submissionId=116" data-load-citation="" data-json-href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/harvard-cite-them-right?submissionId=116&amp;return=json">
+												Harvard
+											</a>
+										</li>
+																			<li>
+											<a aria-controls="citationOutput" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/ieee?submissionId=116" data-load-citation="" data-json-href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/ieee?submissionId=116&amp;return=json">
+												IEEE
+											</a>
+										</li>
+																			<li>
+											<a aria-controls="citationOutput" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/modern-language-association?submissionId=116" data-load-citation="" data-json-href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/modern-language-association?submissionId=116&amp;return=json">
+												MLA
+											</a>
+										</li>
+																			<li>
+											<a aria-controls="citationOutput" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=116" data-load-citation="" data-json-href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=116&amp;return=json">
+												Turabian
+											</a>
+										</li>
+																			<li>
+											<a aria-controls="citationOutput" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/vancouver?submissionId=116" data-load-citation="" data-json-href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/citationstylelanguage/get/vancouver?submissionId=116&amp;return=json">
+												Vancouver
+											</a>
+										</li>
+																  </ul>
+							</div>
+						</div>
+					</div>
+				
+																			
+								
+								<div class="panel panel-default issue">
+					<div class="panel-heading">
+						Issue
+					</div>
+					<div class="panel-body">
+						<a class="title" href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/issue/view/11">
+							Vol 6 No 2 (2017): Eksplora Informatika
+						</a>
+
+					</div>
+				</div>
+
+									<div class="panel panel-default section">
+						<div class="panel-heading">
+							Section
+						</div>
+						<div class="panel-body">
+							Articles
+						</div>
+					</div>
+				
+													<div class="panel panel-default copyright">
+						<div class="panel-body">
+														Jurnal Eksplora Informatika bersifat <i>open access</i>, 
+yaitu dapat diakses secara umum tanpa dikenakan biaya. Penulis yang 
+menerbitkan artikelnya di Jurnal Eksplora Informatika setuju dengan 
+ketentuan berikut:<ul><li>Jurnal Eksplora Informatika menggunakan 
+perjanjian lisensi ekslusif, yaitu penulis memegang hak cipta atas 
+artikel dan memberikan hak publikasi kepada Jurnal Eksplora Informatika.</li><li>Jurnal
+ Eksplora Informatika mempunyai hak ekslusif untuk mempublikasi dan 
+mendistribusikan artikel secara sebagian atau keseluruhan, dan 
+memberikan hak kepada orang lain sesuai dengan lisensi yang digunakan.</li><li>Jurnal
+ Eksplora Informatika berhak untuk menyediakan artikel dalam berbagai 
+bentuk dan media, sehingga artikel dapat digunakan untuk teknologi 
+terbaru bahkan setelah dipublikasikan.</li><li>Jurnal Eksplora 
+Informatika berhak untuk menegakkan hak-hak atas nama penulis pada 
+artikel terhadap pihak ketiga. Misalnya dalam kasus plagiarisme atau 
+pelanggaran hak cipta.</li></ul>Artikel yang diterbitkan oleh Jurnal Eksplora Informatika menggunakan lisensi <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a>
+ yang memberikan hak terhadap orang lain dengan secara bebas untuk 
+menyalin, mendistribusikan artikel menggunakan media apapun dan dalam 
+format apapun, menyadur artikel untuk kepentingan apapun bahkan untuk 
+kepentingan komersial dengan ketentuan sebagai berikut:<ul><li>Artikel harus dirujuk, <i>link</i> terhadap lisensi harus disediakan, dan jika terdapat bagian artikel yang diubah harus ditandai.</li><li>Jika artikel disadur sehingga terdapat perubahan, hasil saduran harus didistribusikan menggunakan lisensi yang sama.</li><li>Tidak diperkenankan untuk membatasi orang lain terhadap apa yang diperbolehkan oleh lisensi.</li></ul>
+						</div>
+					</div>
+				
+																																		
+				
+
+													<div class="article-references">
+						<h2>References</h2>
+						<div class="article-references-content">
+						    <p>
+							R. Munawar, “Diskusi Lepas,” Diskusi Lepas, Senin 07 2014. 
+[Online]. Available: 
+http://www.diskusilepas.com/2014/07/5-perbedaan-quick-count-qc-dan-real.html.
+ [Diakses 27 06 2016].
+</p><p>
+</p><p>B. I. Wagearto, “Aplikasi Real Quik Count Untuk Perhitungan Cepat
+ Pemilukada Dengan Menggunakan Konseptual Comprehensive Paralel Vote 
+Tabulation,” Universitas Dian Nuswantoro, Semarang, 2013.
+</p><p>
+</p><p>N. Eagle dan A. Pentland, “Social Serendipity : Mobilizing Social Software,” MIT Media Library, 2005.
+</p><p>
+</p><p>eMarketer, “eMarketer,” 16 September 2015. [Online]. Available: 
+http://emarketer.com/article/Asia 
+Pacific-Boast-More-Than-1-Billion-Smartphone-User/1012984. [Diakses 10 
+Mei 2016].
+</p><p>
+</p><p>IDC, “IDC Analyze the Future,” 11 April 2016. [Online]. 
+Available: http://www.idc.com/getdoc.jsp?containerId=prUS41176916. 
+[Diakses 10 Mei 2016].
+</p><p>
+</p><p>A. T. S. Christanto dan R. Kurniawati, “Penerapan Service 
+Oriented Architecture Menggunakan Web Service Pada Aplikasi Perpustakaan
+ Berbasis Android,” Jurnal Buana Informatika, vol. 7, no. 1, pp. 75-82, 
+2016.
+</p><p>
+</p><p>S. Mumbaikar dan P. Padiya, “Web Services Based On SOAP and REST 
+Principles,” International Journal of Scientific and Research 
+Publications, vol. 3, no. 5, 2013.
+</p><p>
+</p><p>V. Kumari, “Web Services Protocol: SOAP vs REST,” International 
+Journal of Advanced Research in Computer Engineering &amp; Technology 
+(IJARCET), vol. 4, no. 5, pp. 2467-2469, 2015.
+</p><p>
+</p><p>A. Dudhe dan S. Sherekar, “Performance Analysis of SOAP and 
+RESTful Mobile Web Services in Cloud Environment,” dalam Second National
+ Conference on Recent Trends in Information Security, Nagpur, 2014.
+</p><p>
+</p><p>N. Nurseitov, M. Paulson, R. Reynolds dan C. Izurieta, 
+“Comparison of JSON and XML Data Interchange Formats: A Case Study,” 
+Montana State University, Montana, 2009.
+</p><p>
+</p><p>A. R. Pradika, “Implementasi Web Service untuk Sinkronasi Data 
+Transkip Nilai Mahasiswa di lingkungan Tata Usaha Fakultas Universitas 
+Dian Nuswantoro,” Universitas Dian Nuswantoro, Semarang, 2016.
+</p><p>
+</p><p>R. Fielding, “Architectural Styles and the Design of 
+Network-based Software Architectures,” University of Califormia, Irvine,
+ 2000.
+</p><p>
+</p><p>[13] h. B. SYRA, “Badan Pengkajian Dan Penerapan Teknologi 
+(BPPT),” Badan Pengkajian Dan Penerapan Teknologi (BPPT), 18 10 2013. 
+[Online]. Available: 
+http://www.bppt.go.id/teknologi-informasi-energi-dan-material/1815-e-rekapitulasi-inovasi-untuk-pemilu-2014.
+ [Diakses 01 11 2016].
+							</p>
+						</div>
+					</div>
+				
+			</section><!-- .article-details -->
+		</div><!-- .col-md-8 -->
+	</div><!-- .row -->
+
+</article>
+	
+
+</div><!-- .page -->
+
+
+	</main>
+
+									<aside id="sidebar" class="pkp_structure_sidebar left col-xs-12 col-md-3" role="complementary" aria-label="Sidebar">
+				<div class="pkp_block block_custom" id="customblock-template">
+	<div class="content">
+		<p><button class="btn btn-primary form-control" data-toggle="modal" data-target="#modalSubmission">SUBMIT AN ARTICLE</button></p>
+<p><a href="https://eksplora.stikom-bali.ac.id/Template_Eksplora_Informatika.docx"><button class="btn btn-default form-control">ARTICLE TEMPLATE</button></a></p>
+<p style="margin-bottom:0;"><a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/subscription"><button class="btn btn-default form-control">SUBSCRIPTION</button></a></p>
+<!-- Modal -->
+<div id="modalSubmission" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header"><button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+<h4 id="myModalLabel" class="modal-title">Dear Author</h4>
+</div>
+<div class="modal-body">Sebelum mengajukan artikel ke Jurnal Eksplora Informatika, mohon untuk membaca <em>submission guide</em> dengan meng-<em>klik</em> tombol "OK" di bawah ini.</div>
+<div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Close</button> <a href="https://eksplora.stikom-bali.ac.id/index.php/eksplora/about/submissions"><button class="btn btn-primary" type="button">OK</button></a></div>
+</div>
+</div>
+</div>
+	</div>
+</div><div class="pkp_block block_custom" id="customblock-rji">
+	<div class="content">
+		<div class="text-center"><strong>Supervised by:</strong></div>
+<p><img class="img-responsive img-sidebar" src="rji.png"></p>
+<hr>
+<div class="text-center" style="margin-bottom: 5px;"><strong>Manuscripts Screening Tool</strong></div>
+<p><img class="img-responsive img-sidebar" src="default-social-image.png"></p>
+<hr>
+<p><img class="img-responsive img-sidebar" src="member-badge-member.svg" alt="Crossref Member Badge"></p>
+	</div>
+</div><div class="pkp_block block_custom" id="customblock-statcounter">
+	<div class="content">
+		<!-- Default Statcounter code for Jurnal Eksplora
+Informatika
+https://eksplora.stikom-bali.ac.id/index.php/eksplora -->
+<script type="text/javascript">
+var sc_project=11843164; 
+var sc_invisible=1; 
+var sc_security="9a9314ad"; 
+</script>
+<script type="text/javascript" src="counter.js" async=""></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11843164/0/9a9314ad/1/" alt="Web
+Analytics"></a></div></noscript>
+<!-- End of Statcounter Code -->
+<a href="http://statcounter.com/p11843164/?guest=1" target="_blank"><button class="btn btn-default">VIEW MY STATS</button></a>
+<hr>
+<a href="https://info.flagcounter.com/AkOw"><img src="a.png" alt="Flag Counter" border="0"></a>
+	</div>
+</div><div class="pkp_block block_Keywordcloud">
+	<span class="title">Keywords</span>
+	<div class="content" id="wordcloud"><svg viewBox="0 0 300 200" width="100%"><g transform="translate(150,100)"><text text-anchor="middle" transform="translate(18,-19)rotate(-90)" style="font-size: 25px; font-family: serif; fill: rgb(149, 50, 85); cursor: pointer; opacity: 0.5;">Android</text><text text-anchor="middle" transform="translate(64,-37)rotate(-90)" style="font-size: 25px; font-family: serif; fill: rgb(170, 145, 57); cursor: pointer; opacity: 0.5;">Informasi</text><text text-anchor="middle" transform="translate(-30,6)rotate(60)" style="font-size: 22px; font-family: serif; fill: rgb(47, 63, 115); cursor: pointer; opacity: 0.5;">Web Service</text><text text-anchor="middle" transform="translate(69,43)rotate(-60)" style="font-size: 18px; font-family: serif; fill: rgb(37, 112, 89); cursor: pointer; opacity: 0.5;">Website</text><text text-anchor="middle" transform="translate(-58,-8)rotate(60)" style="font-size: 18px; font-family: serif; fill: rgb(149, 50, 85); cursor: pointer; opacity: 0.5;">Augmented Reality</text><text text-anchor="middle" transform="translate(-20,-52)rotate(0)" style="font-size: 15px; font-family: serif; fill: rgb(170, 145, 57); cursor: pointer; opacity: 0.5;">PHP</text><text text-anchor="middle" transform="translate(87,6)rotate(30)" style="font-size: 15px; font-family: serif; fill: rgb(47, 63, 115); cursor: pointer; opacity: 0.5;">Sistem</text><text text-anchor="middle" transform="translate(-86,35)rotate(-60)" style="font-size: 15px; font-family: serif; fill: rgb(37, 112, 89); cursor: pointer; opacity: 0.5;">Metode ANP</text><text text-anchor="middle" transform="translate(28,-62)rotate(60)" style="font-size: 15px; font-family: serif; fill: rgb(149, 50, 85); cursor: pointer; opacity: 0.5;">kinerja</text><text text-anchor="middle" transform="translate(17,86)rotate(0)" style="font-size: 15px; font-family: serif; fill: rgb(170, 145, 57); cursor: pointer; opacity: 0.5;">Aplikasi Pembelajaran</text><text text-anchor="middle" transform="translate(-10,-27)rotate(-60)" style="font-size: 15px; font-family: serif; fill: rgb(47, 63, 115); cursor: pointer; opacity: 0.5;">SPK</text><text text-anchor="middle" transform="translate(38,6)rotate(-90)" style="font-size: 15px; font-family: serif; fill: rgb(37, 112, 89); cursor: pointer; opacity: 0.5;">Multimedia</text><text text-anchor="middle" transform="translate(102,44)rotate(-90)" style="font-size: 15px; font-family: serif; fill: rgb(149, 50, 85); cursor: pointer; opacity: 0.5;">Kamus</text><text text-anchor="middle" transform="translate(-58,58)rotate(30)" style="font-size: 15px; font-family: serif; fill: rgb(170, 145, 57); cursor: pointer; opacity: 0.5;">Promosi</text><text text-anchor="middle" transform="translate(85,-26)rotate(-30)" style="font-size: 15px; font-family: serif; fill: rgb(47, 63, 115); cursor: pointer; opacity: 0.5;">web</text><text text-anchor="middle" transform="translate(-92,14)rotate(-60)" style="font-size: 15px; font-family: serif; fill: rgb(37, 112, 89); cursor: pointer; opacity: 0.5;">Klasifikasi</text><text text-anchor="middle" transform="translate(118,7)rotate(60)" style="font-size: 15px; font-family: serif; fill: rgb(149, 50, 85); cursor: pointer; opacity: 0.5;">Kriteria</text><text text-anchor="middle" transform="translate(-116,-17)rotate(-60)" style="font-size: 12px; font-family: serif; fill: rgb(170, 145, 57); cursor: pointer; opacity: 0.5;">FP-Growth</text><text text-anchor="middle" transform="translate(94,-51)rotate(-30)" style="font-size: 12px; font-family: serif; fill: rgb(47, 63, 115); cursor: pointer; opacity: 0.5;">Alokasi</text><text text-anchor="middle" transform="translate(-115,-56)rotate(-60)" style="font-size: 12px; font-family: serif; fill: rgb(37, 112, 89); cursor: pointer; opacity: 0.5;">barcode</text><text text-anchor="middle" transform="translate(-22,-77)rotate(-30)" style="font-size: 12px; font-family: serif; fill: rgb(149, 50, 85); cursor: pointer; opacity: 0.5;">Edukasi</text><text text-anchor="middle" transform="translate(-49,45)rotate(30)" style="font-size: 12px; font-family: serif; fill: rgb(170, 145, 57); cursor: pointer; opacity: 0.5;">Mobile</text><text text-anchor="middle" transform="translate(-131,51)rotate(-90)" style="font-size: 12px; font-family: serif; fill: rgb(47, 63, 115); cursor: pointer; opacity: 0.5;">Heuristic</text><text text-anchor="middle" transform="translate(-93,-24)rotate(-30)" style="font-size: 12px; font-family: serif; fill: rgb(37, 112, 89); cursor: pointer; opacity: 0.5;">VAK</text><text text-anchor="middle" transform="translate(100,-81)rotate(30)" style="font-size: 12px; font-family: serif; fill: rgb(149, 50, 85); cursor: pointer; opacity: 0.5;">Online</text><text text-anchor="middle" transform="translate(-57,-74)rotate(-30)" style="font-size: 12px; font-family: serif; fill: rgb(170, 145, 57); cursor: pointer; opacity: 0.5;">Musik</text><text text-anchor="middle" transform="translate(133,-45)rotate(-90)" style="font-size: 12px; font-family: serif; fill: rgb(47, 63, 115); cursor: pointer; opacity: 0.5;">perceptual</text><text text-anchor="middle" transform="translate(-87,65)rotate(-60)" style="font-size: 12px; font-family: serif; fill: rgb(37, 112, 89); cursor: pointer; opacity: 0.5;">KNN</text><text text-anchor="middle" transform="translate(115,47)rotate(-90)" style="font-size: 12px; font-family: serif; fill: rgb(149, 50, 85); cursor: pointer; opacity: 0.5;">PPDIOO</text><text text-anchor="middle" transform="translate(88,51)rotate(-90)" style="font-size: 12px; font-family: serif; fill: rgb(170, 145, 57); cursor: pointer; opacity: 0.5;">triple</text><text text-anchor="middle" transform="translate(-131,-66)rotate(-90)" style="font-size: 12px; font-family: serif; fill: rgb(47, 63, 115); cursor: pointer; opacity: 0.5;">query</text><text text-anchor="middle" transform="translate(-75,68)rotate(-60)" style="font-size: 12px; font-family: serif; fill: rgb(37, 112, 89); cursor: pointer; opacity: 0.5;">Jena</text><text text-anchor="middle" transform="translate(77,-71)rotate(-90)" style="font-size: 12px; font-family: serif; fill: rgb(149, 50, 85); cursor: pointer; opacity: 0.5;">RACI</text><text text-anchor="middle" transform="translate(-91,-90)rotate(0)" style="font-size: 12px; font-family: serif; fill: rgb(170, 145, 57); cursor: pointer; opacity: 0.5;">Cobit</text><text text-anchor="middle" transform="translate(-59,23)rotate(30)" style="font-size: 12px; font-family: serif; fill: rgb(47, 63, 115); cursor: pointer; opacity: 0.5;">File</text><text text-anchor="middle" transform="translate(127,42)rotate(-90)" style="font-size: 12px; font-family: serif; fill: rgb(37, 112, 89); cursor: pointer; opacity: 0.5;">web.</text></g></svg></div>
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		d3.wordcloud()
+			.size([300, 200])
+			.selector('#wordcloud')
+			.scale('linear')
+			.fill(d3.scale.ordinal().range([ "#953255","#AA9139", "#2F3F73" , "#257059"]))
+			.words([{"text":"Sistem Informasi","size":7},{"text":"Android","size":5},{"text":"Informasi","size":5},{"text":"Web Service","size":4},{"text":"Website","size":3},{"text":"Sistem Pakar","size":3},{"text":"Sistem Pendukung Keputusan","size":3},{"text":"Augmented Reality","size":3},{"text":"PHP","size":2},{"text":"Analytical Hierarchy Process","size":2},{"text":"Sistem","size":2},{"text":"Metode ANP","size":2},{"text":"Sistem Penunjang Keputusan","size":2},{"text":"kinerja","size":2},{"text":"Aplikasi Pembelajaran","size":2},{"text":"SPK","size":2},{"text":"Multimedia","size":2},{"text":"Kamus","size":2},{"text":"Peramalan","size":2},{"text":"Metode Prototipe","size":2},{"text":"Promosi","size":2},{"text":"web","size":2},{"text":"Klasifikasi","size":2},{"text":"Data Mining","size":2},{"text":"Kriteria","size":2},{"text":"Learning Style Inventory","size":2},{"text":"SMS Gateway","size":2},{"text":"sistem informasi","size":2},{"text":"Zachman Framework","size":2},{"text":"Web","size":2},{"text":"FP-Growth","size":1},{"text":"urat Masuk dan Surat Keluar","size":1},{"text":"data geokimia","size":1},{"text":"Psikometer","size":1},{"text":"Alokasi","size":1},{"text":"Kartu Kendali","size":1},{"text":"Beasiswa Bidikmisi","size":1},{"text":"data pemboran","size":1},{"text":"association rule mining","size":1},{"text":"Software Super Decision","size":1},{"text":"Perguruan Tinggi","size":1},{"text":"Fuzzy Logic","size":1},{"text":"barcode","size":1},{"text":"Algorithma A*","size":1},{"text":"Edukasi","size":1},{"text":"3-5 Game","size":1},{"text":"pemahaman programming","size":1},{"text":"Mobile","size":1},{"text":"Heuristic","size":1},{"text":"aplikasi web","size":1},{"text":"Thermal Touch","size":1},{"text":"Touch on Screen","size":1},{"text":"Skala Likert","size":1},{"text":"programming","size":1},{"text":"VAK","size":1},{"text":"Universitas Klabat","size":1},{"text":"Online","size":1},{"text":"konferensi","size":1},{"text":"sistem absensi","size":1},{"text":"Musik","size":1},{"text":"Suasana Hati","size":1},{"text":"perceptual","size":1},{"text":"gaya belajar","size":1},{"text":"KNN","size":1},{"text":"Media Promosi","size":1},{"text":"PPDIOO","size":1},{"text":"triple","size":1},{"text":"semantik","size":1},{"text":"query","size":1},{"text":"penyimpanan","size":1},{"text":"transfer pengetahuan","size":1},{"text":"UKM handicraft","size":1},{"text":"Sistem informasi","size":1},{"text":"Wayang Purwa","size":1},{"text":"Media Pembelajaran","size":1},{"text":"teknologi informasi","size":1},{"text":"ontologi","size":1},{"text":"Jena","size":1},{"text":"RACI","size":1},{"text":"Evaluasi","size":1},{"text":"Cobit","size":1},{"text":"Acquire and Implementation","size":1},{"text":"Kelas","size":1},{"text":"Association Rule","size":1},{"text":"File","size":1},{"text":"CRISPDM  Abstract","size":1},{"text":"Kelulusan Mahasiswa","size":1},{"text":"Quantitative Association Rule","size":1},{"text":"SIM","size":1},{"text":"Implementasi SIMRS","size":1},{"text":"Asterisk","size":1},{"text":"VoIP","size":1},{"text":"Super Decisions","size":1},{"text":"Balanced Scorecard","size":1},{"text":"Sistem Informasi inventory","size":1},{"text":"web.","size":1},{"text":"Denpasar Festival","size":1},{"text":"Denpasar","size":1},{"text":"Aplikasi Mobile","size":1},{"text":"Pengembangan","size":1}])
+			.onwordclick(function(d, i) {
+				window.location = "https://eksplora.stikom-bali.ac.id/index.php/eksplora/search?query=QUERY_SLUG".replace(/QUERY_SLUG/, encodeURIComponent('*'+d.text+'*'));
+			})
+			.start();
+	});
+	</script>
+</div><div class="pkp_block block_custom" id="customblock-sertifikat">
+	<div class="content">
+		<div class="thumbnail"><a title="Sertifikat" href="https://stmikstikombali-my.sharepoint.com/:i:/g/personal/eksplora_stikom-bali_ac_id/EcAAzgdr1JZDvqiM7IVeYyUB97Sd0UMW2UeHuVJmQnvnJA?e=7EDCQO" target="_blank" rel="noopener"><img src="img0032.jpg" width="100%"></a></div>
+	</div>
+</div><div class="pkp_block block_custom" id="customblock-wa">
+	<div class="content">
+		<a href="https://wa.me/6287761598092" target="_blank" rel="noopener"><img class="img-responsive" src="wa4.png"></a>
+	</div>
+</div>
+			</aside><!-- pkp_sidebar.left -->
+				</div><!-- pkp_structure_content -->
+
+	<footer class="footer" role="contentinfo">
+
+		<div class="container">
+
+			<div class="row">
+								<div class="col-md-12">
+					<p><strong>Jurnal Eksplora Informatika</strong><br>Diterbitkan oleh:</p>
+<p><strong>Bagian P2M STIKOM Bali</strong><br>Kampus Renon STIKOM Bali, Jl. Raya Puputan No.86 Renon<br>Denpasar 80234 Bali [<a href="https://goo.gl/maps/hJ1wtLCXeWJ2" target="_blank" rel="noopener">view on maps</a>]</p>
+<p><a title="OJS/PKP" href="http://pkp.sfu.ca/ojs" target="_blank" rel="noopener">Platform &amp; Workflow by OJS/PKP</a></p>
+<p><strong>ISSN</strong>&nbsp;(Online): <a href="http://issn.lipi.go.id/issn.cgi?daftar&amp;1432100360&amp;1&amp;&amp;" target="_blank" rel="noopener">2460-3694</a><br><strong>ISSN</strong>&nbsp;(Cetak):&nbsp;<a href="http://issn.lipi.go.id/issn.cgi?daftar&amp;1320319024&amp;1&amp;&amp;" target="_blank" rel="noopener">2089-1814</a></p>
+<p><strong>Indexed and Journal List Title by:</strong></p>
+<div class="row index-row">
+<div class="col-md-2 col-xs-6 index-container"><a class="img-footer" href="https://scholar.google.co.id/citations?hl=id&amp;user=oWu8eocAAAAJ" target="_blank" rel="noopener"> <img src="scholar.png"></a></div>
+<div class="col-md-2 col-xs-6 index-container"><a class="img-footer" href="http://sinta2.ristekdikti.go.id/journals/detail?id=3580" target="_blank" rel="noopener"><img src="sintaS5.png"></a></div>
+<div class="col-md-2 col-xs-6 index-container"><a class="img-footer" href="https://www.scilit.net/journal-articles/508847" target="_blank" rel="noopener"> <img src="scilit.png"> </a></div>
+<div class="col-md-2 col-xs-6 index-container"><a class="img-footer" href="http://garuda.ristekdikti.go.id/journal/view/11635" target="_blank" rel="noopener"> <img src="garuda1.png"> </a></div>
+<div class="col-md-2 col-xs-6 index-container"><a class="img-footer" href="https://www.mendeley.com/profiles/eksplora-informatika-stikom-bali/" target="_blank" rel="noopener"> <img src="Mendeley_grootst.png"> </a></div>
+<div class="col-md-2 col-xs-6 index-container"><a class="img-footer" href="https://search.crossref.org/?q=eksplora&amp;publisher_str=STIKOM+Bali" target="_blank" rel="noopener"> <img src="crossref.png"></a></div>
+<div class="col-md-2 col-xs-6 index-container"><a class="img-footer" href="http://www.onesearch.id/Search/Results?filter[]=repoId:IOS6504" target="_blank" rel="noopener"><img src="onesearch.png"></a></div>
+<div class="col-md-2 col-xs-6 index-container"><a class="img-footer" href="https://www.base-search.net/Search/Results?q=dccoll%3Aftjeksplora&amp;refid=dclink" target="_blank" rel="noopener"><img src="base.png"></a></div>
+</div>
+				</div>
+				
+			</div> <!-- .row -->
+		</div><!-- .container -->
+	</footer>
+</div><!-- pkp_structure_page -->
+
+<script src="jquery.js" type="text/javascript"></script><script src="jquery-ui.js" type="text/javascript"></script><script src="jquery_002.js" type="text/javascript"></script><script src="bootstrap.js" type="text/javascript"></script><script src="articleCitation.js" type="text/javascript"></script><script src="d3_003.js" type="text/javascript"></script><script src="d3.js" type="text/javascript"></script><script src="d3_002.js" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.data = pkpUsageStats.data || {};pkpUsageStats.data.PublishedArticle = pkpUsageStats.data.PublishedArticle || {};pkpUsageStats.data.PublishedArticle[116] = {"data":{"2018":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":25,"11":18,"12":28},"2019":{"1":19,"2":29,"3":31,"4":45,"5":59,"6":4,"7":1,"8":0,"9":0,"10":0,"11":0,"12":0}},"label":"All Downloads","color":"79,181,217","total":259};</script><script src="Chart.js" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.locale = pkpUsageStats.locale || {};pkpUsageStats.locale.months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];pkpUsageStats.config = pkpUsageStats.config || {};pkpUsageStats.config.chartType = "line";</script><script src="UsageStatsFrontendHandler.js" type="text/javascript"></script>
+
+
+
+</body></html>

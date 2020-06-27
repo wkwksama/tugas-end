@@ -1,0 +1,1983 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="http://www.academia.edu/10629755/PANDUAN_PEMBENTUKAN_PUBLIC_SAFETY_CENTER_PSC_">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>dr Kamal  Amiruddin</foaf:surname>
+                        <foaf:givenName>Mars</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2"/>
+        <dc:title>PANDUAN PEMBENTUKAN PUBLIC SAFETY CENTER (PSC)</dc:title>
+        <dcterms:abstract>PUBLIC SAFETY CENTER ADALAH UJUNG TOMBAK DARI SISTEM PELAYANAN GAWAT DARURAT TERPADU (SPGDT) SEHARI HARI.</dcterms:abstract>
+        <dc:date>2018-11-10 09:04:24</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>www.academia.edu</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.academia.edu/10629755/PANDUAN_PEMBENTUKAN_PUBLIC_SAFETY_CENTER_PSC_</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-11-10 09:04:24</dcterms:dateSubmitted>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_2">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2/PANDUAN_PEMBENTUKAN_PUBLIC_SAFETY_CENTER_PSC_.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.academia.edu/10629755/PANDUAN_PEMBENTUKAN_PUBLIC_SAFETY_CENTER_PSC_</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-11-10 09:04:33</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.bps.go.id/linkTableDinamis/view/id/1134">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_4"/>
+        <dc:title>Badan Pusat Statistik</dc:title>
+        <dc:date>2018-11-10 10:00:56</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.bps.go.id/linkTableDinamis/view/id/1134</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-11-10 10:00:56</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_4">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4/1134.html"/>
+        <dc:title>Badan Pusat Statistik</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.bps.go.id/linkTableDinamis/view/id/1134</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-11-10 10:00:58</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_5">
+        <z:itemType>document</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Menteri Kesehatan Republik Indonesia</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Peraturan Menteri Kesehatan Republik Indonesia Nomor 9 Tahun 2016 Tentang Sistem Penanggulangan Gawat Darurat Terpadu</dc:title>
+        <dc:date>20 April 2016</dc:date>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_6">
+        <z:itemType>document</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Presiden Republik Indonesia</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Instruksi Presiden Republik Indonesia Nomor 4 Tahun 2013 tentang Program Dekade Aksi Keselamatan Jalan</dc:title>
+        <dc:date>11 April 2013</dc:date>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_7">
+        <z:itemType>document</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Presiden Republik Indonesia</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Undang-Undang Republik Indonesia Nomor 36 Tahun 2009 Tentang Kesehatan</dc:title>
+        <dc:date>13 October 2009</dc:date>
+    </rdf:Description>
+    <bib:Document rdf:about="https://dinkes.demakkab.go.id/gubernur-jawa-tengah-resmikan-aplikasi-des-psc-119/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_9"/>
+        <dc:title>Gubernur Jawa Tengah Resmikan Aplikasi DES PSC 119 – Dinas Kesehatan Kabupaten Demak</dc:title>
+        <dc:date>2019-03-20 04:55:26</dc:date>
+        <z:language>id-ID</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dinkes.demakkab.go.id/gubernur-jawa-tengah-resmikan-aplikasi-des-psc-119/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-03-20 04:55:26</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_9">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/9/gubernur-jawa-tengah-resmikan-aplikasi-des-psc-119.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dinkes.demakkab.go.id/gubernur-jawa-tengah-resmikan-aplikasi-des-psc-119/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-03-20 04:55:28</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.grobogan.go.id/info/berita-terbaru/1542-pemerintah-kabupaten-grobogan-launching-aplikasi-si-sigap">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_11"/>
+        <dc:title>Pemerintah Kabupaten Grobogan Launching Aplikasi Si Sigap</dc:title>
+        <dc:date>2019-03-20 04:57:32</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.grobogan.go.id/info/berita-terbaru/1542-pemerintah-kabupaten-grobogan-launching-aplikasi-si-sigap</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-03-20 04:57:32</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_11">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/11/1542-pemerintah-kabupaten-grobogan-launching-aplikasi-si-sigap.html"/>
+        <dc:title>Pemerintah Kabupaten Grobogan Launching Aplikasi Si Sigap</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.grobogan.go.id/info/berita-terbaru/1542-pemerintah-kabupaten-grobogan-launching-aplikasi-si-sigap</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-03-20 04:57:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://dinkes.batangkab.go.id/199/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dinkes</foaf:surname>
+                        <foaf:givenName>Author</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_13"/>
+        <dc:title>Si Slamet dan Simpus, Terobosan Pelayanan Kesehatan dengan Teknologi informatika | Dinas Kesehatan Batang</dc:title>
+        <dc:date>2019-03-20 04:58:08</dc:date>
+        <z:language>id-ID</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dinkes.batangkab.go.id/199/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-03-20 04:58:08</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_13">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/13/199.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dinkes.batangkab.go.id/199/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-03-20 04:58:12</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_14">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sutanta</foaf:surname>
+                        <foaf:givenName>Edhy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mustofa</foaf:surname>
+                        <foaf:givenName>Khabib</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Strategi Pengembangan Web Service Untuk Integrasi Inter Sistem EGovernment Di Pemerintah Kabupaten Bantul Yogyakarta</dc:title>
+        <dc:date>2012</dc:date>
+    </bib:Article>
+    <bib:Article rdf:about="#item_15">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stenlund</foaf:surname>
+                        <foaf:givenName>Erik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gustavsson</foaf:surname>
+                        <foaf:givenName>Kit</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Efficent data communication between a webclient and a cloud environment</dc:title>
+        <dc:date>2016</dc:date>
+    </bib:Article>
+    <rdf:Description rdf:about="#item_16">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>1912</prism:volume>
+                <dc:title>AMW 2017 11th Alberto Mendelzon International Workshop on Foundations of Data Management and the Web, Montevideo, Uruguay, June 7-9, 2017.</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Juan Reutter, Divesh Srivastava</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hartig</foaf:surname>
+                        <foaf:givenName>Olaf</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pérez</foaf:surname>
+                        <foaf:givenName>Jorge</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>An initial analysis of Facebook’s GraphQL language</dc:title>
+        <dc:date>2017</dc:date>
+    </rdf:Description>
+    <bib:Article rdf:about="http://www.sciencedirect.com/science/article/pii/S1071581915001767">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1071-5819"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ghiani</foaf:surname>
+                        <foaf:givenName>Giuseppe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paternò</foaf:surname>
+                        <foaf:givenName>Fabio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Spano</foaf:surname>
+                        <foaf:givenName>Lucio Davide</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pintori</foaf:surname>
+                        <foaf:givenName>Giuliano</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_18"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>End User Development</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>User interface development tools</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Web mashups</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>An environment for End-User Development of Web mashups</dc:title>
+        <dcterms:abstract>End-User Development aims to find novel ways that are suitable and intuitive for end users to create their own applications. We present a graphical environment in which users create new mashups by directly selecting interaction elements, content and functionalities from existing Web applications without requiring the intervention of expert developers. Then, users just need to exploit a copy–paste metaphor to indicate how to compose the selected interactive content and functionalities in the new mashup. The environment is enabled by a Web-based platform accessible from any browser, and is suitable for users without particular programming skills. We describe the architecture of our platform and how it works, including its intelligent support, show example applications, and report the results of first user studies.</dcterms:abstract>
+        <dc:date>March 1, 2016</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.sciencedirect.com/science/article/pii/S1071581915001767</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-04-14 09:37:37</dcterms:dateSubmitted>
+        <bib:pages>38-64</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1071-5819">
+        <prism:volume>87</prism:volume>
+        <dc:title>International Journal of Human-Computer Studies</dc:title>
+        <dc:identifier>DOI 10.1016/j.ijhcs.2015.10.008</dc:identifier>
+        <dcterms:alternative>International Journal of Human-Computer Studies</dcterms:alternative>
+        <dc:identifier>ISSN 1071-5819</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_18">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/18/S1071581915001767.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/abs/pii/S1071581915001767?via%3Dihub</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-04-14 09:38:21</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1007/s10257-017-0363-x">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1617-9854"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vesyropoulos</foaf:surname>
+                        <foaf:givenName>Nikolaos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Georgiadis</foaf:surname>
+                        <foaf:givenName>Christos K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Katsaros</foaf:surname>
+                        <foaf:givenName>Panagiotis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>BIP component framework</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>BPMN</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Business process</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Enterprise mashups</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Model checking</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Web services</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Ensuring business and service requirements in enterprise mashups</dc:title>
+        <dcterms:abstract>During the past few years, mashups have gained wide attention as they utilize Web 2.0 technologies in order to combine data, as well as the functionalities of numerous services, in a simple web application. While developing mashups for simple user-specific needs is not a demanding procedure, this is not the case for value-added services that need to satisfy specific properties and business needs, known as enterprise mashups. As a number of business requirements have to be satisfied, and execution faults are less tolerated compared to user-centric scenarios, a rigorous approach for their development is required. In this work we present such an approach utilizing model checking techniques, provided by the behavior, interaction, priorities (BIP) component framework. In addition, a methodology for the transformation of business process model and notation models, describing the business logic of a requested mashup, into the corresponding BIP models is proposed. The generated models enable the verification of requested properties.</dcterms:abstract>
+        <dc:date>2018-02-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/s10257-017-0363-x</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-04-14 09:37:56</dcterms:dateSubmitted>
+        <dc:description>Number: 1</dc:description>
+        <bib:pages>205-242</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1617-9854">
+        <prism:volume>16</prism:volume>
+        <dc:title>Information Systems and e-Business Management</dc:title>
+        <dc:identifier>DOI 10.1007/s10257-017-0363-x</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Inf Syst E-Bus Manage</dcterms:alternative>
+        <dc:identifier>ISSN 1617-9854</dc:identifier>
+    </bib:Journal>
+    <rdf:Description rdf:about="urn:isbn:978-3-540-89652-4">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                       <dc:title>Lecture Notes in Computer Science</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>ISBN 978-3-540-89652-4</dc:identifier>
+                <dc:title>Service-Oriented Computing – ICSOC 2008</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Springer Berlin Heidelberg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hoyer</foaf:surname>
+                        <foaf:givenName>Volker</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fischer</foaf:surname>
+                        <foaf:givenName>Marco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bouguettaya</foaf:surname>
+                        <foaf:givenName>Athman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krueger</foaf:surname>
+                        <foaf:givenName>Ingolf</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Margaria</foaf:surname>
+                        <foaf:givenName>Tiziana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_21"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Classification</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Enterprise Mashups</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Internet of Services (IoS)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Market Overview</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Market Overview of Enterprise Mashup Tools</dc:title>
+        <dcterms:abstract>A new paradigm, known as Enterprise Mashups, has been gain momentum during the last years. By empowering actual business end-users to create and adapt individual enterprise applications, Enterprise Mashups implicate a shift concerning a collaborative software development and consumption process. Upcoming Mashup tools prove the growing relevance of this paradigm in the industry, both in the consumer and enterprise-oriented market. However, a market overview of the different tools is still missing. In this paper, we introduce a classification of Mashup tools and evaluate selected tools of the different clusters according to the perspectives general information, functionality and usability. Finally, we classify more than 30 tools in the designed classification model and present the observed market trends in context of Enterprise Mashups.</dcterms:abstract>
+        <dc:date>2008</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <bib:pages>708-721</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_21">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/21/Hoyer and Fischer - 2008 - Market Overview of Enterprise Mashup Tools.pdf"/>
+        <dc:title>Springer Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2F978-3-540-89652-4_62.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-04-14 09:39:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-3-642-24574-9">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                       <dc:title>Lecture Notes in Computer Science</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>ISBN 978-3-642-24574-9</dc:identifier>
+                <dc:title>Advances in Conceptual Modeling. Recent Developments and New Directions</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Springer Berlin Heidelberg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bianchini</foaf:surname>
+                        <foaf:givenName>Devis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>De Antonellis</foaf:surname>
+                        <foaf:givenName>Valeria</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Melchiori</foaf:surname>
+                        <foaf:givenName>Michele</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>De Troyer</foaf:surname>
+                        <foaf:givenName>Olga</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bauzer Medeiros</foaf:surname>
+                        <foaf:givenName>Claudia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Billen</foaf:surname>
+                        <foaf:givenName>Roland</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hallot</foaf:surname>
+                        <foaf:givenName>Pierre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Simitsis</foaf:surname>
+                        <foaf:givenName>Alkis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Van Mingroot</foaf:surname>
+                        <foaf:givenName>Hans</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Coupling Criterion</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Domain Ontology</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Selection Pattern</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Semantic Annotation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Semantic Descriptor</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Semantics-Enabled Web API Organization and Recommendation</dc:title>
+        <dcterms:abstract>The design of Web applications from third-party Web APIs can be shortened by providing a conceptual model that abstracts from implementation aspects of each Web API and supports their selection. In this paper we propose a framework to support easy Web application development. The framework provides Web API organization based on automated matching techniques apt to establish semantic links between them according to properly defined similarity and coupling criteria and Web API selection patterns to support interactive and proactive Web application development according to an exploratory perspective.</dcterms:abstract>
+        <dc:date>2011</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <bib:pages>34-43</bib:pages>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:isbn:978-3-319-91764-1">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                       <dc:title>Lecture Notes in Computer Science</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>ISBN 978-3-319-91764-1</dc:identifier>
+                <dc:title>Service-Oriented Computing – ICSOC 2017 Workshops</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Springer International Publishing</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vogel</foaf:surname>
+                        <foaf:givenName>Maximilian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weber</foaf:surname>
+                        <foaf:givenName>Sebastian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zirpins</foaf:surname>
+                        <foaf:givenName>Christian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Braubach</foaf:surname>
+                        <foaf:givenName>Lars</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Murillo</foaf:surname>
+                        <foaf:givenName>Juan M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kaviani</foaf:surname>
+                        <foaf:givenName>Nima</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lama</foaf:surname>
+                        <foaf:givenName>Manuel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Burgueño</foaf:surname>
+                        <foaf:givenName>Loli</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moha</foaf:surname>
+                        <foaf:givenName>Naouel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oriol</foaf:surname>
+                        <foaf:givenName>Marc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>GraphQL</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>REST</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Software service architecture</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Experiences on Migrating RESTful Web Services to GraphQL</dc:title>
+        <dcterms:abstract>Web service APIs are central hubs of modern cloud-based application systems. Over recent years, REST has become a de facto standard for their architectural style. Yet in scenarios like mobile apps, flexible client-centric data fetching approaches have emerged as a promising alternative. This gives rise to the question whether RESTful systems can be migrated to a technique like GraphQL and benefit from the new approach. In this paper we report on our experiences during such migration of a real world smart home application. Our observations have underpinned some of the conceptual benefits but also identified challenging aspects where further research is required.</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <bib:pages>283-295</bib:pages>
+    </rdf:Description>
+    <bib:Book rdf:about="http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-156174">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Soames</foaf:surname>
+                        <foaf:givenName>Kieron</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lind</foaf:surname>
+                        <foaf:givenName>Jonas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_25"/>
+        <link:link rdf:resource="#item_26"/>
+        <dc:title>Detecting Cycles in GraphQL Schemas</dc:title>
+        <dcterms:abstract>DiVA portal is a finding tool for research publications and student theses written at the following 49 universities and research institutions.</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>www.diva-portal.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-156174</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-10 20:46:29</dcterms:dateSubmitted>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_25">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/25/Soames and Lind - 2019 - Detecting Cycles in GraphQL Schemas.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.diva-portal.org/smash/get/diva2:1302887/FULLTEXT01</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-10 20:46:38</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_26">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/26/record.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1302887&amp;dswid=-6119</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-10 20:46:43</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://eprints.dinus.ac.id/18956/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>Skripsi,Fakultas Ilmu Komputer</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>ANDY</foaf:surname>
+                        <foaf:givenName>PRADIKA RESTA</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_28"/>
+        <link:link rdf:resource="#item_29"/>
+        <dc:title>Implementasi Webservice untuk Sinkronisasi Data Trankskrip Nilai di Tata Usaha Fakultas Universitas Dian Nuswantoro</dc:title>
+        <dcterms:abstract>Data transkrip nilai adalah data nilai hasil studi mahasiswa yang digunakan sebagai perhitungan indeks prestasi kumulatif. Data transkrip nilai mahasiswa yang diperbaharui secara periodik oleh Tata Usaha dengan proses yang selama ini berjalan terdapat beberapa kendala seperti proses yang kurang efisien dan boros dikarenakan adanya proses pengiriman data ke unit data &amp; informasi untuk menyelaraskan data transkrip dan sistem pembaharuan yang membangkitkan semua data pada pembaruan tanpa terkecuali walaupun tidak ada perubahan menyebabkan trafik lalu lintas data pada server meningkat. Keadaan ini berdampak negatif pada semua pihak seperti dosen, mahasiswa dan staf terkait. Kondisi ini dikarenakan tidak sinkronya data transkrip yang ada pada Tata Usaha dan Sistem Akademik. Suatu interoperabilitas sangatlah dibutuhkan pada kondisi seperti ini. Dengan menerapkan teknologi SOA (Service Oriented Archirecture) yang diterapkan pada Web atau Webservice yang dapat mendukung interoperabilitas merupakan solusi yang tepat untuk diterapkan pada kedua sistem ini sehingga komunikasi antar sistem dapat berjalan sebagai bentuk jalan keluar dari sinkronasi data transkrip nilai Tata Usaha dan Sistem Akademik</dcterms:abstract>
+        <dc:date>2016</dc:date>
+        <z:libraryCatalog>eprints.dinus.ac.id</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://eprints.dinus.ac.id/18956/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-11 04:13:48</dcterms:dateSubmitted>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_28">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/28/ANDY - 2016 - Implementasi Webservice untuk Sinkronisasi Data Tr.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://eprints.dinus.ac.id/18956/1/abstrak_18051.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-11 04:13:54</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_29">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/29/18956.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://eprints.dinus.ac.id/18956/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-11 04:13:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-3-319-67262-5">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                       <dc:title>Lecture Notes in Computer Science</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>ISBN 978-3-319-67262-5</dc:identifier>
+                <dc:title>Service-Oriented and Cloud Computing</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Springer International Publishing</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cremaschi</foaf:surname>
+                        <foaf:givenName>Marco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>De Paoli</foaf:surname>
+                        <foaf:givenName>Flavio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>De Paoli</foaf:surname>
+                        <foaf:givenName>Flavio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schulte</foaf:surname>
+                        <foaf:givenName>Stefan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Broch Johnsen</foaf:surname>
+                        <foaf:givenName>Einar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>Toward Automatic Semantic API Descriptions to Support Services Composition</dc:title>
+        <dcterms:abstract>The ability to provide appropriate and complete API descriptions to let users discover services that satisfy a set of requirements and compose them to fulfil more complex users’ needs is critical for the success of any modern ICT solution. Composition suffers from the lack of semantic matching between properties included in published API descriptions. The work presented in this paper addresses this issue by discussing the current formats and tools to build API descriptions, and presenting a method for extracting and associating semantic to properties. Such method relies on a revised version of Table Interpretation techniques to support semantic annotations of API properties. The objectives are to enrich the popular OpenAPI Specification format with semantic annotations, and add the functionality of semantic annotation and composition to the associated editor.</dcterms:abstract>
+        <dc:date>2017</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <bib:pages>159-167</bib:pages>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_31">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>2009 IEEE International Conference on Web Services</dc:title>
+                <dc:identifier>DOI 10.1109/ICWS.2009.147</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Comerio</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maurino</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paoli</foaf:surname>
+                        <foaf:givenName>F. D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_32"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Web services</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Decision making</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Description model</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Exponential distribution</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Gaussian distribution</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>hierarchical constraint logic programming</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Informatics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>logic programming</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Logic programming</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Non-functional property</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Performance evaluation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Phase change materials</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>policy centered meta-model</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Probability distribution</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Proposals</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Web service evaluation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Web service selection</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Web Service Selection</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Web Services</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>An Approach to Non-functional Property Evaluation of Web Services</dc:title>
+        <dcterms:abstract>Web service evaluation is a phase of the Web service selection in which discovered Web services are evaluated with respect to user request, which means that the non functional properties (NFPs) offered by Web services are compared with the non functional properties requested by users. The fact that users and providers can express their NFPs in very flexible ways makes the management of NFPs a very complex task. In this paper we propose a computing-oriented description of NFPs and a novel approach to NFP-based service evaluation based on Hierarchical Constraint Logic Programming. This proposal extends our previous work on Policy Centered Meta-model (PCM).</dcterms:abstract>
+        <dc:date>July 2009</dc:date>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <bib:pages>1004-1005</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2009 IEEE International Conference on Web Services</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_32">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/32/5175925.html"/>
+        <dc:title>IEEE Xplore Abstract Record</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://ieeexplore.ieee.org/document/5175925</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-14 23:25:40</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_33">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>26</prism:volume>
+                <dc:title>W3C working draft</dc:title>
+                <dcterms:alternative>W3C working draft</dcterms:alternative>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chinnici</foaf:surname>
+                        <foaf:givenName>R</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>J Moreau</foaf:surname>
+                        <foaf:givenName>J</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ryman</foaf:surname>
+                        <foaf:givenName>Arthur</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weerawarana</foaf:surname>
+                        <foaf:givenName>Sanjiva</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_34"/>
+        <link:link rdf:resource="#item_35"/>
+        <dc:title>Web Services Description Language (WSDL) Version 2.0 Part 1: Core Language</dc:title>
+        <dcterms:abstract>This document describes the Web Services Description Language Version 2.0 (WSDL 2.0), an XML language for describing Web services. This specification defines the core language which can be used to describe Web services based on an abstract model of what the service offers. It also defines the conformance criteria for documents in this language.</dcterms:abstract>
+        <dc:date>January 1, 2004</dc:date>
+        <z:shortTitle>Web Services Description Language (WSDL) Version 2.0 Part 1</z:shortTitle>
+        <z:libraryCatalog>ResearchGate</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/34/Chinnici et al. - 2004 - Web Services Description Language (WSDL) Version 2.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/profile/Sanjiva_Weerawarana/publication/240918753_Web_Services_Description_Language_WSDL_Version_20_Part_1_Core_Language/links/00b7d52920acb30edb000000/Web-Services-Description-Language-WSDL-Version-20-Part-1-Core-Language.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 01:21:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_35">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>ResearchGate Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/240918753_Web_Services_Description_Language_WSDL_Version_20_Part_1_Core_Language</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 01:21:26</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_36">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>J. Hadley</foaf:surname>
+                        <foaf:givenName>Marc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_37"/>
+        <dc:title>Web Application Description Language (WADL)</dc:title>
+        <dcterms:abstract>This article describes the Web Application Description Language (WADL). An increasing number of Web-based enterprises (Google, Yahoo, Amazon, Flickr - to name but a few) are developing HTTP-based applications that provide access to their internal data using XML. Typically these applications are described using a combination of textual protocol descriptions combined with XML schema-based data format descriptions; WADL is designed to provide a machine processable protocol description format for use with such HTTP-based Web applications, especially those using XML.</dcterms:abstract>
+        <dc:date>January 1, 2009</dc:date>
+        <z:libraryCatalog>ResearchGate</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>ResearchGate Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/234832766_Web_Application_Description_Language_WADL</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 01:29:39</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Document rdf:about="http://graphql.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_39"/>
+        <dc:title>GraphQL: A query language for APIs.</dc:title>
+        <dcterms:abstract>GraphQL provides a complete description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.</dcterms:abstract>
+        <dc:date>2019-07-15 01:44:16</dc:date>
+        <z:shortTitle>GraphQL</z:shortTitle>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>http://graphql.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 01:44:16</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_39">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/39/code.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://graphql.github.io/code/#javascript</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 01:44:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.openapis.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>OpenAPI Initiative</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_41"/>
+        <dc:title>Home</dc:title>
+        <dc:date>2019-07-15 01:46:09</dc:date>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.openapis.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 01:46:09</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_41">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/41/www.openapis.org.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.openapis.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 01:46:12</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://spec.openapis.org/oas/v3.0.2">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_43"/>
+        <dc:title>OpenAPI Specification</dc:title>
+        <dc:date>2019-07-15 01:47:28</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://spec.openapis.org/oas/v3.0.2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 01:47:28</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_43">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/43/v3.0.html"/>
+        <dc:title>OpenAPI Specification</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://spec.openapis.org/oas/v3.0.2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 01:47:29</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.sciencedirect.com/science/article/pii/S0747563214005718">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0747-5632"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lallemand</foaf:surname>
+                        <foaf:givenName>Carine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gronier</foaf:surname>
+                        <foaf:givenName>Guillaume</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Koenig</foaf:surname>
+                        <foaf:givenName>Vincent</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_45"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Concept</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Definition</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Practitioners</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Survey</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Usability</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>User experience</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>User experience: A concept without consensus? Exploring practitioners’ perspectives through an international survey</dc:title>
+        <dcterms:abstract>For more than a decade, User Experience (UX) has grown into a core concept of Human–Computer Interaction (HCI). Practitioners and researchers from a wide range of disciplines are daily working with this concept. However, despite many attempts to understand, define and scope UX, one may still wonder whether a consensus has been reached on this concept. In a willingness to address the complexity of this research topic and bring the concept of UX to maturity, a replication of an international survey has been conducted. The main goal of the present study is to get a better understanding of practitioners’ viewpoints on the notion of UX and to analyze potential evolutions over time in the understanding and practical use of the concept. As both practical and theoretical implications of UX are of the greatest importance for whoever designs interactive systems, the exploration of practitioners’ perspectives is a valuable step toward continual improvement of UX activities. The present survey has been conducted amongst 758 practitioners and researchers from 35 nationalities. It allows to better understand how this concept is understood and used throughout the world. Amongst interesting results, important differences were observed according to the geographical location and background of the respondents.</dcterms:abstract>
+        <dc:date>February 1, 2015</dc:date>
+        <z:shortTitle>User experience</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.sciencedirect.com/science/article/pii/S0747563214005718</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 04:36:37</dcterms:dateSubmitted>
+        <bib:pages>35-48</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0747-5632">
+        <prism:volume>43</prism:volume>
+        <dc:title>Computers in Human Behavior</dc:title>
+        <dc:identifier>DOI 10.1016/j.chb.2014.10.048</dc:identifier>
+        <dcterms:alternative>Computers in Human Behavior</dcterms:alternative>
+        <dc:identifier>ISSN 0747-5632</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_45">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/45/S0747563214005718.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0747563214005718</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 04:36:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-1-61729-243-9">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Greenwich, CT, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Manning Publications Co.</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scott</foaf:surname>
+                        <foaf:givenName>Emmit</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>SPA Design and Architecture: Understanding Single Page Web Applications</dc:title>
+        <dcterms:abstract>Single page web applications (SPAs) are the next step in the development of web-based software, delivering the sleekness and fluidity of a native desktop application in a browser. SPA development requires knowledge of new development concepts and the mastery of new technologies that support these more complex applications. Fortunately, learning how to build SPAs doesn't have to be an overwhelming experience! SPA Design and Architecture: Understanding Single Page Web Applications helps developers take the leap from traditional web applications to SPAs. It starts with an introduction to the SPA model and builds on the standard approach of creating linked pages. Then it provides a gentle introduction to modular JavaScript programming, including AMD and module loaders. Readers are guided through the various facets of SPA architecture, including an overview of MV* frameworks, unit testing, routing, layout management, data access, pub/sub, performance, and security. Examples are easy-to-follow and can be applied to the library or framework of the reader's choice. Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications.</dcterms:abstract>
+        <dc:date>2015</dc:date>
+        <z:shortTitle>SPA Design and Architecture</z:shortTitle>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <dc:identifier>ISBN 978-1-61729-243-9</dc:identifier>
+        <prism:edition>1st</prism:edition>
+    </bib:Book>
+    <bib:Patent rdf:about="https://patents.google.com/patent/US10038605B2/en">
+        <z:itemType>patent</z:itemType>
+        <z:inventors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Veeravalli</foaf:surname>
+                        <foaf:givenName>Sreedhar Babu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenName>David Q.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hou</foaf:surname>
+                        <foaf:givenName>Ruixuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:inventors>
+        <link:link rdf:resource="#item_48"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>metrics</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>page load</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>set</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>spa</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>time</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Processing and visualization of single-page application performance metrics</dc:title>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://patents.google.com/patent/US10038605B2/en</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 04:41:21</dcterms:dateSubmitted>
+        <dc:description>Inventors: _:n197
+Issue: US10038605B2</dc:description>
+        <z:country>US</z:country>
+        <z:assignee>Microsoft Technology Licensing LLC</z:assignee>
+        <z:issuingAuthority>United States</z:issuingAuthority>
+        <prism:number>US10038605B2</prism:number>
+        <z:filingDate>2016-02-16</z:filingDate>
+        <z:applicationNumber>US15/044,887</z:applicationNumber>
+        <dc:date>2018-07-31</dc:date>
+    </bib:Patent>
+    <z:Attachment rdf:about="#item_48">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/48/Veeravalli et al. - 2018 - Processing and visualization of single-page applic.pdf"/>
+        <dc:title>Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://patentimages.storage.googleapis.com/38/22/2b/a853f4a53521a4/US10038605.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 04:41:25</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://eksplora.stikom-bali.ac.id/index.php/eksplora/article/view/116">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2460-3694"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rofiq</foaf:surname>
+                        <foaf:givenName>Fakhriyan Nur</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Susanto</foaf:surname>
+                        <foaf:givenName>Ajib</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_50"/>
+        <link:link rdf:resource="#item_51"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Android</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Pilkada</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Rekapitulasi</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>RESTful Web Service</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Implementasi RESTful Web Service untuk Sistem Penghitungan Suara Secara Cepat pada Pilkada</dc:title>
+        <dc:date>2017/03/31</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>eksplora.stikom-bali.ac.id</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://eksplora.stikom-bali.ac.id/index.php/eksplora/article/view/116</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 05:41:58</dcterms:dateSubmitted>
+        <dc:rights>Copyright (c)</dc:rights>
+        <dc:description>Number: 2</dc:description>
+        <bib:pages>159-168</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2460-3694">
+        <prism:volume>6</prism:volume>
+        <dc:title>Jurnal Eksplora Informatika</dc:title>
+        <dc:identifier>DOI 10.30864/eksplora</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>1</dcterms:alternative>
+        <dc:identifier>ISSN 2460-3694</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_50">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/50/Rofiq and Susanto - 2017 - Implementasi RESTful Web Service untuk Sistem Peng.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://eksplora.stikom-bali.ac.id/index.php/eksplora/article/download/116/97</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 05:42:00</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_51">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/51/116.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://eksplora.stikom-bali.ac.id/index.php/eksplora/article/view/116</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 05:42:04</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_52">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0006-291X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenName>R. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bryant</foaf:surname>
+                        <foaf:givenName>R. G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_53"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Animals</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Binding Sites</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cadmium</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Carbonic Anhydrases</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cattle</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Hydrogen-Ion Concentration</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Magnetic Resonance Spectroscopy</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Mercury</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Protein Binding</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Protein Conformation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Zinc</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Metal substitutions incarbonic anhydrase: a halide ion probe study</dc:title>
+        <dc:date>Oct 27, 1975</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Metal substitutions incarbonic anhydrase</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>Number: 4
+PMID: 3</dc:description>
+        <bib:pages>1281-1286</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0006-291X">
+        <prism:volume>66</prism:volume>
+        <dc:title>Biochemical and Biophysical Research Communications</dc:title>
+        <dc:identifier>DOI 10.1016/0006-291x(75)90498-2</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Biochem. Biophys. Res. Commun.</dcterms:alternative>
+        <dc:identifier>ISSN 0006-291X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_53">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/3</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 05:45:38</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_54">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1090-2104"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hendrickson</foaf:surname>
+                        <foaf:givenName>W. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ward</foaf:surname>
+                        <foaf:givenName>K. B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_55"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Animals</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Protein Conformation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cnidaria</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Computers</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Hemerythrin</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Metalloproteins</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Models, Molecular</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Muscle Proteins</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Species Specificity</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Atomic models for the polypeptide backbones of myohemerythrin and hemerythrin</dc:title>
+        <dc:date>Oct 27, 1975</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>Number: 4
+PMID: 5</dc:description>
+        <bib:pages>1349-1356</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1090-2104">
+        <prism:volume>66</prism:volume>
+        <dc:title>Biochemical and Biophysical Research Communications</dc:title>
+        <dc:identifier>DOI 10.1016/0006-291x(75)90508-2</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Biochem. Biophys. Res. Commun.</dcterms:alternative>
+        <dc:identifier>ISSN 1090-2104</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_55">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 05:45:39</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_56">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0002-9378"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bland</foaf:surname>
+                        <foaf:givenName>R. D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clarke</foaf:surname>
+                        <foaf:givenName>T. L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Harden</foaf:surname>
+                        <foaf:givenName>L. B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_57"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Hydrogen-Ion Concentration</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Acidosis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Albumins</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Bicarbonates</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Carbon Dioxide</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cerebral Hemorrhage</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Hawaii</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Infant, Newborn</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Infant, Premature, Diseases</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Infusions, Parenteral</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Male</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Prospective Studies</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Respiratory Distress Syndrome, Newborn</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Sodium</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Time Factors</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Rapid infusion of sodium bicarbonate and albumin into high-risk premature infants soon after birth: a controlled, prospective trial</dc:title>
+        <dcterms:abstract>We conducted a controlled, prospective trial to evaluate the effectiveness of rapidly infusing sodium bicarbonate (NaHCO3) and salt-poor albumin into high-risk, premature infants in the first 2 hours of life. Fifty-three infants, randomized into one of four treatment groups, received 8 ml. per kilogram of a solution containing either (A) glucose in water, (B) salt-poor albumin, (C) NaHCO3, or (D) a combination of albumin and NaHCO3. After the initial infusion, the babies received no colloid or alkali solutions until 4 hours of age. We managed them supportively with warmth, appropriate oxygen administration, isotonic fluid infusion, and close monitoring. Among the infants who received alkali, 14 of 26 acquired the respiratory distress syndrome (RDS), 11 died, and four had intracranial hemorrhage. Among babies who received no alkali, RDS occurred in 11 of 27, 5 died, and none had intracranial hemorrhage. These results do not support the common practice of rapidly infusing NaHCO3 into high-risk, premature infants, and they suggest that the early management of such infants needs renewed critical evaluation.</dcterms:abstract>
+        <dc:date>Feb 01, 1976</dc:date>
+        <z:language>eng</z:language>
+        <z:shortTitle>Rapid infusion of sodium bicarbonate and albumin into high-risk premature infants soon after birth</z:shortTitle>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>Number: 3
+PMID: 2013</dc:description>
+        <bib:pages>263-267</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0002-9378">
+        <prism:volume>124</prism:volume>
+        <dc:title>American Journal of Obstetrics and Gynecology</dc:title>
+        <dc:identifier>DOI 10.1016/0002-9378(76)90154-x</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Am. J. Obstet. Gynecol.</dcterms:alternative>
+        <dc:identifier>ISSN 0002-9378</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_57">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/2013</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 05:45:41</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_58">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>3</prism:volume>
+                <dc:title>International Journal of Scientific and Research Publications (IJSRP)</dc:title>
+                <prism:number>5</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Snehal Mumbaika</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Puja Padiya</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Web services based on soap and rest principles</dc:title>
+        <dc:date>may 2013</dc:date>
+        <dc:description>Number: 5</dc:description>
+    </bib:Article>
+    <bib:Document rdf:about="https://developer.github.com/v4/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>GitHub Developer</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_60"/>
+        <dc:title>GitHub GraphQL API v4</dc:title>
+        <dcterms:abstract>Get started with one of our guides, or jump straight into the API documentation.</dcterms:abstract>
+        <dc:date>2019-07-15 07:40:36</dc:date>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://developer.github.com/v4/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 07:40:36</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_60">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/60/v4.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://developer.github.com/v4/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 07:40:37</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://github.blog/2016-09-14-the-github-graphql-api/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>The GitHub Blog</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_62"/>
+        <dc:title>The GitHub GraphQL API</dc:title>
+        <dcterms:abstract>GitHub announced a public API one month after the site launched.</dcterms:abstract>
+        <dc:date>2016-09-14T07:00:00+00:00</dc:date>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.blog/2016-09-14-the-github-graphql-api/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 07:41:08</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_62">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/62/2016-09-14-the-github-graphql-api.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.blog/2016-09-14-the-github-graphql-api/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-07-15 07:41:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_63">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>2</prism:volume>
+                <dc:title>International Journal of Embedded Systems and Applications</dc:title>
+                <dc:identifier>DOI 10.5121/ijesa.2012.2204</dc:identifier>
+                <dcterms:alternative>International Journal of Embedded Systems and Applications</dcterms:alternative>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nidhra</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_64"/>
+        <link:link rdf:resource="#item_65"/>
+        <dc:title>Black Box and White Box Testing Techniques - A Literature Review</dc:title>
+        <dcterms:abstract>There are several methods for automatic test case generation has been proposed in the past. But most of these techniques are structural testing techniques that require the understanding of the internal working of the program. There is less practical coverage of all testing techniques together. In this paper we conducted a literature study on all testing techniques together that are related to both Black and White box testing techniques, moreover we assume a case situation of Insurance premium calculation for driver and we derive the test cases and test data for white box testing methods such as Branch testing, Statement testing, Condition Coverage testing, multiple condition coverage testing, in the similar way we derive the test cases and test data for the black box testing methods such as: Equivalence partitioning and Boundary value analysis. The overall aim of this literature study is to clearly explain different testing techniques along with a case situation and their advantages.</dcterms:abstract>
+        <dc:date>June 30, 2012</dc:date>
+        <z:libraryCatalog>ResearchGate</z:libraryCatalog>
+        <bib:pages>29-50</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_64">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/64/Nidhra - 2012 - Black Box and White Box Testing Techniques - A Lit.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/profile/S_Nidhra/publication/276198111_Black_Box_and_White_Box_Testing_Techniques_-_A_Literature_Review/links/570e313f08ae2b772e46aa40/Black-Box-and-White-Box-Testing-Techniques-A-Literature-Review.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-09-23 15:40:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_65">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>ResearchGate Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/276198111_Black_Box_and_White_Box_Testing_Techniques_-_A_Literature_Review</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-09-23 15:40:57</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.researchgate.net/publication/270554162_A_Comparative_Study_of_White_Box_Black_Box_and_Grey_Box_Testing_Techniques">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_67"/>
+        <dc:title>(PDF) A Comparative Study of White Box, Black Box and Grey Box Testing Techniques</dc:title>
+        <dc:date>2019-09-23 16:04:27</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/270554162_A_Comparative_Study_of_White_Box_Black_Box_and_Grey_Box_Testing_Techniques</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-09-23 16:04:27</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_67">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/67/270554162_A_Comparative_Study_of_White_Box_Black_Box_and_Grey_Box_Testing_Techniques.html"/>
+        <dc:title>(PDF) A Comparative Study of White Box, Black Box and Grey Box Testing Techniques</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/270554162_A_Comparative_Study_of_White_Box_Black_Box_and_Grey_Box_Testing_Techniques</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-09-23 16:04:28</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>

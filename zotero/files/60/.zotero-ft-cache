@@ -1,0 +1,585 @@
+GitHub Developer
+Docs
+Apps GitHub Actions GitHub Marketplace Webhooks Partnerships REST API v3 GraphQL API v4
+Blog Forum
+Versions
+GitHub.com GitHub Enterprise Server 2.17 GitHub Enterprise Server 2.16 GitHub Enterprise 2.15 GitHub Enterprise 2.14
+
+    No results for
+
+GraphQL API v4
+
+    Reference
+    Guides
+    Explorer
+    Changelog
+
+Overview About GraphQL Why GitHub is using GraphQL About the GraphQL schema reference Public schema Schema previews Breaking changes Guides overview Intro to GraphQL Migrating from REST Using the Explorer Forming Calls Resource Limitations Reference overview Query overview Connections Fields Mutations overview acceptTopicSuggestion addAssigneesToAssignable addComment addLabelsToLabelable addProjectCard addProjectColumn addPullRequestReview addPullRequestReviewComment addReaction addStar changeUserStatus clearLabelsFromLabelable cloneProject cloneTemplateRepository closeIssue closePullRequest convertProjectCardNoteToIssue createBranchProtectionRule createCheckRun createCheckSuite createContentAttachment createDeployment createDeploymentStatus createIssue createLabel createProject createPullRequest createRef createRepository createTeamDiscussion createTeamDiscussionComment declineTopicSuggestion deleteBranchProtectionRule deleteIssue deleteIssueComment deleteLabel deleteProject deleteProjectCard deleteProjectColumn deletePullRequestReview deletePullRequestReviewComment deleteRef deleteTeamDiscussion deleteTeamDiscussionComment dismissPullRequestReview importProject lockLockable markPullRequestReadyForReview mergePullRequest minimizeComment moveProjectCard moveProjectColumn pinIssue removeAssigneesFromAssignable removeLabelsFromLabelable removeOutsideCollaborator removeReaction removeStar reopenIssue reopenPullRequest requestReviews rerequestCheckSuite resolveReviewThread submitPullRequestReview unlockLockable unmarkIssueAsDuplicate unminimizeComment unpinIssue unresolveReviewThread updateBranchProtectionRule updateCheckRun updateCheckSuitePreferences updateIssue updateIssueComment updateLabel updateProject updateProjectCard updateProjectColumn updatePullRequest updatePullRequestReview updatePullRequestReviewComment updateRef updateSubscription updateTeamDiscussion updateTeamDiscussionComment updateTopics Scalars overview Boolean Date DateTime Float GitObjectID GitSSHRemote GitTimestamp HTML ID Int PreciseDateTime String URI X509Certificate Objects overview ActorLocation AddedToProjectEvent App AssignedEvent BaseRefChangedEvent BaseRefForcePushedEvent Blame BlameRange Blob Bot BranchProtectionRule BranchProtectionRuleConflict CheckAnnotation CheckAnnotationPosition CheckAnnotationSpan CheckRun CheckSuite ClosedEvent CodeOfConduct CommentDeletedEvent Commit CommitComment CommitCommentThread CommitContributionsByRepository ContentAttachment ContentReference ContributionCalendar ContributionCalendarDay ContributionCalendarMonth ContributionCalendarWeek ContributionsCollection ConvertedNoteToIssueEvent CreatedCommitContribution CreatedIssueContribution CreatedPullRequestContribution CreatedPullRequestReviewContribution CreatedRepositoryContribution CrossReferencedEvent DemilestonedEvent DependencyGraphDependency DependencyGraphManifest DeployKey DeployedEvent Deployment DeploymentEnvironmentChangedEvent DeploymentStatus ExternalIdentity ExternalIdentitySamlAttributes ExternalIdentityScimAttributes GenericHovercardContext Gist GistComment GistFile GitActor GitHubMetadata GpgSignature HeadRefDeletedEvent HeadRefForcePushedEvent HeadRefRestoredEvent Hovercard Issue IssueComment IssueContributionsByRepository JoinedGitHubContribution Label LabeledEvent Language License LicenseRule LockedEvent Mannequin MarketplaceCategory MarketplaceListing MembersCanDeleteReposClearAuditEntry MembersCanDeleteReposDisableAuditEntry MembersCanDeleteReposEnableAuditEntry MentionedEvent MergedEvent Milestone MilestonedEvent MovedColumnsInProjectEvent OauthApplicationCreateAuditEntry OrgAddBillingManagerAuditEntry OrgAddMemberAuditEntry OrgBlockUserAuditEntry OrgConfigDisableCollaboratorsOnlyAuditEntry OrgConfigEnableCollaboratorsOnlyAuditEntry OrgDisableOauthAppRestrictionsAuditEntry OrgDisableSamlAuditEntry OrgDisableTwoFactorRequirementAuditEntry OrgEnableOauthAppRestrictionsAuditEntry OrgEnableSamlAuditEntry OrgEnableTwoFactorRequirementAuditEntry OrgInviteMemberAuditEntry OrgInviteToBusinessAuditEntry OrgOauthAppAccessApprovedAuditEntry OrgOauthAppAccessDeniedAuditEntry OrgOauthAppAccessRequestedAuditEntry OrgRemoveBillingManagerAuditEntry OrgRemoveMemberAuditEntry OrgRemoveOutsideCollaboratorAuditEntry OrgRestoreMemberAuditEntry OrgRestoreMemberMembershipOrganizationAuditEntryData OrgRestoreMemberMembershipRepositoryAuditEntryData OrgRestoreMemberMembershipTeamAuditEntryData OrgUnblockUserAuditEntry OrgUpdateDefaultRepositoryPermissionAuditEntry OrgUpdateMemberAuditEntry OrgUpdateMemberRepositoryCreationPermissionAuditEntry OrgUpdateMemberRepositoryInvitationPermissionAuditEntry Organization OrganizationIdentityProvider OrganizationInvitation OrganizationTeamsHovercardContext OrganizationsHovercardContext PageInfo PermissionSource PinnedEvent PinnedIssue PrivateRepositoryForkingDisableAuditEntry PrivateRepositoryForkingEnableAuditEntry ProfileItemShowcase Project ProjectCard ProjectColumn PublicKey PullRequest PullRequestChangedFile PullRequestCommit PullRequestCommitCommentThread PullRequestContributionsByRepository PullRequestReview PullRequestReviewComment PullRequestReviewContributionsByRepository PullRequestReviewThread PullRequestRevisionMarker Push PushAllowance RateLimit Reaction ReactionGroup ReadyForReviewEvent Ref ReferencedEvent Release ReleaseAsset RemovedFromProjectEvent RenamedTitleEvent ReopenedEvent RepoAccessAuditEntry RepoAddMemberAuditEntry RepoConfigDisableAnonymousGitAccessAuditEntry RepoConfigDisableCollaboratorsOnlyAuditEntry RepoConfigDisableContributorsOnlyAuditEntry RepoConfigDisableSockpuppetDisallowedAuditEntry RepoConfigEnableAnonymousGitAccessAuditEntry RepoConfigEnableCollaboratorsOnlyAuditEntry RepoConfigEnableContributorsOnlyAuditEntry RepoConfigEnableSockpuppetDisallowedAuditEntry RepoConfigLockAnonymousGitAccessAuditEntry RepoConfigUnlockAnonymousGitAccessAuditEntry RepoRemoveMemberAuditEntry Repository RepositoryInvitation RepositoryTopic RepositoryVisibilityChangeDisableAuditEntry RepositoryVisibilityChangeEnableAuditEntry RepositoryVulnerabilityAlert RestrictedContribution ReviewDismissalAllowance ReviewDismissedEvent ReviewRequest ReviewRequestRemovedEvent ReviewRequestedEvent ReviewStatusHovercardContext SecurityAdvisory SecurityAdvisoryIdentifier SecurityAdvisoryPackage SecurityAdvisoryPackageVersion SecurityAdvisoryReference SecurityVulnerability SmimeSignature Status StatusContext SubscribedEvent SuggestedReviewer Tag Team TeamAddMemberAuditEntry TeamAddRepositoryAuditEntry TeamChangeParentTeamAuditEntry TeamDiscussion TeamDiscussionComment TeamRemoveMemberAuditEntry TeamRemoveRepositoryAuditEntry TextMatch TextMatchHighlight Topic TransferredEvent Tree TreeEntry UnassignedEvent UnknownSignature UnlabeledEvent UnlockedEvent UnpinnedEvent UnsubscribedEvent User UserBlockedEvent UserContentEdit UserStatus ViewerHovercardContext Interfaces overview Actor Assignable AuditEntry BusinessAuditEntryData Closable Comment Contribution Deletable GitObject GitSignature HovercardContext Labelable Lockable MemberStatusable Minimizable Node OauthApplicationAuditEntryData OrganizationAuditEntryData ProfileOwner ProjectOwner Reactable RegistryPackageOwner RegistryPackageSearch RepositoryAuditEntryData RepositoryInfo RepositoryNode RepositoryOwner Starrable Subscribable TeamAuditEntryData UniformResourceLocatable Updatable UpdatableComment Enums overview AuditLogOrderField CheckAnnotationLevel CheckConclusionState CheckRunType CheckStatusState CollaboratorAffiliation CommentAuthorAssociation CommentCannotUpdateReason CommitContributionOrderField ContributionOrderField DefaultRepositoryPermissionField DeploymentOrderField DeploymentState DeploymentStatusState GistOrderField GistPrivacy GitSignatureState IssueOrderField IssueState IssueTimelineItemsItemType LanguageOrderField LockReason MergeStateStatus MergeableState MilestoneOrderField MilestoneState OauthApplicationCreateAuditEntryState OrderDirection OrgAddMemberAuditEntryPermission OrgRemoveBillingManagerAuditEntryReason OrgRemoveMemberAuditEntryMembershipType OrgRemoveMemberAuditEntryReason OrgRemoveOutsideCollaboratorAuditEntryMembershipType OrgRemoveOutsideCollaboratorAuditEntryReason OrgUpdateDefaultRepositoryPermissionAuditEntryPermission OrgUpdateMemberAuditEntryPermission OrgUpdateMemberRepositoryCreationPermissionAuditEntryVisibility OrganizationInvitationRole OrganizationInvitationType OrganizationMemberRole PinnableItemType ProjectCardArchivedState ProjectCardState ProjectColumnPurpose ProjectOrderField ProjectState PullRequestOrderField PullRequestReviewCommentState PullRequestReviewEvent PullRequestReviewState PullRequestState PullRequestTimelineItemsItemType ReactionContent ReactionOrderField RefOrderField ReleaseOrderField RepoAccessAuditEntryVisibility RepoAddMemberAuditEntryVisibility RepoRemoveMemberAuditEntryVisibility ReportedContentClassifiers RepositoryAffiliation RepositoryContributionType RepositoryLockReason RepositoryOrderField RepositoryPermission RepositoryPrivacy RepositoryVisibility RequestableCheckStatusState SearchType SecurityAdvisoryEcosystem SecurityAdvisoryIdentifierType SecurityAdvisoryOrderField SecurityAdvisorySeverity SecurityVulnerabilityOrderField StarOrderField StatusState SubscriptionState TeamDiscussionCommentOrderField TeamDiscussionOrderField TeamMemberOrderField TeamMemberRole TeamMembershipType TeamOrderField TeamPrivacy TeamRepositoryOrderField TeamRole TopicSuggestionDeclineReason UserBlockDuration UserStatusOrderField Unions overview AuditEntryActor Closer CollectionItemContent CreatedIssueOrRestrictedContribution CreatedPullRequestOrRestrictedContribution CreatedRepositoryOrRestrictedContribution IssueOrPullRequest IssueTimelineItem IssueTimelineItems MilestoneItem OrgRestoreMemberAuditEntryMembership OrganizationAuditEntry PermissionGranter PinnableItem ProjectCardItem PullRequestTimelineItem PullRequestTimelineItems PushAllowanceActor ReferencedSubject RenamedTitleSubject RequestedReviewer ReviewDismissalAllowanceActor SearchResultItem Input Objects overview AuditLogOrder CheckAnnotationData CheckAnnotationRange CheckRunAction CheckRunFilter CheckRunOutput CheckRunOutputImage CheckSuiteAutoTriggerPreference CheckSuiteFilter CommitAuthor CommitContributionOrder ContributionOrder DeploymentOrder DraftPullRequestReviewComment GistOrder IssueFilters IssueOrder LanguageOrder MilestoneOrder ProjectCardImport ProjectColumnImport ProjectOrder PullRequestOrder ReactionOrder RefOrder ReleaseOrder RepositoryOrder SecurityAdvisoryIdentifierFilter SecurityAdvisoryOrder SecurityVulnerabilityOrder StarOrder TeamDiscussionCommentOrder TeamDiscussionOrder TeamMemberOrder TeamOrder TeamRepositoryOrder UserStatusOrder
+Overview
+
+Here are some quick links to get you up and running with the GraphQL API v4:
+
+    Authentication
+    Root endpoint
+    Schema introspection
+    Rate limits
+    Migrating from REST
+
+About GraphQL
+
+The GraphQL data query language is:
+
+    A specification . The spec determines the validity of the schema on the API server. The schema determines the validity of client calls.
+
+    Strongly typed . The schema defines an API's type system and all object relationships.
+
+    Introspective . A client can query the schema for details about the schema.
+
+    Hierarchical . The shape of a GraphQL call mirrors the shape of the JSON data it returns. Nested fields let you query for and receive only the data you specify in a single round trip.
+
+    An application layer. GraphQL is not a storage model or a database query language. The graph refers to graph structures defined in the schema, where nodes define objects and edges define relationships between objects. The API traverses and returns application data based on the schema definitions, independent of how the data is stored.
+
+Why GitHub is using GraphQL
+
+GitHub chose GraphQL for our API v4 because it offers significantly more flexibility for our integrators. The ability to define precisely the data you want—and only the data you want—is a powerful advantage over the REST API v3 endpoints. GraphQL lets you replace multiple REST requests with a single call to fetch the data you specify.
+
+For more details about why GitHub has moved to GraphQL, see the original announcement blog post .
+About the GraphQL schema reference
+
+The docs in the sidebar are generated from the GitHub GraphQL schema . All calls are validated and executed against the schema. Use these docs to find out what data you can call:
+
+    Allowed operations: queries and mutations .
+
+    Schema-defined types: scalars , objects , enums , interfaces , unions , and input objects .
+
+You can access this same content via the Explorer Docs sidebar . Note that you may need to rely on both the docs and the schema validation to successfully call the GraphQL API.
+
+For other information, such as authentication and rate limit details, check out the guides .
+Requesting support
+
+For questions, bug reports, and discussions about GitHub Apps, OAuth Apps, and API development, explore the GitHub API Development and Support Forum . The forum is moderated and maintained by GitHub staff, but questions posted to the forum are not guaranteed to receive a reply from GitHub staff.
+
+Consider reaching out to GitHub Support directly using the contact form for:
+
+    guaranteed response from GitHub staff
+    support requests involving sensitive data or private concerns
+    feature requests
+    feedback about GitHub products
+
+If you're a Marketplace integrator, contact the Marketplace team for questions or help with your Marketplace integration.
+Overview About GraphQL Why GitHub is using GraphQL About the GraphQL schema reference Public schema Schema previews Breaking changes Guides overview Intro to GraphQL Migrating from REST Using the Explorer Forming Calls Resource Limitations Reference overview Query overview Connections Fields Mutations overview acceptTopicSuggestion addAssigneesToAssignable addComment addLabelsToLabelable addProjectCard addProjectColumn addPullRequestReview addPullRequestReviewComment addReaction addStar changeUserStatus clearLabelsFromLabelable cloneProject cloneTemplateRepository closeIssue closePullRequest convertProjectCardNoteToIssue createBranchProtectionRule createCheckRun createCheckSuite createContentAttachment createDeployment createDeploymentStatus createIssue createLabel createProject createPullRequest createRef createRepository createTeamDiscussion createTeamDiscussionComment declineTopicSuggestion deleteBranchProtectionRule deleteIssue deleteIssueComment deleteLabel deleteProject deleteProjectCard deleteProjectColumn deletePullRequestReview deletePullRequestReviewComment deleteRef deleteTeamDiscussion deleteTeamDiscussionComment dismissPullRequestReview importProject lockLockable markPullRequestReadyForReview mergePullRequest minimizeComment moveProjectCard moveProjectColumn pinIssue removeAssigneesFromAssignable removeLabelsFromLabelable removeOutsideCollaborator removeReaction removeStar reopenIssue reopenPullRequest requestReviews rerequestCheckSuite resolveReviewThread submitPullRequestReview unlockLockable unmarkIssueAsDuplicate unminimizeComment unpinIssue unresolveReviewThread updateBranchProtectionRule updateCheckRun updateCheckSuitePreferences updateIssue updateIssueComment updateLabel updateProject updateProjectCard updateProjectColumn updatePullRequest updatePullRequestReview updatePullRequestReviewComment updateRef updateSubscription updateTeamDiscussion updateTeamDiscussionComment updateTopics Scalars overview Boolean Date DateTime Float GitObjectID GitSSHRemote GitTimestamp HTML ID Int PreciseDateTime String URI X509Certificate Objects overview ActorLocation AddedToProjectEvent App AssignedEvent BaseRefChangedEvent BaseRefForcePushedEvent Blame BlameRange Blob Bot BranchProtectionRule BranchProtectionRuleConflict CheckAnnotation CheckAnnotationPosition CheckAnnotationSpan CheckRun CheckSuite ClosedEvent CodeOfConduct CommentDeletedEvent Commit CommitComment CommitCommentThread CommitContributionsByRepository ContentAttachment ContentReference ContributionCalendar ContributionCalendarDay ContributionCalendarMonth ContributionCalendarWeek ContributionsCollection ConvertedNoteToIssueEvent CreatedCommitContribution CreatedIssueContribution CreatedPullRequestContribution CreatedPullRequestReviewContribution CreatedRepositoryContribution CrossReferencedEvent DemilestonedEvent DependencyGraphDependency DependencyGraphManifest DeployKey DeployedEvent Deployment DeploymentEnvironmentChangedEvent DeploymentStatus ExternalIdentity ExternalIdentitySamlAttributes ExternalIdentityScimAttributes GenericHovercardContext Gist GistComment GistFile GitActor GitHubMetadata GpgSignature HeadRefDeletedEvent HeadRefForcePushedEvent HeadRefRestoredEvent Hovercard Issue IssueComment IssueContributionsByRepository JoinedGitHubContribution Label LabeledEvent Language License LicenseRule LockedEvent Mannequin MarketplaceCategory MarketplaceListing MembersCanDeleteReposClearAuditEntry MembersCanDeleteReposDisableAuditEntry MembersCanDeleteReposEnableAuditEntry MentionedEvent MergedEvent Milestone MilestonedEvent MovedColumnsInProjectEvent OauthApplicationCreateAuditEntry OrgAddBillingManagerAuditEntry OrgAddMemberAuditEntry OrgBlockUserAuditEntry OrgConfigDisableCollaboratorsOnlyAuditEntry OrgConfigEnableCollaboratorsOnlyAuditEntry OrgDisableOauthAppRestrictionsAuditEntry OrgDisableSamlAuditEntry OrgDisableTwoFactorRequirementAuditEntry OrgEnableOauthAppRestrictionsAuditEntry OrgEnableSamlAuditEntry OrgEnableTwoFactorRequirementAuditEntry OrgInviteMemberAuditEntry OrgInviteToBusinessAuditEntry OrgOauthAppAccessApprovedAuditEntry OrgOauthAppAccessDeniedAuditEntry OrgOauthAppAccessRequestedAuditEntry OrgRemoveBillingManagerAuditEntry OrgRemoveMemberAuditEntry OrgRemoveOutsideCollaboratorAuditEntry OrgRestoreMemberAuditEntry OrgRestoreMemberMembershipOrganizationAuditEntryData OrgRestoreMemberMembershipRepositoryAuditEntryData OrgRestoreMemberMembershipTeamAuditEntryData OrgUnblockUserAuditEntry OrgUpdateDefaultRepositoryPermissionAuditEntry OrgUpdateMemberAuditEntry OrgUpdateMemberRepositoryCreationPermissionAuditEntry OrgUpdateMemberRepositoryInvitationPermissionAuditEntry Organization OrganizationIdentityProvider OrganizationInvitation OrganizationTeamsHovercardContext OrganizationsHovercardContext PageInfo PermissionSource PinnedEvent PinnedIssue PrivateRepositoryForkingDisableAuditEntry PrivateRepositoryForkingEnableAuditEntry ProfileItemShowcase Project ProjectCard ProjectColumn PublicKey PullRequest PullRequestChangedFile PullRequestCommit PullRequestCommitCommentThread PullRequestContributionsByRepository PullRequestReview PullRequestReviewComment PullRequestReviewContributionsByRepository PullRequestReviewThread PullRequestRevisionMarker Push PushAllowance RateLimit Reaction ReactionGroup ReadyForReviewEvent Ref ReferencedEvent Release ReleaseAsset RemovedFromProjectEvent RenamedTitleEvent ReopenedEvent RepoAccessAuditEntry RepoAddMemberAuditEntry RepoConfigDisableAnonymousGitAccessAuditEntry RepoConfigDisableCollaboratorsOnlyAuditEntry RepoConfigDisableContributorsOnlyAuditEntry RepoConfigDisableSockpuppetDisallowedAuditEntry RepoConfigEnableAnonymousGitAccessAuditEntry RepoConfigEnableCollaboratorsOnlyAuditEntry RepoConfigEnableContributorsOnlyAuditEntry RepoConfigEnableSockpuppetDisallowedAuditEntry RepoConfigLockAnonymousGitAccessAuditEntry RepoConfigUnlockAnonymousGitAccessAuditEntry RepoRemoveMemberAuditEntry Repository RepositoryInvitation RepositoryTopic RepositoryVisibilityChangeDisableAuditEntry RepositoryVisibilityChangeEnableAuditEntry RepositoryVulnerabilityAlert RestrictedContribution ReviewDismissalAllowance ReviewDismissedEvent ReviewRequest ReviewRequestRemovedEvent ReviewRequestedEvent ReviewStatusHovercardContext SecurityAdvisory SecurityAdvisoryIdentifier SecurityAdvisoryPackage SecurityAdvisoryPackageVersion SecurityAdvisoryReference SecurityVulnerability SmimeSignature Status StatusContext SubscribedEvent SuggestedReviewer Tag Team TeamAddMemberAuditEntry TeamAddRepositoryAuditEntry TeamChangeParentTeamAuditEntry TeamDiscussion TeamDiscussionComment TeamRemoveMemberAuditEntry TeamRemoveRepositoryAuditEntry TextMatch TextMatchHighlight Topic TransferredEvent Tree TreeEntry UnassignedEvent UnknownSignature UnlabeledEvent UnlockedEvent UnpinnedEvent UnsubscribedEvent User UserBlockedEvent UserContentEdit UserStatus ViewerHovercardContext Interfaces overview Actor Assignable AuditEntry BusinessAuditEntryData Closable Comment Contribution Deletable GitObject GitSignature HovercardContext Labelable Lockable MemberStatusable Minimizable Node OauthApplicationAuditEntryData OrganizationAuditEntryData ProfileOwner ProjectOwner Reactable RegistryPackageOwner RegistryPackageSearch RepositoryAuditEntryData RepositoryInfo RepositoryNode RepositoryOwner Starrable Subscribable TeamAuditEntryData UniformResourceLocatable Updatable UpdatableComment Enums overview AuditLogOrderField CheckAnnotationLevel CheckConclusionState CheckRunType CheckStatusState CollaboratorAffiliation CommentAuthorAssociation CommentCannotUpdateReason CommitContributionOrderField ContributionOrderField DefaultRepositoryPermissionField DeploymentOrderField DeploymentState DeploymentStatusState GistOrderField GistPrivacy GitSignatureState IssueOrderField IssueState IssueTimelineItemsItemType LanguageOrderField LockReason MergeStateStatus MergeableState MilestoneOrderField MilestoneState OauthApplicationCreateAuditEntryState OrderDirection OrgAddMemberAuditEntryPermission OrgRemoveBillingManagerAuditEntryReason OrgRemoveMemberAuditEntryMembershipType OrgRemoveMemberAuditEntryReason OrgRemoveOutsideCollaboratorAuditEntryMembershipType OrgRemoveOutsideCollaboratorAuditEntryReason OrgUpdateDefaultRepositoryPermissionAuditEntryPermission OrgUpdateMemberAuditEntryPermission OrgUpdateMemberRepositoryCreationPermissionAuditEntryVisibility OrganizationInvitationRole OrganizationInvitationType OrganizationMemberRole PinnableItemType ProjectCardArchivedState ProjectCardState ProjectColumnPurpose ProjectOrderField ProjectState PullRequestOrderField PullRequestReviewCommentState PullRequestReviewEvent PullRequestReviewState PullRequestState PullRequestTimelineItemsItemType ReactionContent ReactionOrderField RefOrderField ReleaseOrderField RepoAccessAuditEntryVisibility RepoAddMemberAuditEntryVisibility RepoRemoveMemberAuditEntryVisibility ReportedContentClassifiers RepositoryAffiliation RepositoryContributionType RepositoryLockReason RepositoryOrderField RepositoryPermission RepositoryPrivacy RepositoryVisibility RequestableCheckStatusState SearchType SecurityAdvisoryEcosystem SecurityAdvisoryIdentifierType SecurityAdvisoryOrderField SecurityAdvisorySeverity SecurityVulnerabilityOrderField StarOrderField StatusState SubscriptionState TeamDiscussionCommentOrderField TeamDiscussionOrderField TeamMemberOrderField TeamMemberRole TeamMembershipType TeamOrderField TeamPrivacy TeamRepositoryOrderField TeamRole TopicSuggestionDeclineReason UserBlockDuration UserStatusOrderField Unions overview AuditEntryActor Closer CollectionItemContent CreatedIssueOrRestrictedContribution CreatedPullRequestOrRestrictedContribution CreatedRepositoryOrRestrictedContribution IssueOrPullRequest IssueTimelineItem IssueTimelineItems MilestoneItem OrgRestoreMemberAuditEntryMembership OrganizationAuditEntry PermissionGranter PinnableItem ProjectCardItem PullRequestTimelineItem PullRequestTimelineItems PushAllowanceActor ReferencedSubject RenamedTitleSubject RequestedReviewer ReviewDismissalAllowanceActor SearchResultItem Input Objects overview AuditLogOrder CheckAnnotationData CheckAnnotationRange CheckRunAction CheckRunFilter CheckRunOutput CheckRunOutputImage CheckSuiteAutoTriggerPreference CheckSuiteFilter CommitAuthor CommitContributionOrder ContributionOrder DeploymentOrder DraftPullRequestReviewComment GistOrder IssueFilters IssueOrder LanguageOrder MilestoneOrder ProjectCardImport ProjectColumnImport ProjectOrder PullRequestOrder ReactionOrder RefOrder ReleaseOrder RepositoryOrder SecurityAdvisoryIdentifierFilter SecurityAdvisoryOrder SecurityVulnerabilityOrder StarOrder TeamDiscussionCommentOrder TeamDiscussionOrder TeamMemberOrder TeamOrder TeamRepositoryOrder UserStatusOrder
+
+    Overview
+        About GraphQL
+        Why GitHub is using GraphQL
+        About the GraphQL schema reference
+        Public schema
+        Schema previews
+        Breaking changes
+    Query
+        Connections
+        Fields
+    Mutations
+        acceptTopicSuggestion
+        addAssigneesToAssignable
+        addComment
+        addLabelsToLabelable
+        addProjectCard
+        addProjectColumn
+        addPullRequestReview
+        addPullRequestReviewComment
+        addReaction
+        addStar
+        changeUserStatus
+        clearLabelsFromLabelable
+        cloneProject
+        cloneTemplateRepository
+        closeIssue
+        closePullRequest
+        convertProjectCardNoteToIssue
+        createBranchProtectionRule
+        createCheckRun
+        createCheckSuite
+        createContentAttachment
+        createDeployment
+        createDeploymentStatus
+        createIssue
+        createLabel
+        createProject
+        createPullRequest
+        createRef
+        createRepository
+        createTeamDiscussion
+        createTeamDiscussionComment
+        declineTopicSuggestion
+        deleteBranchProtectionRule
+        deleteIssue
+        deleteIssueComment
+        deleteLabel
+        deleteProject
+        deleteProjectCard
+        deleteProjectColumn
+        deletePullRequestReview
+        deletePullRequestReviewComment
+        deleteRef
+        deleteTeamDiscussion
+        deleteTeamDiscussionComment
+        dismissPullRequestReview
+        importProject
+        lockLockable
+        markPullRequestReadyForReview
+        mergePullRequest
+        minimizeComment
+        moveProjectCard
+        moveProjectColumn
+        pinIssue
+        removeAssigneesFromAssignable
+        removeLabelsFromLabelable
+        removeOutsideCollaborator
+        removeReaction
+        removeStar
+        reopenIssue
+        reopenPullRequest
+        requestReviews
+        rerequestCheckSuite
+        resolveReviewThread
+        submitPullRequestReview
+        unlockLockable
+        unmarkIssueAsDuplicate
+        unminimizeComment
+        unpinIssue
+        unresolveReviewThread
+        updateBranchProtectionRule
+        updateCheckRun
+        updateCheckSuitePreferences
+        updateIssue
+        updateIssueComment
+        updateLabel
+        updateProject
+        updateProjectCard
+        updateProjectColumn
+        updatePullRequest
+        updatePullRequestReview
+        updatePullRequestReviewComment
+        updateRef
+        updateSubscription
+        updateTeamDiscussion
+        updateTeamDiscussionComment
+        updateTopics
+    Objects
+        ActorLocation
+        AddedToProjectEvent
+        App
+        AssignedEvent
+        BaseRefChangedEvent
+        BaseRefForcePushedEvent
+        Blame
+        BlameRange
+        Blob
+        Bot
+        BranchProtectionRule
+        BranchProtectionRuleConflict
+        CheckAnnotation
+        CheckAnnotationPosition
+        CheckAnnotationSpan
+        CheckRun
+        CheckSuite
+        ClosedEvent
+        CodeOfConduct
+        CommentDeletedEvent
+        Commit
+        CommitComment
+        CommitCommentThread
+        CommitContributionsByRepository
+        ContentAttachment
+        ContentReference
+        ContributionCalendar
+        ContributionCalendarDay
+        ContributionCalendarMonth
+        ContributionCalendarWeek
+        ContributionsCollection
+        ConvertedNoteToIssueEvent
+        CreatedCommitContribution
+        CreatedIssueContribution
+        CreatedPullRequestContribution
+        CreatedPullRequestReviewContribution
+        CreatedRepositoryContribution
+        CrossReferencedEvent
+        DemilestonedEvent
+        DependencyGraphDependency
+        DependencyGraphManifest
+        DeployKey
+        DeployedEvent
+        Deployment
+        DeploymentEnvironmentChangedEvent
+        DeploymentStatus
+        ExternalIdentity
+        ExternalIdentitySamlAttributes
+        ExternalIdentityScimAttributes
+        GenericHovercardContext
+        Gist
+        GistComment
+        GistFile
+        GitActor
+        GitHubMetadata
+        GpgSignature
+        HeadRefDeletedEvent
+        HeadRefForcePushedEvent
+        HeadRefRestoredEvent
+        Hovercard
+        Issue
+        IssueComment
+        IssueContributionsByRepository
+        JoinedGitHubContribution
+        Label
+        LabeledEvent
+        Language
+        License
+        LicenseRule
+        LockedEvent
+        Mannequin
+        MarketplaceCategory
+        MarketplaceListing
+        MembersCanDeleteReposClearAuditEntry
+        MembersCanDeleteReposDisableAuditEntry
+        MembersCanDeleteReposEnableAuditEntry
+        MentionedEvent
+        MergedEvent
+        Milestone
+        MilestonedEvent
+        MovedColumnsInProjectEvent
+        OauthApplicationCreateAuditEntry
+        OrgAddBillingManagerAuditEntry
+        OrgAddMemberAuditEntry
+        OrgBlockUserAuditEntry
+        OrgConfigDisableCollaboratorsOnlyAuditEntry
+        OrgConfigEnableCollaboratorsOnlyAuditEntry
+        OrgDisableOauthAppRestrictionsAuditEntry
+        OrgDisableSamlAuditEntry
+        OrgDisableTwoFactorRequirementAuditEntry
+        OrgEnableOauthAppRestrictionsAuditEntry
+        OrgEnableSamlAuditEntry
+        OrgEnableTwoFactorRequirementAuditEntry
+        OrgInviteMemberAuditEntry
+        OrgInviteToBusinessAuditEntry
+        OrgOauthAppAccessApprovedAuditEntry
+        OrgOauthAppAccessDeniedAuditEntry
+        OrgOauthAppAccessRequestedAuditEntry
+        OrgRemoveBillingManagerAuditEntry
+        OrgRemoveMemberAuditEntry
+        OrgRemoveOutsideCollaboratorAuditEntry
+        OrgRestoreMemberAuditEntry
+        OrgRestoreMemberMembershipOrganizationAuditEntryData
+        OrgRestoreMemberMembershipRepositoryAuditEntryData
+        OrgRestoreMemberMembershipTeamAuditEntryData
+        OrgUnblockUserAuditEntry
+        OrgUpdateDefaultRepositoryPermissionAuditEntry
+        OrgUpdateMemberAuditEntry
+        OrgUpdateMemberRepositoryCreationPermissionAuditEntry
+        OrgUpdateMemberRepositoryInvitationPermissionAuditEntry
+        Organization
+        OrganizationIdentityProvider
+        OrganizationInvitation
+        OrganizationTeamsHovercardContext
+        OrganizationsHovercardContext
+        PageInfo
+        PermissionSource
+        PinnedEvent
+        PinnedIssue
+        PrivateRepositoryForkingDisableAuditEntry
+        PrivateRepositoryForkingEnableAuditEntry
+        ProfileItemShowcase
+        Project
+        ProjectCard
+        ProjectColumn
+        PublicKey
+        PullRequest
+        PullRequestChangedFile
+        PullRequestCommit
+        PullRequestCommitCommentThread
+        PullRequestContributionsByRepository
+        PullRequestReview
+        PullRequestReviewComment
+        PullRequestReviewContributionsByRepository
+        PullRequestReviewThread
+        PullRequestRevisionMarker
+        Push
+        PushAllowance
+        RateLimit
+        Reaction
+        ReactionGroup
+        ReadyForReviewEvent
+        Ref
+        ReferencedEvent
+        Release
+        ReleaseAsset
+        RemovedFromProjectEvent
+        RenamedTitleEvent
+        ReopenedEvent
+        RepoAccessAuditEntry
+        RepoAddMemberAuditEntry
+        RepoConfigDisableAnonymousGitAccessAuditEntry
+        RepoConfigDisableCollaboratorsOnlyAuditEntry
+        RepoConfigDisableContributorsOnlyAuditEntry
+        RepoConfigDisableSockpuppetDisallowedAuditEntry
+        RepoConfigEnableAnonymousGitAccessAuditEntry
+        RepoConfigEnableCollaboratorsOnlyAuditEntry
+        RepoConfigEnableContributorsOnlyAuditEntry
+        RepoConfigEnableSockpuppetDisallowedAuditEntry
+        RepoConfigLockAnonymousGitAccessAuditEntry
+        RepoConfigUnlockAnonymousGitAccessAuditEntry
+        RepoRemoveMemberAuditEntry
+        Repository
+        RepositoryInvitation
+        RepositoryTopic
+        RepositoryVisibilityChangeDisableAuditEntry
+        RepositoryVisibilityChangeEnableAuditEntry
+        RepositoryVulnerabilityAlert
+        RestrictedContribution
+        ReviewDismissalAllowance
+        ReviewDismissedEvent
+        ReviewRequest
+        ReviewRequestRemovedEvent
+        ReviewRequestedEvent
+        ReviewStatusHovercardContext
+        SecurityAdvisory
+        SecurityAdvisoryIdentifier
+        SecurityAdvisoryPackage
+        SecurityAdvisoryPackageVersion
+        SecurityAdvisoryReference
+        SecurityVulnerability
+        SmimeSignature
+        Status
+        StatusContext
+        SubscribedEvent
+        SuggestedReviewer
+        Tag
+        Team
+        TeamAddMemberAuditEntry
+        TeamAddRepositoryAuditEntry
+        TeamChangeParentTeamAuditEntry
+        TeamDiscussion
+        TeamDiscussionComment
+        TeamRemoveMemberAuditEntry
+        TeamRemoveRepositoryAuditEntry
+        TextMatch
+        TextMatchHighlight
+        Topic
+        TransferredEvent
+        Tree
+        TreeEntry
+        UnassignedEvent
+        UnknownSignature
+        UnlabeledEvent
+        UnlockedEvent
+        UnpinnedEvent
+        UnsubscribedEvent
+        User
+        UserBlockedEvent
+        UserContentEdit
+        UserStatus
+        ViewerHovercardContext
+    Interfaces
+        Actor
+        Assignable
+        AuditEntry
+        BusinessAuditEntryData
+        Closable
+        Comment
+        Contribution
+        Deletable
+        GitObject
+        GitSignature
+        HovercardContext
+        Labelable
+        Lockable
+        MemberStatusable
+        Minimizable
+        Node
+        OauthApplicationAuditEntryData
+        OrganizationAuditEntryData
+        ProfileOwner
+        ProjectOwner
+        Reactable
+        RegistryPackageOwner
+        RegistryPackageSearch
+        RepositoryAuditEntryData
+        RepositoryInfo
+        RepositoryNode
+        RepositoryOwner
+        Starrable
+        Subscribable
+        TeamAuditEntryData
+        UniformResourceLocatable
+        Updatable
+        UpdatableComment
+    Enums
+        AuditLogOrderField
+        CheckAnnotationLevel
+        CheckConclusionState
+        CheckRunType
+        CheckStatusState
+        CollaboratorAffiliation
+        CommentAuthorAssociation
+        CommentCannotUpdateReason
+        CommitContributionOrderField
+        ContributionOrderField
+        DefaultRepositoryPermissionField
+        DeploymentOrderField
+        DeploymentState
+        DeploymentStatusState
+        GistOrderField
+        GistPrivacy
+        GitSignatureState
+        IssueOrderField
+        IssueState
+        IssueTimelineItemsItemType
+        LanguageOrderField
+        LockReason
+        MergeStateStatus
+        MergeableState
+        MilestoneOrderField
+        MilestoneState
+        OauthApplicationCreateAuditEntryState
+        OrderDirection
+        OrgAddMemberAuditEntryPermission
+        OrgRemoveBillingManagerAuditEntryReason
+        OrgRemoveMemberAuditEntryMembershipType
+        OrgRemoveMemberAuditEntryReason
+        OrgRemoveOutsideCollaboratorAuditEntryMembershipType
+        OrgRemoveOutsideCollaboratorAuditEntryReason
+        OrgUpdateDefaultRepositoryPermissionAuditEntryPermission
+        OrgUpdateMemberAuditEntryPermission
+        OrgUpdateMemberRepositoryCreationPermissionAuditEntryVisibility
+        OrganizationInvitationRole
+        OrganizationInvitationType
+        OrganizationMemberRole
+        PinnableItemType
+        ProjectCardArchivedState
+        ProjectCardState
+        ProjectColumnPurpose
+        ProjectOrderField
+        ProjectState
+        PullRequestOrderField
+        PullRequestReviewCommentState
+        PullRequestReviewEvent
+        PullRequestReviewState
+        PullRequestState
+        PullRequestTimelineItemsItemType
+        ReactionContent
+        ReactionOrderField
+        RefOrderField
+        ReleaseOrderField
+        RepoAccessAuditEntryVisibility
+        RepoAddMemberAuditEntryVisibility
+        RepoRemoveMemberAuditEntryVisibility
+        ReportedContentClassifiers
+        RepositoryAffiliation
+        RepositoryContributionType
+        RepositoryLockReason
+        RepositoryOrderField
+        RepositoryPermission
+        RepositoryPrivacy
+        RepositoryVisibility
+        RequestableCheckStatusState
+        SearchType
+        SecurityAdvisoryEcosystem
+        SecurityAdvisoryIdentifierType
+        SecurityAdvisoryOrderField
+        SecurityAdvisorySeverity
+        SecurityVulnerabilityOrderField
+        StarOrderField
+        StatusState
+        SubscriptionState
+        TeamDiscussionCommentOrderField
+        TeamDiscussionOrderField
+        TeamMemberOrderField
+        TeamMemberRole
+        TeamMembershipType
+        TeamOrderField
+        TeamPrivacy
+        TeamRepositoryOrderField
+        TeamRole
+        TopicSuggestionDeclineReason
+        UserBlockDuration
+        UserStatusOrderField
+    Unions
+        AuditEntryActor
+        Closer
+        CollectionItemContent
+        CreatedIssueOrRestrictedContribution
+        CreatedPullRequestOrRestrictedContribution
+        CreatedRepositoryOrRestrictedContribution
+        IssueOrPullRequest
+        IssueTimelineItem
+        IssueTimelineItems
+        MilestoneItem
+        OrgRestoreMemberAuditEntryMembership
+        OrganizationAuditEntry
+        PermissionGranter
+        PinnableItem
+        ProjectCardItem
+        PullRequestTimelineItem
+        PullRequestTimelineItems
+        PushAllowanceActor
+        ReferencedSubject
+        RenamedTitleSubject
+        RequestedReviewer
+        ReviewDismissalAllowanceActor
+        SearchResultItem
+    Input Objects
+        AuditLogOrder
+        CheckAnnotationData
+        CheckAnnotationRange
+        CheckRunAction
+        CheckRunFilter
+        CheckRunOutput
+        CheckRunOutputImage
+        CheckSuiteAutoTriggerPreference
+        CheckSuiteFilter
+        CommitAuthor
+        CommitContributionOrder
+        ContributionOrder
+        DeploymentOrder
+        DraftPullRequestReviewComment
+        GistOrder
+        IssueFilters
+        IssueOrder
+        LanguageOrder
+        MilestoneOrder
+        ProjectCardImport
+        ProjectColumnImport
+        ProjectOrder
+        PullRequestOrder
+        ReactionOrder
+        RefOrder
+        ReleaseOrder
+        RepositoryOrder
+        SecurityAdvisoryIdentifierFilter
+        SecurityAdvisoryOrder
+        SecurityVulnerabilityOrder
+        StarOrder
+        TeamDiscussionCommentOrder
+        TeamDiscussionOrder
+        TeamMemberOrder
+        TeamOrder
+        TeamRepositoryOrder
+        UserStatusOrder
+    Scalars
+        Boolean
+        Date
+        DateTime
+        Float
+        GitObjectID
+        GitSSHRemote
+        GitTimestamp
+        HTML
+        ID
+        Int
+        PreciseDateTime
+        String
+        URI
+        X509Certificate
+
+© 2019 GitHub Inc. All rights reserved.
+Terms of service Privacy Security Support

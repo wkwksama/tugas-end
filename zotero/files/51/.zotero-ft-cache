@@ -1,0 +1,146 @@
+Quick jump to page content
+
+    Main Navigation
+    Main Content
+    Sidebar
+
+    Register
+    Login
+
+Toggle navigation
+Page Header Logo
+
+    Home
+    Author Guidelines
+    About Us
+        About the Journal
+        Focus and Scope
+        Editorial Team
+        Peer Reviewer
+        Contact
+    Issues
+        Current
+        Archives
+    Policies
+        Publication Ethics
+        Privacy Statement
+        Copyright Notice
+        Peer Review Policy
+        Plagiarism Policy
+    Announcements
+    Search
+
+    Home
+    Archives
+    Vol 6 No 2 (2017): Eksplora Informatika
+    Articles
+
+Implementasi RESTful Web Service untuk Sistem Penghitungan Suara Secara Cepat pada Pilkada
+Article Sidebar
+PDF
+Published Mar 31, 2017
+Main Article Content
+Fakhriyan Nur Rofiq
+Ajib Susanto
+Abstract
+
+
+
+Salah satu bentuk demokrasi yang ada di Indonesia adalah pemilihan kepala daerah, atau biasa disebut pilkada, yang dilakukan untuk menentukan kepala daerah dan wakil kepala daerah yang baru.Dalam menghitung hasil perolehan suara, KPUD sebagai penyelenggara mengikuti tahapan-tahapan yang harus dilakukan sesuai dengan prosedur yang telah ditentukan oleh undang-undang yang berlaku di Indonesia, metode ini dinamakan perhitungan riil.Hasil perolehan suara dari metode inilah yang digunakan oleh penyelenggara pemilihan umum untuk menentukan hasil pilkada.Metode perhitungan riil membutuhkan waktu pengumpulan data yang lama.Dengan memanfaatkan teknologi yang ada saat ini, proses pengumpulan data hasil perolehan suara bisa dilakukan dengan lebih cepat. Penerapan teknologi RESTful webservice pada pengembangan sistem Real-Quick Count rekapitulasi pilkada diharapkan bisa membantu pihak penyelenggara pemilihan dalam proses pengumpulan data hasil pilkada, serta bisa memenuhi kebutuhan masyarakat dalam mendapatkan informasi terkini mengenai perkembangan proses pemilihan kepala daerah yang sedang berlangsung. Sistem ini menggunakan perangkat berbasis android sebagai sarana untuk mengirimkan data hasil perolehan suara langsung ke server penyimpanan data. Dengan menerapkan enkripsi data perolehan suara dan beberapa tahap validasi, informasi hasil perolehan suara yang didapatkan melalui proses ini diharapkan bisa lebih akurat dan bisa dipertanggungjawabkan.
+
+
+ 
+Downloads
+Article Details
+How to Cite
+Rofiq, F. N., & Susanto, A. (2017). Implementasi RESTful Web Service untuk Sistem Penghitungan Suara Secara Cepat pada Pilkada. Jurnal Eksplora Informatika , 6 (2), 159-168. Retrieved from https://eksplora.stikom-bali.ac.id/index.php/eksplora/article/view/116
+More Citation Formats
+
+    ACM
+    ACS
+    APA
+    ABNT
+    Chicago
+    Harvard
+    IEEE
+    MLA
+    Turabian
+    Vancouver
+
+Issue
+Vol 6 No 2 (2017): Eksplora Informatika
+Section
+Articles
+Jurnal Eksplora Informatika bersifat open access , yaitu dapat diakses secara umum tanpa dikenakan biaya. Penulis yang menerbitkan artikelnya di Jurnal Eksplora Informatika setuju dengan ketentuan berikut:
+
+    Jurnal Eksplora Informatika menggunakan perjanjian lisensi ekslusif, yaitu penulis memegang hak cipta atas artikel dan memberikan hak publikasi kepada Jurnal Eksplora Informatika.
+    Jurnal Eksplora Informatika mempunyai hak ekslusif untuk mempublikasi dan mendistribusikan artikel secara sebagian atau keseluruhan, dan memberikan hak kepada orang lain sesuai dengan lisensi yang digunakan.
+    Jurnal Eksplora Informatika berhak untuk menyediakan artikel dalam berbagai bentuk dan media, sehingga artikel dapat digunakan untuk teknologi terbaru bahkan setelah dipublikasikan.
+    Jurnal Eksplora Informatika berhak untuk menegakkan hak-hak atas nama penulis pada artikel terhadap pihak ketiga. Misalnya dalam kasus plagiarisme atau pelanggaran hak cipta.
+
+Artikel yang diterbitkan oleh Jurnal Eksplora Informatika menggunakan lisensi Creative Commons Attribution-ShareAlike 4.0 yang memberikan hak terhadap orang lain dengan secara bebas untuk menyalin, mendistribusikan artikel menggunakan media apapun dan dalam format apapun, menyadur artikel untuk kepentingan apapun bahkan untuk kepentingan komersial dengan ketentuan sebagai berikut:
+
+    Artikel harus dirujuk, link terhadap lisensi harus disediakan, dan jika terdapat bagian artikel yang diubah harus ditandai.
+    Jika artikel disadur sehingga terdapat perubahan, hasil saduran harus didistribusikan menggunakan lisensi yang sama.
+    Tidak diperkenankan untuk membatasi orang lain terhadap apa yang diperbolehkan oleh lisensi.
+
+References
+
+R. Munawar, “Diskusi Lepas,” Diskusi Lepas, Senin 07 2014. [Online]. Available: http://www.diskusilepas.com/2014/07/5-perbedaan-quick-count-qc-dan-real.html. [Diakses 27 06 2016].
+
+B. I. Wagearto, “Aplikasi Real Quik Count Untuk Perhitungan Cepat Pemilukada Dengan Menggunakan Konseptual Comprehensive Paralel Vote Tabulation,” Universitas Dian Nuswantoro, Semarang, 2013.
+
+N. Eagle dan A. Pentland, “Social Serendipity : Mobilizing Social Software,” MIT Media Library, 2005.
+
+eMarketer, “eMarketer,” 16 September 2015. [Online]. Available: http://emarketer.com/article/Asia Pacific-Boast-More-Than-1-Billion-Smartphone-User/1012984. [Diakses 10 Mei 2016].
+
+IDC, “IDC Analyze the Future,” 11 April 2016. [Online]. Available: http://www.idc.com/getdoc.jsp?containerId=prUS41176916. [Diakses 10 Mei 2016].
+
+A. T. S. Christanto dan R. Kurniawati, “Penerapan Service Oriented Architecture Menggunakan Web Service Pada Aplikasi Perpustakaan Berbasis Android,” Jurnal Buana Informatika, vol. 7, no. 1, pp. 75-82, 2016.
+
+S. Mumbaikar dan P. Padiya, “Web Services Based On SOAP and REST Principles,” International Journal of Scientific and Research Publications, vol. 3, no. 5, 2013.
+
+V. Kumari, “Web Services Protocol: SOAP vs REST,” International Journal of Advanced Research in Computer Engineering & Technology (IJARCET), vol. 4, no. 5, pp. 2467-2469, 2015.
+
+A. Dudhe dan S. Sherekar, “Performance Analysis of SOAP and RESTful Mobile Web Services in Cloud Environment,” dalam Second National Conference on Recent Trends in Information Security, Nagpur, 2014.
+
+N. Nurseitov, M. Paulson, R. Reynolds dan C. Izurieta, “Comparison of JSON and XML Data Interchange Formats: A Case Study,” Montana State University, Montana, 2009.
+
+A. R. Pradika, “Implementasi Web Service untuk Sinkronasi Data Transkip Nilai Mahasiswa di lingkungan Tata Usaha Fakultas Universitas Dian Nuswantoro,” Universitas Dian Nuswantoro, Semarang, 2016.
+
+R. Fielding, “Architectural Styles and the Design of Network-based Software Architectures,” University of Califormia, Irvine, 2000.
+
+[13] h. B. SYRA, “Badan Pengkajian Dan Penerapan Teknologi (BPPT),” Badan Pengkajian Dan Penerapan Teknologi (BPPT), 18 10 2013. [Online]. Available: http://www.bppt.go.id/teknologi-informasi-energi-dan-material/1815-e-rekapitulasi-inovasi-untuk-pemilu-2014. [Diakses 01 11 2016].
+
+SUBMIT AN ARTICLE
+
+ARTICLE TEMPLATE
+
+SUBSCRIPTION
+×
+Dear Author
+Sebelum mengajukan artikel ke Jurnal Eksplora Informatika, mohon untuk membaca submission guide dengan meng- klik tombol "OK" di bawah ini.
+Close OK
+Supervised by:
+
+Manuscripts Screening Tool
+
+Crossref Member Badge
+Web Analytics
+VIEW MY STATS Flag Counter
+Keywords
+Android Informasi Web Service Website Augmented Reality PHP Sistem Metode ANP kinerja Aplikasi Pembelajaran SPK Multimedia Kamus Promosi web Klasifikasi Kriteria FP-Growth Alokasi barcode Edukasi Mobile Heuristic VAK Online Musik perceptual KNN PPDIOO triple query Jena RACI Cobit File web.
+
+Jurnal Eksplora Informatika
+Diterbitkan oleh:
+
+Bagian P2M STIKOM Bali
+Kampus Renon STIKOM Bali, Jl. Raya Puputan No.86 Renon
+Denpasar 80234 Bali [ view on maps ]
+
+Platform & Workflow by OJS/PKP
+
+ISSN  (Online): 2460-3694
+ISSN  (Cetak):  2089-1814
+
+Indexed and Journal List Title by:

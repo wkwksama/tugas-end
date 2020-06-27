@@ -1,0 +1,695 @@
+We use cookies to make interactions with our website easy and meaningful, to better understand the use of our services, and to tailor advertising. For further information, including about cookie settings, please read our Cookie Policy . By continuing to use this site, you consent to the use of cookies.
+Got it
+We value your privacy
+
+We use cookies to offer you a better experience, personalize content, tailor advertising, provide social media features, and better understand the use of our services.
+
+To learn more or modify/prevent the use of cookies, see our Cookie Policy and Privacy Policy .
+Accept Cookies
+top
+See all ›
+41 Citations
+See all ›
+3 References
+See all ›
+3 Figures
+Download citation
+Share
+Facebook
+Twitter
+LinkedIn
+Reddit
+Download full-text PDF
+A Comparative Study of White Box, Black Box and Grey Box Testing Techniques
+Article (PDF Available)   in   International Journal of Advanced Computer Science and Applications 3(6)  · June 2012   with  2,499 Reads 
+How we measure 'reads'
+A 'read' is counted each time someone views a publication summary (such as the title, abstract, and list of authors), clicks on a figure, or views or downloads the full-text. Learn more
+DOI: 10.14569/IJACSA.2012.030603
+Cite this publication
+
+    Mohd Ehmer
+    Mohd Ehmer
+    Farmeena Khan
+    Farmeena Khan
+
+Abstract
+Software testing is the process to uncover requirement, design and coding errors in the program. It is used to identify the correctness, completeness, security and quality of software products against a specification. Software testing is the process used to measure the quality of developed computer software. It exhibits all mistakes, errors and flaws in the developed software. There are many approaches to software testing, but effective testing of complex product is essentially a process of investigation, not merely a matter of creating and following route procedure. It is not possible to find out all the errors in the program. This fundamental problem in testing thus throws an open question, as to what would be the strategy we should adopt for testing. In our paper, we have described and compared the three most prevalent and commonly used software testing techniques for detecting errors, they are: white box testing, black box testing and grey box testing.
+Discover the world's research
+
+    15+ million members
+    118+ million publications
+    700k+ research projects
+
+Join for free
+Figures - available via license: CC BY-NC-ND 4.0
+Content may be subject to copyright.
+Represent different forms of white box testing techniques
+Represent different forms of white box testing techniques
+… 
+Represent black box testing
+Represent black box testing
+… 
+Represent differnet forms of black box testing techniques 1) Equivalence Partitioning: It can reduce the number of test cases, as it divides the input data of a software unit into partition of data from which test cases can be derived. 2) Boundary Value Analysis: It focuses more on testing at boundaries, or where the extreme boundary values are chosen. It includes minimum, maximum, just inside/outside boundaries, error values and typical values. 3) Fuzzing: Fuzz testing is used for finding implementation bugs, using malformed/semi-malformed data injection in an automated or semi-automated session. 4) Cause-Effect Graph: It is a testing technique, in which testing begins by creating a graph and establishing the relation between the effect and its causes. Identity, negation, logic OR
+Represent differnet forms of black box testing techniques 1) Equivalence Partitioning: It can reduce the number of test cases, as it divides the input data of a software unit into partition of data from which test cases can be derived. 2) Boundary Value Analysis: It focuses more on testing at boundaries, or where the extreme boundary values are chosen. It includes minimum, maximum, just inside/outside boundaries, error values and typical values. 3) Fuzzing: Fuzz testing is used for finding implementation bugs, using malformed/semi-malformed data injection in an automated or semi-automated session. 4) Cause-Effect Graph: It is a testing technique, in which testing begins by creating a graph and establishing the relation between the effect and its causes. Identity, negation, logic OR
+… 
+Download full-text PDF
+Available via license: CC BY-NC-ND 4.0
+Content may be subject to copyright.
+(IJACSA) International Journal of Advanced Computer Science and Applications ,
+Vol. 3 , N o.6, 20 12
+12 | P a g e
+www.ijacsa.thesai.org
+A Comparative Study of White Box, Black Box and
+Grey Box Testing Techniques
+Mohd. Ehmer Khan
+Department of Computer Science,
+Singhania University,
+Jhunjhunu, Rajasthan, India
+Farmeena Khan
+Department of Computer Science,
+EIILM University,
+Jorethang , Sikkim, India
+Abstract — Software testing is the process to uncover requirement,
+design and coding errors in the program. It is used to identify the
+correctness, completeness, security and quality of software
+products against a specification. Software testing is the process
+used to m easure the quality of developed computer software. It
+exhibits all mistakes, errors and flaws in the developed software.
+There are many approaches to software testing, but effective
+testing of complex product is essentially a process of
+investigation, not merely a matter of creating and following route
+procedure. It is not possible to find out all the errors in the
+program. This fundamental problem in testing thus throws an
+open question, as to what would be the strategy we should adopt
+for testing. In our paper, we have described and compared the
+three most prevalent and commonly used software testing
+techniques for detecting errors, they are: white box testing, black
+box testing and grey box testing.
+Keywords- Black Box; Grey Box; White Box.
+I. I NTRODUCTION
+Software t esting identifies defects, flaws or errors in the
+application code that must be fixed. We can also define
+software testing as a process of accessing the functionality and
+correctness of a software through analysis. The main p urpose
+of testin g can be quality assurance, reliability estimation,
+validation and v erification. Software testin g is a fundamental
+component of software quality assuran ce and represents a
+review of specification, design and coding. The main objective
+of software testing is to affirm the quality of software system
+by sy stematically testin g the software in carefully controll ed
+circumstances, another ob jective is to identify the completen ess
+and correctness of the soft ware, and finally it uncovers
+undiscovered errors. [1 ] [2]
+The three most important techniques that are used for
+finding errors are: [1]
+1) White Box Testing Techniqu e: It is the detailed
+investigation of internal logic and structure of the code. In
+white box testing it is necessary for a tester to have full
+knowledge of source code.
+2) Black Box Testing Techn ique: It is a technique of
+testing witho ut having any knowledge of the i nternal working
+of the application. It only e xamines the fundamental aspect s of
+the system and has no or little relevance with the internal
+logical structure of the system.
+3) Grey Box Testing Technique: White box + Black box =
+Grey box, it is a technique to test the app lication with limited
+knowledge of the internal w orking of an application and also
+has the knowledge of fundamental aspects of the system.
+II. W HITE B OX T ESTING T ECHNI QUE
+Input Output
+Figure 1. Represent white box testing
+White box testing is a test case d esign method that uses the
+control structure o f the procedural design to derive test cases.
+White box testing can uncover implementation errors such as
+poor key management by analyzing internal workings and
+structure of a piece of software. White box testing is applicable
+at integ ration, un it and system levels of the software testing
+process. In wh ite box testing the test er nee ds t o hav e a l ook
+inside the source code and find out which unit of code is
+behaving inappropriately . [3]
+Some of the advantages and disadvantag es of white box
+testing technique are lis ted below: [3] [4]
+Advantages
+ It reveals error in hidden code by removing extra lines
+of code.
+ Side effects are benefic ial.
+Analyse
+internal
+working only
+ Risk analysis
+ Develop Strategy
+ Proper Test Plan
+ Execute test Cases
+(IJACSA) International Journal of Advanced Computer Science and Applications ,
+Vol. 3 , N o.6, 20 12
+13 | P a g e
+www.ijacsa.thesai.org
+ Maximum coverage is attained during test scenario
+writing.
+Disadvantages
+ It is very expensive as it requires a skilled tester to
+perform it.
+ Many p aths will remain untested as it is very difficult
+to look into every nook and corner to find out hidden
+errors.
+ Some of the codes omitted in the code could be missed
+out.
+Some of the synonyms of white box testing are glass box
+testing, clear box testing, open b ox testing, transparent box
+testing, structural testing, logic driven testing and design based
+testing.
+Some important types o f white box testing techniques ar e
+briefly described bel ow: [3]
+Control Flow Testing
+Branch Testing
+White Box Testing Basis Path Testing
+Data Flow Testing
+Loop Testing
+Figure 2. Represent different forms of w hite box testing techniques
+1) Control Flow Testing: It is a structural testing strateg y
+that uses the program control flo w as a model control flow and
+favours more but simpler paths over fewer but complicated
+path.
+2) Branch Testing: Branch testing has the obj ective to test
+every option (true o r false) on e very control statement w hich
+also includes compound decision.
+3) Basis Path Testing: Basis path testing allows the test
+case designer to pr oduce a logical complexity measure of
+procedural design and then uses this measure as an appr oach
+for outlining a basic set of execution paths.
+4) Data Flow Testing: In this t ype of testing the control
+flow graph is annoted with the information about how the
+program variables are define and used.
+5) Loop Testing: It exclusively fo cuses on the v alidity o f
+loop construct.
+III. B LACK B OX T ESTING T ECHNI QUE
+Processing Unit
+Input Output
+Figure 3. Represent black box testing
+Black box testing treats th e software as a “Black Box” –
+without any knowledge of internal working and it only
+examines the fundamental aspects of the system. While
+performing black box test, a tester must know the system
+architecture and will not have access to the source c ode. [5]
+Some of the advan tages and disadvantages of black b ox
+testing technique are lis ted below: [4] [5]
+Advantages
+ Efficient for large c ode segment.
+ Tester perception is v ery simple.
+ Users perspective are clearly separate d from
+developers perspective (programmer and tester are
+independent of each oth er).
+ Quicker test case devel opment.
+Disadvantages
+ Only a selected number of test scenarios are actually
+performed. As a result , there is only limited cover age.
+ Without clea r specification test cas es are difficu lt to
+design.
+ Inefficient testing.
+Some of the sy nonyms of black b ox testing technique are
+opaque testing, fu nctional testing, close box testing, and
+behavioural testing.
+Some important types of black box testing techniques are
+briefly described bel ow: [5]
+Equivalence Partitioning
+Boundary Value Analy sis
+Fuzzing
+Black Box Testing Cause-Effect Graph
+Orthogonal Array Testin g
+All Pair Testing
+State Transition Test ing
+Figure 4. Represent differnet forms of black box testing techniques
+1) Equivalence Partitioning: It can reduce the number of
+test cases, as it divides the input data of a softw are unit into
+partition of data from which test cases can be derived.
+2) Boundary Va lue Analysis: It focuses more on testing at
+boundaries, or where the ex treme boundary values are chosen.
+It includes minimu m, maximum, just inside/outside
+boundaries, error values and typical values.
+3) Fuzzing: Fuzz testing is used for finding
+implementation bugs, using malformed/semi-malformed data
+injection in an automated or semi-automated session.
+4) Cause-Effect Graph: It is a testing technique, in which
+testing begins b y creating a graph and establishing the relati on
+between the effect and its causes. Identity, negation, logic OR
+Analyse
+Fundamental
+aspects only
+(IJACSA) International Journal of Advanced Computer Science and Applications ,
+Vol. 3 , N o.6, 20 12
+14 | P a g e
+www.ijacsa.thesai.org
+and logic AND are the four basic symbols which expresses t he
+interdependency between cause and effect.
+5) Orthogonal Array Testing: OAT can be applied to
+problems in which the input domain is relatively small, but too
+large to accommodate exhaustive testing.
+6) All Pair Testin g: In all pair testing technique, test cases
+are designs to execute all possible discrete combinations of
+each pair of input parameters. Its main objective is to have a
+set of test cases that covers all the pairs.
+7) State Transition Testing: T his type of testing is useful
+for testing state machine and also for navigation of graphical
+user interface.
+IV. G REY B OX T ESTING T ECHNIQUE
+Grey box testing technique will increase the testing
+coverage by allowing us to focus on all the layers of any
+complex system through the combination of all existing white
+box and black box test ing.
+Processing Unit
+Input Output
+Figure 5. Represent grey box testing
+In grey box testing the tester must have knowledge of
+internal data stru ctures and algorithm, for the p urpose of
+designing test cas es. Ex amples o f grey box testing t echnique
+are: [6]
+ Architectural Model
+ Unified Modeling language (UML)
+ State Model (Finite Stat e Machine)
+In grey box t esting the codes of two m odules are studied
+(white box testing m ethod) for the design of test cases and
+actual test are performed in the interfaces exposed (black box
+testing method).
+Some of the adv antages of grey box testing technique are
+listed below: [4] [6]
+ Grey box testing provides combined benefits of white
+box and black box test ing techniques.
+ In grey box testing, the tester reli es on interf ace
+definition and functional specification rather than
+source code.
+ In grey box testing, the tester can design excellent test
+scenarios.
+ The test is done from the user ’s point of view rath er
+than designer ’s point of vi ew.
+ Create an intelligent test authoring.
+ Unbiased testing.
+Some of th e disadvant ages of grey box testing technique
+are listed below:
+ Test coverage is limited as the access to source code is
+not available.
+ It is difficult to ass ociate defect identification in
+distributed applications .
+ Many program paths rem ain untested.
+ If the software designer has already run a test case, the
+tests can be redundant .
+The other n ame o f grey box testing is translucent testing.
+Different forms of grey box testing techniques are briefly
+described below: [6]
+Orthogonal Array Testin g
+Matrix Testing
+Grey Box Testing Regression Testing
+Pattern Testing
+Figure 6. Represent different forms of grey box testing techniques
+1) Orthogonal Array Testing: This t ype of testing use as
+subset of all possible combinations.
+2) Matrix Testing: In matrix testing the status report of the
+project is stated.
+3) Regression Testing: If new changes are made in
+software, regression testing implies running of test cases.
+4) Pattern Testing: Patter n testing verifies the good
+application for its architecture and design.
+V. F UTURE OF S OFTWARE T ESTING
+With the changing trends in the software industry, software
+testing too changes. The existing new technologies like Service
+Oriented Architecture (SOA), wireless technologies, mobile
+services etc. has opened new path to testing. Some of the
+changes which w e will see in the industry over the next few
+years are listed below : [8]
+ Tester s will provide light weight models that
+developers can run again st their codes.
+ Early review and modelin g will exposes many
+ambiguous bugs.
+ As in the future developer’s code is full of testability
+hooks, errors will be m ore detectable.
+ Static analyser (detection tools) will come in main
+stream.
+ Useful matrices such as spec coverage , model coverage
+and code coverage drives th e projects.
+ Combinatorial tools will allow testers to prioritize their
+testing.
+ The testers will provide vis ible and value added
+services throughout the software development process.
+ Tester can develop test harnesses stubs and drivers
+written in and interacting with a variety of
+programmatic languages.
+Partially analyse
+internal working
++
+Fundamental aspects
+(IJACSA) International Journal of Advanced Computer Science and Applications ,
+Vol. 3 , N o.6, 20 12
+15 | P a g e
+www.ijacsa.thesai.org
+ Tomorrows’ tester will be professionally more educated, examine and acc redited professional.
+TABLE I. C OMPARIS ON B ETWEEN T HREE F ORMS OF T ESTING T ECHN IQUES [6] [7]
+S.
+No.
+Black Box Testing
+Grey Box Testing
+White Box Testing
+1.
+Analyses fundamental aspects
+only i.e. no proved edge of
+internal working
+Partial knowledge of internal
+working
+Full knowledge of internal
+working
+2.
+Granularity is low
+Granularity is medium
+Granularity is high
+3.
+Performed by end users and also
+by tester and developers (user
+acceptance testing)
+Performed by end users and also
+by tester and developers (user
+acceptance testing)
+It is performed by developers
+and testers
+4.
+Testing is based on external
+exceptions – internal behaviour
+of the program is ignored
+Test design is based on high
+level database diagrams, data
+flow diagrams, internal states,
+knowledge of algorithm and
+architecture
+Internal are fully known
+5.
+It is least exhaustive and time
+consuming
+It is somewhere in between
+Potentially most exhaustive and
+time consuming
+6.
+It can test only by trial and error
+method
+Data domains and internal
+boundaries can be tested and
+over flow, if known
+Test better: data domains and
+internal boundaries
+7.
+Not suited for algorithm testing
+Not suited for algorithm testing
+It is suited for algorithm testing
+(suited for all)
+In the near future we will see a shift towards new
+techniques and testing transformed business operations, the
+way people interact with the systems and information it
+provides, and therefore mitigating the risk and increasing the
+benefits of business chan ge.
+VI. C ONCLUSION
+We can define software testing as an activity aimed at
+evaluating an attribute, or capability of a program to determin e,
+that it m eets its required specification. Softw are testing can
+provide an independent view of the software to allow the
+business to appreciate and understand the risk of software
+implementation.
+To carry out software testing in a more effective manner, in
+our paper we have describe d and compared three main s oftware
+testing techniques.
+R EFERENCES
+[1] Mohd. Ehmer Khan, “Different F orms of Software Testing Techniques
+for Finding Errors,” IJCSI, Vol. 7, Issue 3, No 1, pp 11-16, May 2010
+[2] Software Testing Methodologies by Azhar available at http://az har-
+paperprese ntation.blogspot.co m/2010/04/softw are-testing-
+methodologie s.html
+[3] Mohd. Ehmer Khan, “Different Approaches to White Box testing
+Technique for Finding Errors,” IJSE IA, Vol. 5, No. 3, pp 1-13, J uly
+2011
+[4] Software Testing Methods available at
+http://www .tutorialspoint.co m/software_test ing/testing_meth ods.htm
+[5] Mohd. Ehmer Khan, “ Different Approaches to Black Box Testing
+Technique for Find ing Errors, ” IJSEA, Vol. 2, No. 4, pp 31 -40, October
+2011
+[6] Grey Box Testing from Wikipe dia available at
+http://en.wi kipedia.org/wiki /Gray_box_testi ng
+[7] Comparison among Black Box Testing, Gray Box Testing & White Box
+Testing available at
+http://www .softwaretestingge nius.com/artical Details?qry=404
+[8] Predicting the Future of Testin g by Harry Robinson available at
+http://www .stickyminds.com /sitewide.asp?F unction=edetail& ObjectType
+=COL&ObjectI d=6887
+A UTHORS P ROFILE
+Mohd. Ehmer Khan
+I completed my B.Sc in 1997 and M.C.A. in 2001 from Aligarh Muslim
+University, Aligarh, India, and pursuing Ph.D (Computer Science) from
+Singhania University, Jhunjhunu, India. I have worked as a lecturer at Aligarh
+College Engineering & Management, Aligarh, India from 1999 to 2003. From
+2003 to 2005 worked as a lecturer at Institute of Foreign Trade &
+Management, Moradabad, India. From 2006 to present working as a lecturer
+in the Department of Information Technology, Al Musanna College of
+Technology, Ministry of Manpower, Su ltanate of Oman. I am recipient of PG
+Merit Schol arship in MCA. My research area is software engineering with
+special interest in driving and monitoring program ex ecutions to find bugs,
+using various software testing techniques.
+Farmeena Khan
+I completed my BCA in 2003 from Dr. B. R. Ambedkar University, Agr a,
+India and MBA in 2011 from Janardan Rai Nagar Rajasthan Vidyapee th
+University, Rajasthan, I ndia, and pursuing M.Sc (Computer Science) from
+EIILM University, Jorethang, Sikkim, India.
+Citations (41)
+References (3)
+
+    ... The structure of the software is examined by executing the code. In this type of testing it is necessary for a tester to have full knowledge of source code [13] . Lastly and as the name suggests, Grey-Box testing incorporates both white box testing and black box testing. ...
+    ... Lastly and as the name suggests, Grey-Box testing incorporates both white box testing and black box testing. The tester in this technique tests the software with limited knowledge of the internal structure of an application and also has the knowledge of fundamental aspects of the system [13] . ...
+    ... At the same time, the PSO algorithm is much easier to implement and simpler than GA as it has a fewer number of parameters to adjust compared to the GA parameters. Other works as in [5] [13] [14][15] show that PSO is always better than GA for solving a wider spectrum of test problems. In contrast, greedy-based algorithms have been considered for its simplicity and speed, because it has been proved that a greedy algorithm provides good approximations to the optimal solution for both basic set covering and the more general weighted set covering problem [16]. ...
+    A greedy particle swarm optimization (GPSO) algorithm for testing real-world smart card applications
+    Article
+        Dec 2018
+        Int J Software Tool Tech Tran
+        Hamzeh M. Allawi
+        Waref Manaseer
+        Waref Manaseer
+        Mohammad Aref Alshraideh
+        Mohammad Aref Alshraideh
+    Software testing continues to be regarded as a necessary and critical step in the software development life cycle. Among the multitudes of existing techniques, particle swarm optimization (PSO) algorithm, in particular, has shown superior merits for automatically generating software test cases for its easy implementation and for relying on fewer parameters that require tuning. Hence, several state-of-the-art PSO-based algorithms have been successfully used as a test data generator. On the other hand, greedy-based algorithms, which are commonly used to solve complex and multi-step combinatorial problems, are starting to gain momentum as a solution for the complexity problem of software testing. Greedy algorithms favored over other techniques when the solution of the problem is guaranteed to be near-optimal. As a result, the utilization of both greedy and PSO algorithms in a single solution for automatically generating test data represents a strong candidate if designed carefully. In this paper, we propose a novel hybrid greedy and PSO algorithm (GPSO) that jointly guarantees the effectiveness and close to optimality results for generating a minimum number of test data. Compared with the widely employed genetic algorithm (GA), our proposed GPSO outperforms the GA in terms of the average number of iterations, execution time, and coverage percentage. Experimental trials with six different typical Java card applications show that the use of the proposed GPSO as a test data generator results in an outstanding performance.
+    View
+    Show abstract
+    ... Although grey-box testing is not specifically presented in the model, this approach is frequently mentioned and used within the security testing industry [35, 36]. In this case the tester has some information (such as log in credentials) but not access to the complete source code. ...
+    Standardised Penetration Testing? Examining the Usefulness of Current Penetration Testing Methodologies
+    Thesis
+    Full-text available
+        Sep 2019
+        Niek Jan van den Hout
+        Niek Jan van den Hout
+    With this explorative study the author has attempted to clarify whether the four main publicly available penetration testing methodologies, the Open Source Security Testing Methodology Manual (OSSTMM), the Penetration Testing Execution Standard (PTES), the NIST Special Publication 800-115 and the OWASP Testing Guide, improve the quality of penetration tests within the Dutch industry and why these methodologies do or do not provide this improvement. This was done by reviewing literature, including the standard methodologies and conducting a (small-scale) survey.
+    View
+    Show abstract
+    ... Pengujian perangkat lunak merupakan elemen yang harus dilakukan setelah perangkat lunak diimplementasikan, elemen ini ditujukan guna mengetahui apakah perangkat yang diimplementasikan dapat berjalan sebagaimana mestinya [12] ...
+    Rekayasa Perangkat Lunak Sistem Ujian TOEFL Menggunakan PHP & MySQL Berbasis Framework CodeIgniter
+    Article
+        Nov 2018
+        Yustiar Alan Dwihana
+        Achmad Bisri
+    View
+    ... Several modeling approaches have been introduced in the literature. Physical models are used to explain in detail the internal structure of the system studied [18] , [19], and usually, these kinds of models are based on energy conservation analysis. Some of these suggest an exploration of water storage thermal behavior in a stratified tank. ...
+    Demand Response Strategy Applied to Residential Electric Water Heaters Using Dynamic Programming and K-Means Clustering
+    Article
+        Feb 2019
+        Maria Alejandra Zuniga Alvarez
+        K. Agbossou
+        K. Agbossou
+        Alben Cardenas
+        Alben Cardenas
+        Loic Boulon
+    Previous studies have shown that electric water heaters (EWH) have strong potential in demand-side management applications, more precisely because they offer energy storage capability and then can be employed as shift loads. However, the challenge of EWH curtailment strategies is to minimize the impact on the hot water availability while shaving the peak of consumption during critical periods. The success of such strategies depends highly on the knowledge of the consumption behavior of each user. Thus, appropriated modeling and consumption analysis could yield better management strategies. This study proposes an electric water heater control strategy based on dynamic programming and power consumption profile classification. An adaptive clustering process allows recognizing the clients who contribute to the highest power consumption during the peak periods. The analysis and simulation indicate that an appropriate control on the group of users could be implemented to reduce peak demand and to meet the hot water demand. A K-means clustering algorithm has been used for cluster analysis. The silhouette method has been applied to estimate the appropriate number of clusters.
+    View
+    Show abstract
+    ... Grey box designs test cases using algorithms and internal data structures less than white box testing but more than black box testing. [1] [3] Black Box testing has the advantage of not requiring source code, so that it does not require instrumentation and source code availability. Conversely, someone might hypothesize that accessing source code using white box testing can increase source code coverage and increase initial error statements. ...
+    System Testing using Black Box Testing Equivalence Partitioning (Case Study at Garbage Bank Management Information System on Karya Sentosa)
+    Conference Paper
+        Jan 2018
+        Yudie Irawan
+        Yudie Irawan
+        Syafiul Muzid
+        Nanik Susanti
+        Nanik Susanti
+        Rhoedy Setiawan
+    View
+    ... Using both source code analysis and penetration testing technique, we can detect maximum vulnerabilities as these two methods are practically carried out by real attackers [23] . The combination of these two testing methods is sometimes referred to as grey box testing. ...
+    Measuring Vulnerabilities of Bangladeshi Websites
+    Conference Paper
+    Full-text available
+        Feb 2019
+        Md Moniruzzaman
+        Md Moniruzzaman
+        Farida Chowdhury
+        Farida Chowdhury
+        Md. Sadek Ferdous
+        Md. Sadek Ferdous
+    No web application is without the risk of exploits and fully infallible. Even so, web services have been integrated into our daily lives in such a way that we have been accustomed to sharing huge personal information on the web. Within this setting, the aim of this study is to show a method to detect maximum vulnerabilities of web-applications at minimum cost and effort. Using the penetration testing and source code analysis mechanisms, representing the black box and white box testing respectively, we have evaluated the vulnerabilities of selected web- sites of Bangladesh against a set of most common and prevalent attack vectors. Then, we have presented the vulnerability status of the websites in different graphical formats. The result shows that 64% of the selected web applications in Bangladesh are running with the vulnerabilities and specifically, government websites are in a critical state.
+    View
+    Show abstract
+    ... Black Box Testing (functional testing) is a technique of testing without having any knowledge of the internal working of the application. While performing functional testing, a tester must know the system architecture and will not have access to the source code [7] . ...
+    Search Based Model in the Loop Testing for Cyber Physical Systems
+    Conference Paper
+    Full-text available
+        Oct 2018
+        Ana Turlea
+        Ana Turlea
+    View
+    Online Characterization of a Synchronous Generator Using an Unscented Kalman Filter
+    Conference Paper
+        May 2019
+        Andrew G. Miles
+        B.K. Johnson
+        B.K. Johnson
+        Normann Fischer
+        Normann Fischer
+    View
+    Modeling
+    Chapter
+        Jul 2019
+        Hermann Kopetz
+    Any system in the real world—a natural system—is characterized by an immense number of different properties. Some of these properties, e.g., radioactivity, cannot even be perceived with human sense organs. The cognitive apparatus of humans cannot handle the totality of all these properties. This is the reason why humans construct models of natural systems that focus on only those properties that are relevant for a given purpose and forget about the rest.
+    View
+    Show abstract
+    Validating object-oriented software at design phase by achieving MC/DC
+    Article
+        Jun 2019
+        Swadhin Kumar Barisal
+        Suvam Suvabrata Behera
+        Sangharatna Godboley
+        Sangharatna Godboley
+        Durga Prasad Mohapatra
+        Durga Prasad Mohapatra
+    This paper deals with a new technique for validating object-oriented software at design phase of project development. There are several modeling diagrams used at design phase of Software Development Life Cycle. But in this paper, we focus on UML Activity Diagram. In our work, first we construct the UML activity diagram for the given system using ArgoUML. Then, the XML (“EXtensible Markup Language”) code is generated for the constructed activity diagram. Next, this XML code is translated to XSD (“XML Schema Definition”) code. This XSD code is given as input to JAXB (“Java Architecture for XML Binding”), which generates the Java template. Then, this Java template is instrumented to a complete Java program with minimal manual effort. Next, we carryout concolic testing of this Java code using jCUTE. This tool generates test cases by taking the Java program as input. Then, the obtained test suite and generated Java source code are inputed into our in-house developed tool named COPECA (COverage PErcentage CAlculator) to calculate MC/DC (Modified Condition/Decision Coverage) score. We have achieved 56.31% MC/DC on doing experiment with fourteen activity diagrams, which is a fair (moderate) achievement compared to the existing work.
+    View
+    Show abstract
+    Show more
+
+        Jan 2003
+        Farmeena Khan
+    Farmeena Khan I completed my BCA in 2003 from Dr. B. R. Ambedkar University, Agra, India and MBA in 2011 from Janardan Rai Nagar Rajasthan Vidyapeeth University, Rajasthan, India, and pursuing M.Sc (Computer Science) from EIILM University, Jorethang, Sikkim, India.
+    Different Approaches To Black box Testing Technique For Finding Errors
+    Article
+    Full-text available
+        Oct 2011
+        Mohd Ehmer Khan
+    Software testing is the process of analyzing software to find the difference between required and existing condition. Software testing is performed throughout the development cycle of software and it is also performed to build quality software, for this purpose two basic testing approaches are used, they are white box testing and black box testing. One of the software testing technique which I have explain in my paper is Black Box Testing, it is a method of generating test cases that are independent of software internal structure, I have also briefly explore various different approaches to black box testing technique for finding errors. Since black box testing is always based either directly or indirectly on the software specification so it is also called specification based testing.
+    View
+    Show abstract
+    Different Forms of Software Testing Techniques for Finding Errors
+    Article
+    Full-text available
+        May 2010
+        Mohd. Ehmer Khan
+    Software testing is an activity which is aimed for evaluating an attribute or capability of a program and ensures that it meets the required result. There are many approaches to software testing, but effective testing of complex product is essentially a process of investigation, not merely a matter of creating and following route procedure. It is often impossible to find all the errors in the program. This fundamental problem in testing thus throws open question, as to what would be the strategy that we should adopt for testing. Thus, the selection of right strategy at the right time will make the software testing efficient and effective. In this paper I have described software testing techniques which are classified by purpose.
+    View
+    Show abstract
+
+Join ResearchGate to find the people and research you need to help your work.
+
+    15+ million members
+    118+ million publications
+    700k+ research projects
+
+Join for free
+Recommended publications
+Discover more publications, questions and projects in Boxing
+Article
+Combined coding and spreading in direct-sequence CDMA systems
+May 1995
+
+    Bernhard Liesenfeld
+    Hans D. Schotten
+    Hans D. Schotten
+    Harald Elders-Boll
+    Harald Elders-Boll
+
+This paper presents an analysis of a direct-sequence code-division multiple-access communication system which assigns a set of M sequences to each user. Hence, each user transmits log 2 M bits of information per sequence. The probability of transmission errors depends on both the interference due to other users and the error correcting capability of the sets of sequences. To evaluate the ... [Show full abstract] performance of the considered system we assume that the channel is disturbed by additive white Gaussian noise. Further, optimum coherent demodulation and minimum Euclidean distance decoding of the sets of sequences are employed. By using the Gaussian approximation for the multiple-access interference, an upper bound on the error probability is obtained. The bound applies to many sets of sequences with good distance properties in the Euclidean space. Further, lower bounds on the cross-correlation between different sets of sequences are derived, which take into account the minimum Hamming distance between different sequences in a set.
+Read more
+Conference Paper
+The Implementation of Error Correction in ATM System
+September 2010
+
+    Tan Mingxin
+    Tan Mingxin
+    Wenwen Fang
+    Haizhong Liu
+    [...]
+    Shuren He
+
+The researches on CRC mainly focus on error detection, seldom on the function of error correction. ATM is the core technology of B-ISDN which makes use of cyclic redundancy code to detect and correct the errors. ATM switching system generally adopts CRC to correct a single bit error in the cell header. Based on introducing the essential method of generating CRC, this paper analyses the process of ... [Show full abstract] correcting a single bit error in the cell header of the ATM system in detail.
+Read more
+Article
+On generalized low-density parity-check codes based on Hamming component codes
+September 1999 · IEEE Communications Letters
+
+    Michael Lentmaier
+    Kamil Sh. Zigangirov
+    Kamil Sh. Zigangirov
+
+In this paper we investigate a generalization of Gallager's (1963) low-density (LD) parity-check codes, where as component codes single error correcting Hamming codes are used instead of single error detecting parity-check codes. It is proved that there exist such generalized low-density (GLD) codes for which the minimum distance is growing linearly with the block length, and a lower bound of the ... [Show full abstract] minimum distance is given. We also study iterative decoding of GLD codes for the communication over an additive white Gaussian noise channel. The performance in terms of the bit error rate, obtained by computer simulations, is presented for GLD codes of different lengths.
+Read more
+Article
+Full-text available
+Implementation of randomized test pattern generation strategy
+March 2015 · Journal of Theoretical and Applied Information Technology
+
+    Prem Jacob
+    Prem Jacob
+
+Software testing involves running a piece of software on selected input data and checking the output for correctness. In order to test the software units randomized testing will be effective. Thoroughness depends on certain parameters settings like relative frequency on which the method are being called. This system that uses genetic algorithm for finding the parameters that optimize the test ... [Show full abstract] coverage of random unit testing. For designing the GA we have used the feature subset selection tool for accessing the content representation and the size within genetic algorithm. The proposed system ensures that all possibilities of errors in the code are randomly checked. It is an effective system to detect possibility of runtime errors. The randomized testing using genetic algorithm will call the test cases in a random manner. They will provide the inputs for testing also automatically and it starts testing by calling a test case of random length it will stop the working when it finds any error it can be viewed using minimization. It is faster than conventional testing methods and it is effective in finding the error in the code effectively.
+View full-text
+Discover more
+Download citation
+What type of file do you want?
+RIS
+BibTeX
+Plain Text
+What do you want to download?
+Citation only
+Citation and abstract
+Download
+Interested in research on Boxing?
+Join ResearchGate to discover and stay up-to-date with the latest research from leading experts in Boxing and many other scientific topics.
+Join for free
+or
+Discover by subject area
+
+    Recruit researchers
+    Join for free
+    Login
+    Email
+    Tip: Most researchers use their institutional email address as their ResearchGate login
+    Password Forgot password?
+    Keep me logged in
+    Log in
+    or
+    Continue with LinkedIn
+    Continue with Google
+    Welcome back! Please log in.
+    Email
+    · Hint
+    Tip: Most researchers use their institutional email address as their ResearchGate login
+    Password Forgot password?
+    Keep me logged in
+    Log in
+    or
+    Continue with LinkedIn
+    Continue with Google
+    No account? Sign up
+
+App Store
+About
+News
+Company
+Careers
+Support
+Help center
+FAQ
+Business solutions
+Recruiting
+Advertising
+© ResearchGate 2019. All rights reserved.
+
+    Imprint
+    Terms
+    Privacy
+

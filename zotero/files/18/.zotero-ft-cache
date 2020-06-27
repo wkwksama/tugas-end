@@ -1,0 +1,135 @@
+Skip to main content Skip to article
+Elsevier logo ScienceDirect
+
+    Journals & Books
+
+Create account Sign in
+
+Sign in Create account
+
+    Journals & Books
+
+    Help
+
+ 
+Outline
+Get Access Get Access
+Share
+Export
+Advanced
+Outline
+
+    Highlights
+    Abstract
+    Keywords
+    1. Introduction
+    2. Related work
+    3. The proposed approach for creating Web mashups
+    4. The intelligent EUD platform for Web mashup
+    5. Evaluation
+    6. Conclusions and future work
+    Appendix – underlying intelligent support
+    References
+
+Show full outline
+Figures (23)
+
+    Fig. 1. Dispatching a table from Wikipedia to the MashupEditor
+    Fig. 2. The resulting mashup that includes four widgets from (clockwise from top-left):…
+    Fig. 3. The updated mashup resulting from clicking on “Kharkiv” in the bottom-right…
+    Fig. 4. Architecture of the mashup platform
+    Fig. 5. Action sequence for creating a widget
+    Fig. 6. A mashup widget
+
+Show all figures
+Tables (3)
+
+    Table 1
+    Table 2
+    Table 3
+
+JavaScript is disabled on your browser. Please enable JavaScript to use all the features on this page.
+Elsevier
+International Journal of Human-Computer Studies
+Volume 87 , March 2016 , Pages 38-64
+International Journal of Human-Computer Studies
+An environment for End-User Development of Web mashups ☆
+Author links open overlay panel Giuseppe Ghiani a Fabio Paternò a Lucio Davide Spano b Giuliano Pintori a
+Show more
+https://doi.org/10.1016/j.ijhcs.2015.10.008 Get rights and content
+Highlights
+
+•
+
+    An environment for creating Web mashups by direct manipulation of Web applications.
+•
+
+    Composition of novel applications from existing ones through a copy–paste metaphor.
+•
+
+    Web mashups solution that does not require pre-processing by expert developers.
+•
+
+    Mashup environment able to support modern dynamic Web applications.
+
+Abstract
+
+End-User Development aims to find novel ways that are suitable and intuitive for end users to create their own applications. We present a graphical environment in which users create new mashups by directly selecting interaction elements, content and functionalities from existing Web applications without requiring the intervention of expert developers. Then, users just need to exploit a copy–paste metaphor to indicate how to compose the selected interactive content and functionalities in the new mashup. The environment is enabled by a Web-based platform accessible from any browser, and is suitable for users without particular programming skills. We describe the architecture of our platform and how it works, including its intelligent support, show example applications , and report the results of first user studies.
+
+    Previous article in issue
+    Next article in issue
+
+Keywords
+End User Development
+Web mashups
+User interface development tools
+Recommended articles Citing articles (17)
+
+☆
+
+    This paper has been recommended for acceptance by Oulasvirta Antti.
+
+View full text
+Copyright © 2015 Elsevier Ltd. All rights reserved.
+Recommended articles
+
+    End-user development by application-domain configuration
+    Journal of Systems and Software, Volume 91, 2014, pp. 85-99
+    Download PDF View details
+    End-User Development of Mashups with NaturalMash
+    Journal of Visual Languages & Computing, Volume 25, Issue 4, 2014, pp. 414-432
+    Download PDF View details
+    Web-centred end-user component modelling
+    Future Generation Computer Systems, Volume 54, 2016, pp. 16-40
+    Download PDF View details
+
+1 2 Next
+Citing articles (17)
+
+    End-user composition of interactive applications through actionable UI components
+    2017, Journal of Visual Languages and Computing
+    Download PDF View details
+    Structured data REST protocol for end to end data mashup
+    2018, Future Internet
+    View details
+    Examining gender issues in perception and acceptance in web-based end-user development activities
+    2018, Education and Information Technologies
+    View details
+
+View more articles
+Article Metrics
+View article metrics
+Elsevier Wordmark
+
+    About ScienceDirect
+    Remote access
+    Shopping cart
+    Advertise
+    Contact and support
+    Terms and conditions
+    Privacy policy
+
+We use cookies to help provide and enhance our service and tailor content and ads. By continuing you agree to the use of cookies .
+
+Copyright © 2019 Elsevier B.V. or its licensors or contributors. ScienceDirect ® is a registered trademark of Elsevier B.V.
+RELX Group Wordmark

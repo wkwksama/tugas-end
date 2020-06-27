@@ -1,0 +1,39 @@
+Logo
+UDiNus Repository
+
+    Home
+    Browse by Year
+    Browse by Subject
+    Browse by Faculty/Division
+    Browse by Author
+    Browse by Journal
+    Udinus Website
+    E-Journal
+
+    Login
+    Create Account
+
+	
+Implementasi Webservice untuk Sinkronisasi Data Trankskrip Nilai di Tata Usaha Fakultas Universitas Dian Nuswantoro
+
+ANDY, PRADIKA RESTA (2016) Implementasi Webservice untuk Sinkronisasi Data Trankskrip Nilai di Tata Usaha Fakultas Universitas Dian Nuswantoro. Skripsi,Fakultas Ilmu Komputer.
+[img]
+Preview
+	PDF
+Download (3954b) | Preview
+
+Abstract
+
+Data transkrip nilai adalah data nilai hasil studi mahasiswa yang digunakan sebagai perhitungan indeks prestasi kumulatif. Data transkrip nilai mahasiswa yang diperbaharui secara periodik oleh Tata Usaha dengan proses yang selama ini berjalan terdapat beberapa kendala seperti proses yang kurang efisien dan boros dikarenakan adanya proses pengiriman data ke unit data & informasi untuk menyelaraskan data transkrip dan sistem pembaharuan yang membangkitkan semua data pada pembaruan tanpa terkecuali walaupun tidak ada perubahan menyebabkan trafik lalu lintas data pada server meningkat. Keadaan ini berdampak negatif pada semua pihak seperti dosen, mahasiswa dan staf terkait. Kondisi ini dikarenakan tidak sinkronya data transkrip yang ada pada Tata Usaha dan Sistem Akademik. Suatu interoperabilitas sangatlah dibutuhkan pada kondisi seperti ini. Dengan menerapkan teknologi SOA (Service Oriented Archirecture) yang diterapkan pada Web atau Webservice yang dapat mendukung interoperabilitas merupakan solusi yang tepat untuk diterapkan pada kedua sistem ini sehingga komunikasi antar sistem dapat berjalan sebagai bentuk jalan keluar dari sinkronasi data transkrip nilai Tata Usaha dan Sistem Akademik
+Item Type: 	Article
+Subjects: 	T Technology > Teknik Informatika
+Universitas Dian Nuswantoro > Fakultas Ilmu Komputer > Teknik Informatika
+Divisions: 	Fakultas Ilmu Komputer
+Depositing User: 	Psi Udinus
+Date Deposited: 	22 Sep 2016 13:21
+Last Modified: 	22 Sep 2016 13:21
+URI: 	http://eprints.dinus.ac.id/id/eprint/18956
+Actions (login required)
+	View Item
+EPrints Logo
+UDiNus Repository is powered by EPrints 3 which is developed by the School of Electronics and Computer Science at the University of Southampton. More information and software credits .

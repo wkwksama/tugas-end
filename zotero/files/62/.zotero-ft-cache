@@ -1,0 +1,249 @@
+Back to GitHub.com
+The GitHub Blog
+
+    Changelog
+    Community
+        Education
+        Events
+        Insights
+        Open source
+    Company
+        Updates
+        Policy
+    Engineering
+    Enterprise
+        Partners
+    Product
+        Editor tools
+        Features
+
+Search by Keyword
+Search
+Primary Menu
+
+    Changelog
+    Community
+        Education
+        Events
+        Insights
+        Open source
+    Company
+        Updates
+        Policy
+    Engineering
+    Enterprise
+        Partners
+    Product
+        Editor tools
+        Features
+
+Search by Keyword
+Search
+
+September 14, 2016
+Engineering
+The GitHub GraphQL API
+Image of GitHub Engineering
+
+GitHub Engineering
+
+GitHub announced a public API one month after the site launched . We’ve evolved this platform through three versions, adhering to RFC standards and embracing new design patterns to provide a clear and consistent interface. We’ve often heard that our REST API was an inspiration for other companies; countless tutorials refer to our endpoints. Today, we’re excited to announce our biggest change to the API since we snubbed XML in favor of JSON: we’re making the GitHub API available through GraphQL.
+
+GraphQL is, at its core, a specification for a data querying language. We’d like to talk a bit about GraphQL, including the problems we believe it solves and the opportunities it provides to integrators.
+Why?
+
+You may be wondering why we chose to start supporting GraphQL. Our API was designed to be RESTful and hypermedia-driven. We’re fortunate to have dozens of different open-source clients written in a plethora of languages. Businesses grew around these endpoints.
+
+Like most technology, REST is not perfect and has some drawbacks. Our ambition to change our API focused on solving two problems.
+
+The first was scalability. The REST API is responsible for over 60% of the requests made to our database tier. This is partly because, by its nature, hypermedia navigation requires a client to repeatedly communicate with a server so that it can get all the information it needs. Our responses were bloated and filled with all sorts of *_url hints in the JSON responses to help people continue to navigate through the API to get what they needed. Despite all the information we provided, we heard from integrators that our REST API also wasn’t very flexible. It sometimes required two or three separate calls to assemble a complete view of a resource. It seemed like our responses simultaneously sent too much data and didn’t include data that consumers needed.
+
+As we began to audit our endpoints in preparation for an APIv4, we encountered our second problem. We wanted to collect some meta-information about our endpoints. For example, we wanted to identify the OAuth scopes required for each endpoint. We wanted to be smarter about how our resources were paginated. We wanted assurances of type-safety for user-supplied parameters. We wanted to generate documentation from our code. We wanted to generate clients instead of manually supplying patches to our Octokit suite . We studied a variety of API specifications built to make some of this easier, but we found that none of the standards totally matched our requirements.
+
+And then we learned about GraphQL.
+The switch
+
+GraphQL is a querying language developed by Facebook over the course of several years. In essence, you construct your request by defining the resources you want. You send this via a POST to a server, and the response matches the format of your request.
+
+For example, say you wanted to fetch just a few attributes off of a user. Your GraphQL query might look like this:
+
+ { viewer { login bio location isBountyHunter } } 
+
+And the response back might look like this:
+
+ { "data" : { "viewer" : { "login" : "octocat" , "bio" : "I've been around the world, from London to the Bay." , "location" : "San Francisco, CA" , "isBountyHunter" : true } } } 
+
+You can see that the keys and values in the JSON response match right up with the terms in the query string.
+
+What if you wanted something more complicated? Let’s say you wanted to know how many repositories you’ve starred. You also want to get the names of your first three repositories, as well as their total number of stars, total number of forks, total number of watchers, and total number of open issues. That query might look like this:
+
+ { viewer { login starredRepositories { totalCount } repositories(first: 3) { edges { node { name stargazers { totalCount } forks { totalCount } watchers { totalCount } issues(states:[OPEN]) { totalCount } } } } } } 
+
+The response from our API might be:
+
+ { "data" :{ "viewer" :{ "login" : "octocat" , "starredRepositories" : { "totalCount" : 131 }, "repositories" :{ "edges" :[ { "node" :{ "name" : "octokit.rb" , "stargazers" :{ "totalCount" : 17 }, "forks" :{ "totalCount" : 3 }, "watchers" :{ "totalCount" : 3 }, "issues" : { "totalCount" : 1 } } }, { "node" :{ "name" : "octokit.objc" , "stargazers" :{ "totalCount" : 2 }, "forks" :{ "totalCount" : 0 }, "watchers" :{ "totalCount" : 1 }, "issues" : { "totalCount" : 10 } } }, { "node" :{ "name" : "octokit.net" , "stargazers" :{ "totalCount" : 19 }, "forks" :{ "totalCount" : 7 }, "watchers" :{ "totalCount" : 3 }, "issues" : { "totalCount" : 4 } } } ] } } } } 
+
+You just made one request to fetch all the data you wanted.
+
+This type of design enables clients where smaller payload sizes are essential. For example, a mobile app could simplify its requests by only asking for the data it needs. This enables new possibilities and workflows that are freed from the limitations of downloading and parsing massive JSON blobs.
+
+Query analysis is something that we’re also exploring with. Based on the resources that are requested, we can start providing more intelligent information to clients. For example, say you’ve made the following request:
+
+ { viewer { login email } } 
+
+Before executing the request, the GraphQL server notes that you’re trying to get the email field. If your client is misconfigured, a response back from our server might look like this:
+
+ { "data" : { "viewer" : { "login" : "octocat" } }, "errors" : [ { "message" : "Your token has not been granted the required scopes to execute this query. The 'email' field requires one of the following scopes: ['user'], but your token has only been granted the: ['gist'] scopes. Please modify your token's scopes at: https://github.com/settings/tokens." } ] } 
+
+This could be beneficial for users concerned about the OAuth scopes required by integrators. Insight into the scopes required could ensure that only the appropriate types are being requested.
+
+There are several other features of GraphQL that we hope to make available to clients, such as:
+
+    The ability to batch requests , where you can define dependencies between two separate queries and fetch data efficiently.
+    The ability to create subscriptions , where your client can receive new data when it becomes available.
+    The ability to defer data , where you choose to mark a part of your response as time-insensitive.
+
+Defining the schema
+
+In order to determine if GraphQL really was a technology we wanted to embrace, we formed a small team within the broader Platform organization and went looking for a feature on the site we wanted to build using GraphQL. We decided that implementing emoji reactions on comments was concise enough to try and port to GraphQL. Choosing a subset of the site to power with GraphQL required us to model a complete workflow and focus on building the new objects and types that defined our GraphQL schema. For example, we started by constructing a user in our schema, moved on to a repository, and then expanded to issues within a repository. Over time, we grew the schema to encapsulate all the actions necessary for modeling reactions.
+
+We found implementing a GraphQL server to be very straightforward. The Spec is clearly written and succinctly describes the behaviors of various parts of a schema. GraphQL has a type system that forces the server to be unambiguous about requests it receives and responses it produces. You define a schema, describing the objects that represent your resources, fields on those objects, and the connections between various objects. For example, a Repository object has a non-null String field for the name . A repository also has watchers , which is a connection to another non-nullable object, User .
+
+Although the initial team exploring GraphQL worked mostly on the backend, we had several allies on the frontend who were also interested in GraphQL, and, specifically, moving parts of GitHub to use Relay . They too were seeking better ways to access user data and present it more efficiently on the website. We began to work together to continue finding portions of the site that would be easy to communicate with via our nascent GraphQL schema. We decided to begin transforming some of our social features, such as the profile page, the stars counter, and the ability to watch repositories. These initial explorations paved the way to placing GraphQL in production. (That’s right! We’ve been running GraphQL in production for some time now.) As time went on, we began to get a bit more ambitious: we ported over some of the Git commit history pages to GraphQL and used Scientist to identify any potential discrepancies.
+
+Drawing off our experiences in supporting the REST API, we worked quickly to implement our existing services to work with GraphQL. This included setting up logging requests and reporting exceptions, OAuth and AuthZ access, rate limiting, and providing helpful error responses. We tested our schema to ensure that every part of was documented and we wrote linters to ensure that our naming structure was standardized.
+Open source
+
+We work primarily in Ruby, and we were grateful for the existing gems supporting GraphQL. We used the rmosolgo/graphql-ruby gem to implement the entirety of our schema. We also incorporated the Shopify/graphql-batch gem to ensure that multiple records and relationships were fetched efficiently.
+
+Our frontend and backend engineers were also able to contribute to these gems as we experimented with them. We’re thankful to the maintainers for their very quick work in accepting our patches. To that end, we’d like to humbly offer a couple of our own open source projects:
+
+    github/graphql-client , a client that can be integrated into Rails for rendering GraphQL-backed views.
+    github/github-graphql-rails-example , a small app built with Rails that demonstrates how you might interact with our GraphQL schema.
+
+We’re going to continue to extract more parts of our system that we’ve developed internally and release them as open source software, such as our loaders that efficiently batch ActiveRecord requests.
+The future
+
+The move to GraphQL marks a larger shift in our Platform strategy to be more transparent and more flexible. Over the next year, we’re going to keep iterating on our schema to bring it out of Early Access and into a wider production readiness.
+
+Since our application engineers are using the same GraphQL platform that we’re making available to our integrators, this provides us with the opportunity to ship UI features in conjunction with API access. Our new Projects feature is a good example of this: the UI on the site is powered by GraphQL, and you can already use the feature programmatically. Using GraphQL on the frontend and backend eliminates the gap between what we release and what you can consume. We really look forward to making more of these simultaneous releases.
+
+GraphQL represents a massive leap forward for API development. Type safety, introspection, generated documentation, and predictable responses benefit both the maintainers and consumers of our platform. We’re looking forward to our new era of a GraphQL-backed platform, and we hope that you do, too!
+
+If you’d like to get started with GraphQL—including our new GraphQL Explorer that lets you make :sparkles:live queries:sparkles:, check out our developer documentation !
+Authors
+
+gjtorikian
+
+gjtorikian
+Platform Engineer
+GitHub Profile | Twitter Profile
+
+brblck
+brblck
+
+bswinnerton
+Brooks Swinnerton
+Platform Engineer
+GitHub Profile | Twitter Profile
+
+charliesome
+Charlie Somerville
+Platform Engineer
+Website | GitHub Profile | Twitter Profile
+
+davidcelis
+David Celis
+Platform Engineer
+GitHub Profile | Twitter Profile
+
+kdaigle
+
+Kyle Daigle
+Platform Engineering Manager
+GitHub Profile | Twitter Profile
+Share
+
+    Twitter Share on Twitter
+    Facebook Share on Facebook
+
+Related posts
+
+July 2, 2019
+Engineering
+C# or Java? TypeScript or JavaScript? Machine learning based classification of programming languages
+
+To make language detection more robust and maintainable in the long run, we developed a machine learning classifier named OctoLingua based on an Artificial Neural Network (ANN) architecture which can handle language predictions in tricky scenarios.
+Image of Kavita Ganesan
+
+Kavita Ganesan
+
+June 12, 2019
+Editor tools
+Atom editor is now faster
+
+The Atom editor has been updated to make common features notably faster.
+Image of Rafael Oleza
+
+Rafael Oleza
+
+June 4, 2019
+Engineering
+Direct instruction marking in Ruby 2.6
+
+We recently upgraded GitHub to use the latest version of Ruby 2.6. Ruby 2.6 contains an optimization for reducing memory usage.
+Image of Aaron Patterson
+
+Aaron Patterson
+Save your seat at GitHub Universe
+
+Celebrate a world connected by code at our annual product and community event, November 13-14 in San Francisco.
+Get tickets
+Experience GitHub Satellite 2019
+
+Our latest event spotlighted an interconnected software community. Watch the keynote, talks, and panels from your corner of the world.
+Watch now
+Product
+
+    Features
+    Security
+    Enterprise
+    Case Studies
+    Pricing
+    Resources
+
+Platform
+
+    Developer API
+    Partners
+    Atom
+    Electron
+    GitHub Desktop
+
+Support
+
+    Help
+    Community Forum
+    Training
+    Status
+    Contact
+
+Company
+
+    About
+    Blog
+    Careers
+    Press
+    Shop
+
+    Github Twitter link
+    Github Facebook link
+    Github Youtube link
+    Github LinkedIn link
+    Github link
+
+    © 2018 GitHub, Inc.
+    Terms
+    Privacy
+
+:) 

@@ -1,0 +1,175 @@
+diva-portal.org
+	Please wait ...
+Simple search
+
+Advanced search -
+Research publications Advanced search -
+Student theses Statistics
+
+English Svenska Norsk
+Change search
+Search Only documents with full text in DiVA
+
+    Detecting Cycles in GraphQL Schemas
+
+Cite Export Link to record
+Permanent link
+http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-156174
+
+Direct link
+http://www.diva-portal.org/smash/record.jsf?pid=diva2:1302887
+Cite
+Citation style
+apa
+More styles
+Language
+en-GB
+More languages
+Output format
+html
+Create Close
+Detecting Cycles in GraphQL Schemas
+Soames, Kieron
+Linköping University, Department of Computer and Information Science.
+Lind, Jonas
+Linköping University, Department of Computer and Information Science.
+2019 (English) Independent thesis Basic level (university diploma), 10 credits / 15 HE credits Student thesis
+Abstract [en]
+
+GraphQL is a database handling API created by Facebook, that provides an effective al-ternative to REST-style architectures. GraphQL provides the ability for a client to spec-ify exactly what data it wishes to receive. A problem with GraphQL is that the freedomof creating customized requests allows data to be included several times in the response,growing the response’s size exponentially. The thesis contributes to the field of GraphQLanalysis by studying the prevalence of simple cycles in GraphQL schemas. We have im-plemented a locally-run tool and webtool using Tarjan’s and Johnson’s algorithms, thatparses the schemas, creates a directed graph and enumerates all simple cycles in the graph.A collection of schemas was analysed with the tool to collect empirical data. It was foundthat 39.73 % of the total 2094 schemas contained at least one simple cycle, with the averagenumber of cycles per schema being 4. The runtime was found to be on average 11 mil-liseconds, most of which consisted of the time for parsing the schemas. It was found that44 out of the considered schemas could not be enumerated due to containing a staggeringamount of simple cycles. It can be concluded that it is possible to test schemas for cyclicityand enumerate all simple cycles in a given schema efficiently.
+Place, publisher, year, edition, pages
+2019. , p. 39
+Keywords [en]
+GraphQL, Simple Cycles, Cycles, Algorithm, Algorithms, Johnson, Tarjan, Weinblatt, Tiernan, JavaScript, Graph, Vertex, Vertices, Path, Strongly Connected Components, SCC, Cyclicity, Database
+National Category
+Computer Systems
+Identifiers
+URN: urn:nbn:se:liu:diva-156174 ISRN: LIU-IDA/LITH-EX-G--19/001--SE OAI: oai:DiVA.org:liu-156174 DiVA, id: diva2:1302887
+Subject / course
+Computer Engineering
+Presentation
+2019-02-14, Muhammad al-Khwarizmi, Campus Valla, Linköping, Linköping, 15:12 (English)
+Supervisors
+Lambrix, Partick, Professor
+Linköping University, Department of Computer and Information Science, Database and information techniques.
+Examiners
+Hartig, Olaf, Universitetslektor
+Linköping University, Department of Computer and Information Science, Database and information techniques.
+Available from: 2019-04-18 Created: 2019-04-07 Last updated: 2019-04-18 Bibliographically approved
+Open Access in DiVA
+fulltext (875 kB) 29 downloads
+File information
+File name FULLTEXT01.pdf File size 875 kB Checksum SHA-512
+593a9f252704a0a7eedf6bffe5375c3273d7ab34481a2c9aebea1a6efa6d6cf4d2e333cefda9f384c4afa1d6f8ee6ec2aa398578f06644bd181cc7c171d79ed6
+Type fulltext Mimetype application/pdf
+Search in DiVA
+By author/editor
+Soames, Kieron Lind, Jonas
+By organisation
+Department of Computer and Information Science
+On the subject
+Computer Systems
+Search outside of DiVA
+Google Google Scholar
+Downloads of File (FULLTEXT01)
+Total: 29 downloads
+The number of downloads is the sum of all downloads of full texts. It may include eg previous versions that are now no longer available
+Article has an altmetric score of 1
+urn-nbn
+Visits for this publication
+Total: 217 hits
+Cite Export Link to record
+Permanent link
+http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-156174
+
+Direct link
+http://www.diva-portal.org/smash/record.jsf?pid=diva2:1302887
+Cite
+Citation style
+apa
+More styles
+Language
+en-GB
+More languages
+Output format
+html
+Create Close
+v. 2.35.7
+|
+About DiVA Portal
+
+    BibTex
+    CSL-JSON
+    CSV 1
+    CSV 2
+    CSV 3
+    CSV 4
+    CSV 5
+    CSV all metadata
+    CSV all metadata version 2
+    RIS
+    Mods
+    MARC-XML
+    ETDMS
+
+    apa
+    ieee
+    modern-language-association-8th-edition
+    vancouver
+    Other style
+
+    de-DE
+    en-GB
+    en-US
+    fi-FI
+    nn-NO
+    nn-NB
+    sv-SE
+    Other locale
+
+    html
+    text
+    asciidoc
+    rtf
+
+Altmetric score
+Article has an altmetric score of 1
+
+See more details
+Tweeted by 1
+urn-nbn
+
+    BibTex
+    CSL-JSON
+    CSV 1
+    CSV 2
+    CSV 3
+    CSV 4
+    CSV 5
+    CSV all metadata
+    CSV all metadata version 2
+    RIS
+    Mods
+    MARC-XML
+    ETDMS
+
+    apa
+    ieee
+    modern-language-association-8th-edition
+    vancouver
+    Other style
+
+    de-DE
+    en-GB
+    en-US
+    fi-FI
+    nn-NO
+    nn-NB
+    sv-SE
+    Other locale
+
+    html
+    text
+    asciidoc
+    rtf
+
